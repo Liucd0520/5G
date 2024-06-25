@@ -1,0 +1,162 @@
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 619 1310
+Loading dataset:   0%|          | 0/69 [00:00<?, ?it/s]Loading dataset:   1%|▏         | 1/69 [00:00<00:18,  3.70it/s]Loading dataset:   3%|▎         | 2/69 [00:02<01:21,  1.22s/it]Loading dataset:  25%|██▍       | 17/69 [00:04<00:11,  4.70it/s]Loading dataset:  49%|████▉     | 34/69 [00:05<00:04,  8.61it/s]Loading dataset: 100%|██████████| 69/69 [00:05<00:00, 13.72it/s]
+Loading dataset:   0%|          | 0/61 [00:00<?, ?it/s]Loading dataset:   2%|▏         | 1/61 [00:00<00:59,  1.01it/s]Loading dataset:  23%|██▎       | 14/61 [00:01<00:02, 16.74it/s]Loading dataset:  34%|███▍      | 21/61 [00:01<00:01, 22.84it/s]Loading dataset:  44%|████▍     | 27/61 [00:01<00:01, 17.86it/s]Loading dataset:  54%|█████▍    | 33/61 [00:02<00:01, 16.96it/s]Loading dataset:  59%|█████▉    | 36/61 [00:02<00:02, 11.03it/s]Loading dataset: 100%|██████████| 61/61 [00:02<00:00, 21.09it/s]
+output:  torch.Size([8, 2])
+epoch 1 average  train loss: 0.6529
+saved new best metric model
+current epoch: 1 current accuracy: 0.6866 current AUC: 0.5717 best accuracy: 0.5717 at epoch 1
+epoch 2 average  train loss: 0.6425
+saved new best metric model
+current epoch: 2 current accuracy: 0.6947 current AUC: 0.6175 best accuracy: 0.6175 at epoch 2
+epoch 3 average  train loss: 0.6361
+saved new best metric model
+current epoch: 3 current accuracy: 0.6914 current AUC: 0.6593 best accuracy: 0.6593 at epoch 3
+epoch 4 average  train loss: 0.6505
+current epoch: 4 current accuracy: 0.6882 current AUC: 0.5867 best accuracy: 0.6593 at epoch 3
+epoch 5 average  train loss: 0.6096
+current epoch: 5 current accuracy: 0.6866 current AUC: 0.5961 best accuracy: 0.6593 at epoch 3
+epoch 6 average  train loss: 0.5707
+current epoch: 6 current accuracy: 0.6882 current AUC: 0.6567 best accuracy: 0.6593 at epoch 3
+epoch 7 average  train loss: 0.5935
+current epoch: 7 current accuracy: 0.6866 current AUC: 0.6015 best accuracy: 0.6593 at epoch 3
+epoch 8 average  train loss: 0.5791
+saved new best metric model
+current epoch: 8 current accuracy: 0.7060 current AUC: 0.7089 best accuracy: 0.7089 at epoch 8
+epoch 9 average  train loss: 0.5565
+current epoch: 9 current accuracy: 0.6963 current AUC: 0.6678 best accuracy: 0.7089 at epoch 8
+epoch 10 average  train loss: 0.5741
+current epoch: 10 current accuracy: 0.6866 current AUC: 0.6565 best accuracy: 0.7089 at epoch 8
+epoch 11 average  train loss: 0.5642
+saved new best metric model
+current epoch: 11 current accuracy: 0.7108 current AUC: 0.7441 best accuracy: 0.7441 at epoch 11
+epoch 12 average  train loss: 0.5361
+current epoch: 12 current accuracy: 0.7027 current AUC: 0.6896 best accuracy: 0.7441 at epoch 11
+epoch 13 average  train loss: 0.5334
+current epoch: 13 current accuracy: 0.7076 current AUC: 0.6697 best accuracy: 0.7441 at epoch 11
+epoch 14 average  train loss: 0.5322
+current epoch: 14 current accuracy: 0.7044 current AUC: 0.6532 best accuracy: 0.7441 at epoch 11
+epoch 15 average  train loss: 0.5713
+current epoch: 15 current accuracy: 0.6898 current AUC: 0.6127 best accuracy: 0.7441 at epoch 11
+epoch 16 average  train loss: 0.5530
+current epoch: 16 current accuracy: 0.6963 current AUC: 0.6682 best accuracy: 0.7441 at epoch 11
+epoch 17 average  train loss: 0.5578
+current epoch: 17 current accuracy: 0.7076 current AUC: 0.6711 best accuracy: 0.7441 at epoch 11
+epoch 18 average  train loss: 0.5544
+current epoch: 18 current accuracy: 0.7286 current AUC: 0.7228 best accuracy: 0.7441 at epoch 11
+epoch 19 average  train loss: 0.5472
+current epoch: 19 current accuracy: 0.6882 current AUC: 0.6587 best accuracy: 0.7441 at epoch 11
+epoch 20 average  train loss: 0.5420
+current epoch: 20 current accuracy: 0.6931 current AUC: 0.7339 best accuracy: 0.7441 at epoch 11
+epoch 21 average  train loss: 0.5196
+current epoch: 21 current accuracy: 0.7254 current AUC: 0.7301 best accuracy: 0.7441 at epoch 11
+epoch 22 average  train loss: 0.5235
+saved new best metric model
+current epoch: 22 current accuracy: 0.7351 current AUC: 0.7607 best accuracy: 0.7607 at epoch 22
+epoch 23 average  train loss: 0.5556
+current epoch: 23 current accuracy: 0.7076 current AUC: 0.7058 best accuracy: 0.7607 at epoch 22
+epoch 24 average  train loss: 0.5274
+current epoch: 24 current accuracy: 0.7496 current AUC: 0.7393 best accuracy: 0.7607 at epoch 22
+epoch 25 average  train loss: 0.5415
+current epoch: 25 current accuracy: 0.7512 current AUC: 0.7511 best accuracy: 0.7607 at epoch 22
+epoch 26 average  train loss: 0.5287
+current epoch: 26 current accuracy: 0.6882 current AUC: 0.6181 best accuracy: 0.7607 at epoch 22
+epoch 27 average  train loss: 0.5371
+current epoch: 27 current accuracy: 0.7464 current AUC: 0.7547 best accuracy: 0.7607 at epoch 22
+epoch 28 average  train loss: 0.5207
+saved new best metric model
+current epoch: 28 current accuracy: 0.7431 current AUC: 0.7614 best accuracy: 0.7614 at epoch 28
+epoch 29 average  train loss: 0.5237
+current epoch: 29 current accuracy: 0.6931 current AUC: 0.6854 best accuracy: 0.7614 at epoch 28
+epoch 30 average  train loss: 0.5084
+current epoch: 30 current accuracy: 0.6866 current AUC: 0.5939 best accuracy: 0.7614 at epoch 28
+epoch 31 average  train loss: 0.5239
+current epoch: 31 current accuracy: 0.6882 current AUC: 0.6804 best accuracy: 0.7614 at epoch 28
+epoch 32 average  train loss: 0.5379
+saved new best metric model
+current epoch: 32 current accuracy: 0.7593 current AUC: 0.7656 best accuracy: 0.7656 at epoch 32
+epoch 33 average  train loss: 0.5250
+saved new best metric model
+current epoch: 33 current accuracy: 0.7625 current AUC: 0.7948 best accuracy: 0.7948 at epoch 33
+epoch 34 average  train loss: 0.5163
+current epoch: 34 current accuracy: 0.6785 current AUC: 0.6905 best accuracy: 0.7948 at epoch 33
+epoch 35 average  train loss: 0.5085
+current epoch: 35 current accuracy: 0.7157 current AUC: 0.7318 best accuracy: 0.7948 at epoch 33
+epoch 36 average  train loss: 0.5304
+current epoch: 36 current accuracy: 0.7060 current AUC: 0.7181 best accuracy: 0.7948 at epoch 33
+epoch 37 average  train loss: 0.4997
+current epoch: 37 current accuracy: 0.7351 current AUC: 0.7602 best accuracy: 0.7948 at epoch 33
+epoch 38 average  train loss: 0.5022
+current epoch: 38 current accuracy: 0.7367 current AUC: 0.7443 best accuracy: 0.7948 at epoch 33
+epoch 39 average  train loss: 0.5113
+current epoch: 39 current accuracy: 0.7044 current AUC: 0.7649 best accuracy: 0.7948 at epoch 33
+epoch 40 average  train loss: 0.4857
+current epoch: 40 current accuracy: 0.7108 current AUC: 0.7696 best accuracy: 0.7948 at epoch 33
+epoch 41 average  train loss: 0.5106
+current epoch: 41 current accuracy: 0.6947 current AUC: 0.7865 best accuracy: 0.7948 at epoch 33
+epoch 42 average  train loss: 0.5132
+saved new best metric model
+current epoch: 42 current accuracy: 0.7334 current AUC: 0.8077 best accuracy: 0.8077 at epoch 42
+epoch 43 average  train loss: 0.5036
+current epoch: 43 current accuracy: 0.7254 current AUC: 0.7745 best accuracy: 0.8077 at epoch 42
+epoch 44 average  train loss: 0.4977
+current epoch: 44 current accuracy: 0.7011 current AUC: 0.7449 best accuracy: 0.8077 at epoch 42
+epoch 45 average  train loss: 0.4976
+current epoch: 45 current accuracy: 0.6882 current AUC: 0.7741 best accuracy: 0.8077 at epoch 42
+epoch 46 average  train loss: 0.5015
+current epoch: 46 current accuracy: 0.7237 current AUC: 0.7765 best accuracy: 0.8077 at epoch 42
+epoch 47 average  train loss: 0.4914
+current epoch: 47 current accuracy: 0.7254 current AUC: 0.7761 best accuracy: 0.8077 at epoch 42
+epoch 48 average  train loss: 0.4939
+current epoch: 48 current accuracy: 0.7512 current AUC: 0.7966 best accuracy: 0.8077 at epoch 42
+epoch 49 average  train loss: 0.4729
+current epoch: 49 current accuracy: 0.6947 current AUC: 0.7562 best accuracy: 0.8077 at epoch 42
+epoch 50 average  train loss: 0.4919
+current epoch: 50 current accuracy: 0.7205 current AUC: 0.7634 best accuracy: 0.8077 at epoch 42
+epoch 51 average  train loss: 0.4854
+current epoch: 51 current accuracy: 0.7189 current AUC: 0.7725 best accuracy: 0.8077 at epoch 42
+epoch 52 average  train loss: 0.4809
+current epoch: 52 current accuracy: 0.6963 current AUC: 0.7455 best accuracy: 0.8077 at epoch 42
+epoch 53 average  train loss: 0.4741
+current epoch: 53 current accuracy: 0.7237 current AUC: 0.7720 best accuracy: 0.8077 at epoch 42
+epoch 54 average  train loss: 0.4877
+current epoch: 54 current accuracy: 0.7189 current AUC: 0.7655 best accuracy: 0.8077 at epoch 42
+epoch 55 average  train loss: 0.4765
+current epoch: 55 current accuracy: 0.7237 current AUC: 0.7645 best accuracy: 0.8077 at epoch 42
+epoch 56 average  train loss: 0.5029
+current epoch: 56 current accuracy: 0.7060 current AUC: 0.7587 best accuracy: 0.8077 at epoch 42
+epoch 57 average  train loss: 0.4736
+current epoch: 57 current accuracy: 0.7221 current AUC: 0.7690 best accuracy: 0.8077 at epoch 42
+epoch 58 average  train loss: 0.4693
+current epoch: 58 current accuracy: 0.7351 current AUC: 0.7631 best accuracy: 0.8077 at epoch 42
+epoch 59 average  train loss: 0.4740
+current epoch: 59 current accuracy: 0.7092 current AUC: 0.7563 best accuracy: 0.8077 at epoch 42
+epoch 60 average  train loss: 0.4717
+current epoch: 60 current accuracy: 0.6979 current AUC: 0.7423 best accuracy: 0.8077 at epoch 42
+epoch 61 average  train loss: 0.4493
+current epoch: 61 current accuracy: 0.6979 current AUC: 0.7481 best accuracy: 0.8077 at epoch 42
+epoch 62 average  train loss: 0.4687
+current epoch: 62 current accuracy: 0.6898 current AUC: 0.7851 best accuracy: 0.8077 at epoch 42
+epoch 63 average  train loss: 0.4707
+current epoch: 63 current accuracy: 0.7011 current AUC: 0.7541 best accuracy: 0.8077 at epoch 42
+epoch 64 average  train loss: 0.4397
+current epoch: 64 current accuracy: 0.6947 current AUC: 0.6980 best accuracy: 0.8077 at epoch 42
+epoch 65 average  train loss: 0.4654
+current epoch: 65 current accuracy: 0.6882 current AUC: 0.6813 best accuracy: 0.8077 at epoch 42
+epoch 66 average  train loss: 0.4565
+current epoch: 66 current accuracy: 0.6898 current AUC: 0.7624 best accuracy: 0.8077 at epoch 42
+epoch 67 average  train loss: 0.4559
+current epoch: 67 current accuracy: 0.7351 current AUC: 0.7439 best accuracy: 0.8077 at epoch 42
+epoch 68 average  train loss: 0.4507
+current epoch: 68 current accuracy: 0.6882 current AUC: 0.6917 best accuracy: 0.8077 at epoch 42
+epoch 69 average  train loss: 0.4592
+current epoch: 69 current accuracy: 0.6882 current AUC: 0.6882 best accuracy: 0.8077 at epoch 42
+epoch 70 average  train loss: 0.4462
+current epoch: 70 current accuracy: 0.7270 current AUC: 0.7932 best accuracy: 0.8077 at epoch 42
+epoch 71 average  train loss: 0.4451
+current epoch: 71 current accuracy: 0.7011 current AUC: 0.7372 best accuracy: 0.8077 at epoch 42
+epoch 72 average  train loss: 0.4473
+current epoch: 72 current accuracy: 0.7415 current AUC: 0.7937 best accuracy: 0.8077 at epoch 42
+epoch 73 average  train loss: 0.4400
+current epoch: 73 current accuracy: 0.6995 current AUC: 0.7433 best accuracy: 0.8077 at epoch 42
+epoch 74 average  train loss: 0.4279

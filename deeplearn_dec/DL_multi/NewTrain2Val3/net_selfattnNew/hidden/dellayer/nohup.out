@@ -1,0 +1,365 @@
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 619 1310
+Loading dataset:   0%|          | 0/691 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/691 [00:00<03:32,  3.24it/s]Loading dataset:   0%|          | 2/691 [00:02<13:30,  1.18s/it]Loading dataset:   2%|▏         | 17/691 [00:03<02:11,  5.13it/s]Loading dataset:   5%|▍         | 34/691 [00:04<01:12,  9.06it/s]Loading dataset:   9%|▉         | 61/691 [00:05<00:33, 19.04it/s]Loading dataset:  11%|█         | 75/691 [00:05<00:24, 24.86it/s]Loading dataset:  12%|█▏        | 82/691 [00:06<00:35, 17.09it/s]Loading dataset:  15%|█▌        | 104/691 [00:06<00:23, 25.28it/s]Loading dataset:  16%|█▌        | 109/691 [00:07<00:28, 20.57it/s]Loading dataset:  18%|█▊        | 124/691 [00:07<00:20, 27.89it/s]Loading dataset:  19%|█▉        | 130/691 [00:07<00:21, 26.12it/s]Loading dataset:  20%|█▉        | 135/691 [00:07<00:21, 25.65it/s]Loading dataset:  21%|██        | 143/691 [00:09<00:49, 11.14it/s]Loading dataset:  26%|██▌       | 181/691 [00:10<00:21, 23.44it/s]Loading dataset:  29%|██▉       | 200/691 [00:10<00:16, 30.31it/s]Loading dataset:  31%|███       | 211/691 [00:10<00:16, 29.59it/s]Loading dataset:  31%|███▏      | 216/691 [00:11<00:15, 30.63it/s]Loading dataset:  32%|███▏      | 221/691 [00:13<00:42, 11.06it/s]Loading dataset:  34%|███▎      | 232/691 [00:13<00:30, 15.02it/s]Loading dataset:  37%|███▋      | 256/691 [00:14<00:26, 16.20it/s]Loading dataset:  39%|███▉      | 271/691 [00:15<00:24, 17.43it/s]Loading dataset:  41%|████      | 283/691 [00:16<00:26, 15.24it/s]Loading dataset:  43%|████▎     | 300/691 [00:16<00:19, 20.01it/s]Loading dataset:  46%|████▌     | 318/691 [00:17<00:14, 26.14it/s]Loading dataset:  47%|████▋     | 324/691 [00:18<00:20, 18.07it/s]Loading dataset:  49%|████▉     | 341/691 [00:19<00:20, 17.44it/s]Loading dataset:  51%|█████     | 352/691 [00:19<00:20, 16.22it/s]Loading dataset:  55%|█████▍    | 378/691 [00:21<00:18, 16.70it/s]Loading dataset:  55%|█████▌    | 381/691 [00:21<00:20, 15.06it/s]Loading dataset:  55%|█████▌    | 383/691 [00:22<00:25, 12.01it/s]Loading dataset:  56%|█████▋    | 390/691 [00:25<00:44,  6.75it/s]Loading dataset:  59%|█████▉    | 411/691 [00:26<00:28,  9.98it/s]Loading dataset:  60%|█████▉    | 413/691 [00:26<00:27, 10.18it/s]Loading dataset:  62%|██████▏   | 427/691 [00:26<00:19, 13.56it/s]Loading dataset:  63%|██████▎   | 435/691 [00:28<00:30,  8.40it/s]Loading dataset:  64%|██████▍   | 443/691 [00:29<00:25,  9.90it/s]Loading dataset:  65%|██████▌   | 450/691 [00:30<00:31,  7.56it/s]Loading dataset:  69%|██████▉   | 479/691 [00:32<00:19, 10.78it/s]Loading dataset:  71%|███████   | 489/691 [00:33<00:15, 12.85it/s]Loading dataset:  74%|███████▍  | 510/691 [00:33<00:09, 19.96it/s]Loading dataset:  75%|███████▍  | 515/691 [00:34<00:14, 12.05it/s]Loading dataset:  76%|███████▌  | 526/691 [00:36<00:15, 10.55it/s]Loading dataset:  78%|███████▊  | 540/691 [00:38<00:17,  8.47it/s]Loading dataset:  79%|███████▊  | 544/691 [00:40<00:21,  6.74it/s]Loading dataset:  86%|████████▌ | 591/691 [00:40<00:05, 19.48it/s]Loading dataset:  87%|████████▋ | 602/691 [00:41<00:05, 17.55it/s]Loading dataset:  88%|████████▊ | 611/691 [00:43<00:08,  9.60it/s]Loading dataset:  91%|█████████▏| 631/691 [00:45<00:05, 11.01it/s]Loading dataset:  94%|█████████▍| 648/691 [00:45<00:03, 13.99it/s]Loading dataset:  95%|█████████▍| 653/691 [00:47<00:03, 10.51it/s]Loading dataset:  99%|█████████▉| 685/691 [00:47<00:00, 20.14it/s]Loading dataset: 100%|██████████| 691/691 [00:47<00:00, 14.59it/s]
+Loading dataset:   0%|          | 0/619 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/619 [00:00<09:42,  1.06it/s]Loading dataset:   4%|▍         | 27/619 [00:01<00:23, 25.05it/s]Loading dataset:   5%|▌         | 33/619 [00:01<00:24, 23.79it/s]Loading dataset:   6%|▌         | 37/619 [00:02<00:39, 14.71it/s]Loading dataset:   9%|▉         | 56/619 [00:02<00:21, 26.66it/s]Loading dataset:  10%|▉         | 61/619 [00:03<00:28, 19.34it/s]Loading dataset:  10%|█         | 64/619 [00:03<00:32, 17.07it/s]Loading dataset:  12%|█▏        | 76/619 [00:03<00:20, 26.79it/s]Loading dataset:  13%|█▎        | 83/619 [00:04<00:26, 20.38it/s]Loading dataset:  17%|█▋        | 107/619 [00:04<00:15, 32.05it/s]Loading dataset:  18%|█▊        | 112/619 [00:04<00:18, 27.66it/s]Loading dataset:  20%|█▉        | 122/619 [00:05<00:15, 31.37it/s]Loading dataset:  20%|██        | 126/619 [00:05<00:17, 27.77it/s]Loading dataset:  22%|██▏       | 137/619 [00:05<00:14, 33.29it/s]Loading dataset:  23%|██▎       | 141/619 [00:06<00:28, 16.90it/s]Loading dataset:  26%|██▋       | 163/619 [00:06<00:15, 28.98it/s]Loading dataset:  28%|██▊       | 176/619 [00:06<00:11, 38.35it/s]Loading dataset:  30%|██▉       | 183/619 [00:07<00:15, 28.63it/s]Loading dataset:  31%|███       | 191/619 [00:07<00:15, 27.00it/s]Loading dataset:  33%|███▎      | 204/619 [00:08<00:17, 23.65it/s]Loading dataset:  35%|███▌      | 218/619 [00:08<00:12, 33.25it/s]Loading dataset:  37%|███▋      | 231/619 [00:08<00:09, 41.58it/s]Loading dataset:  38%|███▊      | 238/619 [00:09<00:12, 29.74it/s]Loading dataset:  40%|███▉      | 246/619 [00:09<00:10, 34.17it/s]Loading dataset:  41%|████      | 252/619 [00:09<00:13, 26.27it/s]Loading dataset:  42%|████▏     | 257/619 [00:10<00:19, 18.54it/s]Loading dataset:  43%|████▎     | 269/619 [00:10<00:12, 28.01it/s]Loading dataset:  45%|████▌     | 279/619 [00:10<00:12, 26.69it/s]Loading dataset:  47%|████▋     | 288/619 [00:11<00:11, 29.29it/s]Loading dataset:  47%|████▋     | 293/619 [00:11<00:10, 29.75it/s]Loading dataset:  49%|████▊     | 301/619 [00:11<00:09, 33.81it/s]Loading dataset:  49%|████▉     | 306/619 [00:12<00:19, 15.94it/s]Loading dataset:  51%|█████     | 313/619 [00:12<00:14, 20.50it/s]Loading dataset:  52%|█████▏    | 322/619 [00:12<00:15, 19.17it/s]Loading dataset:  54%|█████▎    | 332/619 [00:13<00:16, 17.18it/s]Loading dataset:  56%|█████▌    | 347/619 [00:14<00:12, 21.63it/s]Loading dataset:  58%|█████▊    | 360/619 [00:14<00:10, 25.61it/s]Loading dataset:  59%|█████▉    | 364/619 [00:15<00:14, 17.29it/s]Loading dataset:  60%|█████▉    | 370/619 [00:15<00:17, 14.50it/s]Loading dataset:  63%|██████▎   | 390/619 [00:15<00:08, 26.64it/s]Loading dataset:  64%|██████▍   | 396/619 [00:18<00:23,  9.36it/s]Loading dataset:  69%|██████▊   | 425/619 [00:18<00:10, 19.37it/s]Loading dataset:  70%|██████▉   | 432/619 [00:19<00:11, 15.67it/s]Loading dataset:  78%|███████▊  | 480/619 [00:19<00:03, 38.36it/s]Loading dataset:  80%|████████  | 498/619 [00:20<00:03, 38.56it/s]Loading dataset:  83%|████████▎ | 512/619 [00:20<00:02, 40.08it/s]Loading dataset:  84%|████████▍ | 523/619 [00:21<00:03, 31.05it/s]Loading dataset:  88%|████████▊ | 544/619 [00:21<00:02, 31.64it/s]Loading dataset:  92%|█████████▏| 568/619 [00:22<00:01, 42.76it/s]Loading dataset:  93%|█████████▎| 577/619 [00:22<00:00, 44.72it/s]Loading dataset:  95%|█████████▍| 585/619 [00:22<00:00, 40.25it/s]Loading dataset:  95%|█████████▌| 591/619 [00:22<00:00, 36.31it/s]Loading dataset:  96%|█████████▋| 596/619 [00:23<00:00, 24.24it/s]Loading dataset: 100%|██████████| 619/619 [00:23<00:00, 26.57it/s]
+output:  torch.Size([8, 2])
+epoch 1 average  train loss: 0.6022
+saved new best metric model
+current epoch: 1 current accuracy: 0.6866 current AUC: 0.7577 best accuracy: 0.7577 at epoch 1
+epoch 2 average  train loss: 0.5769
+saved new best metric model
+current epoch: 2 current accuracy: 0.6866 current AUC: 0.7628 best accuracy: 0.7628 at epoch 2
+epoch 3 average  train loss: 0.5643
+current epoch: 3 current accuracy: 0.7060 current AUC: 0.7620 best accuracy: 0.7628 at epoch 2
+epoch 4 average  train loss: 0.5489
+saved new best metric model
+current epoch: 4 current accuracy: 0.7399 current AUC: 0.7707 best accuracy: 0.7707 at epoch 4
+epoch 5 average  train loss: 0.5460
+current epoch: 5 current accuracy: 0.6866 current AUC: 0.7385 best accuracy: 0.7707 at epoch 4
+epoch 6 average  train loss: 0.5511
+current epoch: 6 current accuracy: 0.6866 current AUC: 0.7383 best accuracy: 0.7707 at epoch 4
+epoch 7 average  train loss: 0.5353
+saved new best metric model
+current epoch: 7 current accuracy: 0.6995 current AUC: 0.7972 best accuracy: 0.7972 at epoch 7
+epoch 8 average  train loss: 0.5176
+saved new best metric model
+current epoch: 8 current accuracy: 0.7011 current AUC: 0.8171 best accuracy: 0.8171 at epoch 8
+epoch 9 average  train loss: 0.5134
+current epoch: 9 current accuracy: 0.6995 current AUC: 0.7977 best accuracy: 0.8171 at epoch 8
+epoch 10 average  train loss: 0.5240
+current epoch: 10 current accuracy: 0.7011 current AUC: 0.7863 best accuracy: 0.8171 at epoch 8
+epoch 11 average  train loss: 0.5144
+current epoch: 11 current accuracy: 0.7044 current AUC: 0.8097 best accuracy: 0.8171 at epoch 8
+epoch 12 average  train loss: 0.5193
+current epoch: 12 current accuracy: 0.7383 current AUC: 0.8117 best accuracy: 0.8171 at epoch 8
+epoch 13 average  train loss: 0.4886
+current epoch: 13 current accuracy: 0.7367 current AUC: 0.8032 best accuracy: 0.8171 at epoch 8
+epoch 14 average  train loss: 0.4875
+current epoch: 14 current accuracy: 0.7544 current AUC: 0.7910 best accuracy: 0.8171 at epoch 8
+epoch 15 average  train loss: 0.4803
+saved new best metric model
+current epoch: 15 current accuracy: 0.7851 current AUC: 0.8332 best accuracy: 0.8332 at epoch 15
+epoch 16 average  train loss: 0.4794
+current epoch: 16 current accuracy: 0.7496 current AUC: 0.7959 best accuracy: 0.8332 at epoch 15
+epoch 17 average  train loss: 0.4647
+current epoch: 17 current accuracy: 0.7593 current AUC: 0.8140 best accuracy: 0.8332 at epoch 15
+epoch 18 average  train loss: 0.4588
+current epoch: 18 current accuracy: 0.7027 current AUC: 0.8231 best accuracy: 0.8332 at epoch 15
+epoch 19 average  train loss: 0.4629
+current epoch: 19 current accuracy: 0.7625 current AUC: 0.8060 best accuracy: 0.8332 at epoch 15
+epoch 20 average  train loss: 0.4716
+current epoch: 20 current accuracy: 0.7302 current AUC: 0.8102 best accuracy: 0.8332 at epoch 15
+epoch 21 average  train loss: 0.4560
+current epoch: 21 current accuracy: 0.7431 current AUC: 0.7995 best accuracy: 0.8332 at epoch 15
+epoch 22 average  train loss: 0.4578
+current epoch: 22 current accuracy: 0.7464 current AUC: 0.8007 best accuracy: 0.8332 at epoch 15
+epoch 23 average  train loss: 0.4608
+current epoch: 23 current accuracy: 0.7528 current AUC: 0.8147 best accuracy: 0.8332 at epoch 15
+epoch 24 average  train loss: 0.4525
+current epoch: 24 current accuracy: 0.6963 current AUC: 0.8051 best accuracy: 0.8332 at epoch 15
+epoch 25 average  train loss: 0.4311
+current epoch: 25 current accuracy: 0.7157 current AUC: 0.8033 best accuracy: 0.8332 at epoch 15
+epoch 26 average  train loss: 0.4127
+current epoch: 26 current accuracy: 0.7512 current AUC: 0.8154 best accuracy: 0.8332 at epoch 15
+epoch 27 average  train loss: 0.4177
+current epoch: 27 current accuracy: 0.7286 current AUC: 0.7956 best accuracy: 0.8332 at epoch 15
+epoch 28 average  train loss: 0.4140
+current epoch: 28 current accuracy: 0.7044 current AUC: 0.8065 best accuracy: 0.8332 at epoch 15
+epoch 29 average  train loss: 0.4119
+current epoch: 29 current accuracy: 0.7496 current AUC: 0.7810 best accuracy: 0.8332 at epoch 15
+epoch 30 average  train loss: 0.4252
+current epoch: 30 current accuracy: 0.6963 current AUC: 0.8277 best accuracy: 0.8332 at epoch 15
+epoch 31 average  train loss: 0.4240
+current epoch: 31 current accuracy: 0.7641 current AUC: 0.8163 best accuracy: 0.8332 at epoch 15
+epoch 32 average  train loss: 0.4013
+current epoch: 32 current accuracy: 0.6753 current AUC: 0.8192 best accuracy: 0.8332 at epoch 15
+epoch 33 average  train loss: 0.4025
+current epoch: 33 current accuracy: 0.7318 current AUC: 0.7853 best accuracy: 0.8332 at epoch 15
+epoch 34 average  train loss: 0.4108
+current epoch: 34 current accuracy: 0.7286 current AUC: 0.7763 best accuracy: 0.8332 at epoch 15
+epoch 35 average  train loss: 0.3984
+current epoch: 35 current accuracy: 0.7399 current AUC: 0.7967 best accuracy: 0.8332 at epoch 15
+epoch 36 average  train loss: 0.3965
+current epoch: 36 current accuracy: 0.7577 current AUC: 0.8204 best accuracy: 0.8332 at epoch 15
+epoch 37 average  train loss: 0.3764
+current epoch: 37 current accuracy: 0.7415 current AUC: 0.7845 best accuracy: 0.8332 at epoch 15
+epoch 38 average  train loss: 0.3975
+current epoch: 38 current accuracy: 0.7512 current AUC: 0.7958 best accuracy: 0.8332 at epoch 15
+epoch 39 average  train loss: 0.3658
+current epoch: 39 current accuracy: 0.7674 current AUC: 0.8097 best accuracy: 0.8332 at epoch 15
+epoch 40 average  train loss: 0.3631
+current epoch: 40 current accuracy: 0.7415 current AUC: 0.7840 best accuracy: 0.8332 at epoch 15
+epoch 41 average  train loss: 0.3795
+current epoch: 41 current accuracy: 0.7496 current AUC: 0.8155 best accuracy: 0.8332 at epoch 15
+epoch 42 average  train loss: 0.3577
+current epoch: 42 current accuracy: 0.7658 current AUC: 0.8049 best accuracy: 0.8332 at epoch 15
+epoch 43 average  train loss: 0.3566
+current epoch: 43 current accuracy: 0.6931 current AUC: 0.7902 best accuracy: 0.8332 at epoch 15
+epoch 44 average  train loss: 0.3654
+current epoch: 44 current accuracy: 0.7561 current AUC: 0.7970 best accuracy: 0.8332 at epoch 15
+epoch 45 average  train loss: 0.3459
+current epoch: 45 current accuracy: 0.7528 current AUC: 0.8055 best accuracy: 0.8332 at epoch 15
+epoch 46 average  train loss: 0.3430
+current epoch: 46 current accuracy: 0.7690 current AUC: 0.8275 best accuracy: 0.8332 at epoch 15
+epoch 47 average  train loss: 0.3154
+current epoch: 47 current accuracy: 0.7593 current AUC: 0.7975 best accuracy: 0.8332 at epoch 15
+epoch 48 average  train loss: 0.3390
+current epoch: 48 current accuracy: 0.7496 current AUC: 0.8257 best accuracy: 0.8332 at epoch 15
+epoch 49 average  train loss: 0.3126
+current epoch: 49 current accuracy: 0.7399 current AUC: 0.8093 best accuracy: 0.8332 at epoch 15
+epoch 50 average  train loss: 0.2839
+current epoch: 50 current accuracy: 0.7641 current AUC: 0.8024 best accuracy: 0.8332 at epoch 15
+epoch 51 average  train loss: 0.3013
+current epoch: 51 current accuracy: 0.7593 current AUC: 0.8114 best accuracy: 0.8332 at epoch 15
+epoch 52 average  train loss: 0.3099
+current epoch: 52 current accuracy: 0.7254 current AUC: 0.7721 best accuracy: 0.8332 at epoch 15
+epoch 53 average  train loss: 0.3150
+current epoch: 53 current accuracy: 0.7641 current AUC: 0.8110 best accuracy: 0.8332 at epoch 15
+epoch 54 average  train loss: 0.2719
+current epoch: 54 current accuracy: 0.7399 current AUC: 0.7899 best accuracy: 0.8332 at epoch 15
+epoch 55 average  train loss: 0.2875
+current epoch: 55 current accuracy: 0.7431 current AUC: 0.7940 best accuracy: 0.8332 at epoch 15
+epoch 56 average  train loss: 0.2704
+current epoch: 56 current accuracy: 0.7334 current AUC: 0.7706 best accuracy: 0.8332 at epoch 15
+epoch 57 average  train loss: 0.2937
+current epoch: 57 current accuracy: 0.7383 current AUC: 0.7947 best accuracy: 0.8332 at epoch 15
+epoch 58 average  train loss: 0.2414
+current epoch: 58 current accuracy: 0.7286 current AUC: 0.7755 best accuracy: 0.8332 at epoch 15
+epoch 59 average  train loss: 0.2633
+current epoch: 59 current accuracy: 0.7270 current AUC: 0.7715 best accuracy: 0.8332 at epoch 15
+epoch 60 average  train loss: 0.2407
+current epoch: 60 current accuracy: 0.6817 current AUC: 0.7356 best accuracy: 0.8332 at epoch 15
+epoch 61 average  train loss: 0.2006
+current epoch: 61 current accuracy: 0.6850 current AUC: 0.7063 best accuracy: 0.8332 at epoch 15
+epoch 62 average  train loss: 0.2226
+current epoch: 62 current accuracy: 0.7383 current AUC: 0.7671 best accuracy: 0.8332 at epoch 15
+epoch 63 average  train loss: 0.2269
+current epoch: 63 current accuracy: 0.7415 current AUC: 0.7722 best accuracy: 0.8332 at epoch 15
+epoch 64 average  train loss: 0.2209
+current epoch: 64 current accuracy: 0.6963 current AUC: 0.7428 best accuracy: 0.8332 at epoch 15
+epoch 65 average  train loss: 0.1968
+current epoch: 65 current accuracy: 0.7157 current AUC: 0.7652 best accuracy: 0.8332 at epoch 15
+epoch 66 average  train loss: 0.1841
+current epoch: 66 current accuracy: 0.7027 current AUC: 0.7536 best accuracy: 0.8332 at epoch 15
+epoch 67 average  train loss: 0.2018
+current epoch: 67 current accuracy: 0.7044 current AUC: 0.7334 best accuracy: 0.8332 at epoch 15
+epoch 68 average  train loss: 0.2105
+current epoch: 68 current accuracy: 0.6931 current AUC: 0.7412 best accuracy: 0.8332 at epoch 15
+epoch 69 average  train loss: 0.2099
+current epoch: 69 current accuracy: 0.6947 current AUC: 0.7407 best accuracy: 0.8332 at epoch 15
+epoch 70 average  train loss: 0.2179
+current epoch: 70 current accuracy: 0.6979 current AUC: 0.7574 best accuracy: 0.8332 at epoch 15
+epoch 71 average  train loss: 0.1794
+current epoch: 71 current accuracy: 0.7060 current AUC: 0.7578 best accuracy: 0.8332 at epoch 15
+epoch 72 average  train loss: 0.1822
+current epoch: 72 current accuracy: 0.7011 current AUC: 0.7391 best accuracy: 0.8332 at epoch 15
+epoch 73 average  train loss: 0.1683
+current epoch: 73 current accuracy: 0.7189 current AUC: 0.7549 best accuracy: 0.8332 at epoch 15
+epoch 74 average  train loss: 0.1502
+current epoch: 74 current accuracy: 0.6624 current AUC: 0.7553 best accuracy: 0.8332 at epoch 15
+epoch 75 average  train loss: 0.1778
+current epoch: 75 current accuracy: 0.7205 current AUC: 0.7474 best accuracy: 0.8332 at epoch 15
+epoch 76 average  train loss: 0.1591
+current epoch: 76 current accuracy: 0.6914 current AUC: 0.7209 best accuracy: 0.8332 at epoch 15
+epoch 77 average  train loss: 0.1482
+current epoch: 77 current accuracy: 0.6834 current AUC: 0.7238 best accuracy: 0.8332 at epoch 15
+epoch 78 average  train loss: 0.1597
+current epoch: 78 current accuracy: 0.7157 current AUC: 0.7319 best accuracy: 0.8332 at epoch 15
+epoch 79 average  train loss: 0.1462
+current epoch: 79 current accuracy: 0.7027 current AUC: 0.7341 best accuracy: 0.8332 at epoch 15
+epoch 80 average  train loss: 0.1329
+current epoch: 80 current accuracy: 0.7270 current AUC: 0.7736 best accuracy: 0.8332 at epoch 15
+train completed, best_metric: 0.8332 at epoch: 15
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 619 1310
+Loading dataset:   0%|          | 0/691 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/691 [00:00<03:37,  3.18it/s]Loading dataset:   0%|          | 2/691 [00:02<13:51,  1.21s/it]Loading dataset:   2%|▏         | 17/691 [00:04<02:22,  4.73it/s]Loading dataset:   5%|▍         | 34/691 [00:05<01:19,  8.28it/s]Loading dataset:   9%|▉         | 61/691 [00:05<00:37, 16.80it/s]Loading dataset:  11%|█         | 75/691 [00:05<00:29, 20.86it/s]Loading dataset:  12%|█▏        | 82/691 [00:06<00:39, 15.27it/s]Loading dataset:  15%|█▌        | 104/691 [00:07<00:23, 24.53it/s]Loading dataset:  16%|█▌        | 110/691 [00:07<00:27, 21.07it/s]Loading dataset:  16%|█▋        | 114/691 [00:07<00:25, 22.29it/s]Loading dataset:  18%|█▊        | 124/691 [00:07<00:19, 28.75it/s]Loading dataset:  19%|█▉        | 130/691 [00:08<00:24, 23.30it/s]Loading dataset:  20%|█▉        | 135/691 [00:08<00:21, 25.38it/s]Loading dataset:  20%|██        | 140/691 [00:08<00:21, 25.64it/s]Loading dataset:  21%|██        | 144/691 [00:10<01:05,  8.31it/s]Loading dataset:  26%|██▌       | 181/691 [00:10<00:23, 22.03it/s]Loading dataset:  29%|██▉       | 200/691 [00:11<00:17, 28.15it/s]Loading dataset:  30%|██▉       | 206/691 [00:11<00:16, 29.87it/s]Loading dataset:  31%|███       | 211/691 [00:11<00:19, 24.53it/s]Loading dataset:  32%|███▏      | 218/691 [00:12<00:20, 23.14it/s]Loading dataset:  32%|███▏      | 222/691 [00:14<00:54,  8.59it/s]Loading dataset:  34%|███▎      | 232/691 [00:14<00:37, 12.30it/s]Loading dataset:  37%|███▋      | 256/691 [00:16<00:30, 14.06it/s]Loading dataset:  39%|███▉      | 271/691 [00:16<00:26, 16.05it/s]Loading dataset:  41%|████      | 283/691 [00:17<00:28, 14.43it/s]Loading dataset:  43%|████▎     | 300/691 [00:18<00:22, 17.55it/s]Loading dataset:  47%|████▋     | 324/691 [00:19<00:20, 17.89it/s]Loading dataset:  49%|████▉     | 341/691 [00:20<00:19, 18.08it/s]Loading dataset:  51%|█████     | 352/691 [00:21<00:20, 16.45it/s]Loading dataset:  55%|█████▍    | 378/691 [00:23<00:19, 16.28it/s]Loading dataset:  55%|█████▍    | 380/691 [00:23<00:20, 15.47it/s]Loading dataset:  55%|█████▌    | 382/691 [00:24<00:26, 11.61it/s]Loading dataset:  56%|█████▋    | 389/691 [00:24<00:21, 14.01it/s]Loading dataset:  57%|█████▋    | 392/691 [00:26<00:46,  6.44it/s]Loading dataset:  59%|█████▉    | 411/691 [00:28<00:33,  8.44it/s]Loading dataset:  62%|██████▏   | 427/691 [00:28<00:21, 12.14it/s]Loading dataset:  63%|██████▎   | 435/691 [00:30<00:31,  8.15it/s]Loading dataset:  64%|██████▍   | 443/691 [00:30<00:24, 10.01it/s]Loading dataset:  65%|██████▌   | 450/691 [00:33<00:36,  6.69it/s]Loading dataset:  69%|██████▉   | 479/691 [00:35<00:21,  9.95it/s]Loading dataset:  71%|███████   | 489/691 [00:35<00:18, 10.71it/s]Loading dataset:  74%|███████▍  | 513/691 [00:37<00:14, 12.43it/s]Loading dataset:  76%|███████▌  | 526/691 [00:39<00:15, 10.48it/s]Loading dataset:  78%|███████▊  | 540/691 [00:41<00:17,  8.84it/s]Loading dataset:  79%|███████▊  | 544/691 [00:42<00:20,  7.29it/s]Loading dataset:  86%|████████▌ | 591/691 [00:43<00:05, 17.81it/s]Loading dataset:  86%|████████▋ | 596/691 [00:44<00:06, 14.80it/s]Loading dataset:  88%|████████▊ | 607/691 [00:45<00:06, 13.78it/s]Loading dataset:  88%|████████▊ | 611/691 [00:47<00:09,  8.28it/s]Loading dataset:  91%|█████████▏| 631/691 [00:48<00:05, 10.27it/s]Loading dataset:  94%|█████████▍| 648/691 [00:49<00:03, 12.88it/s]Loading dataset:  95%|█████████▍| 653/691 [00:50<00:03,  9.55it/s]Loading dataset:  98%|█████████▊| 674/691 [00:50<00:01, 15.94it/s]Loading dataset:  99%|█████████▉| 685/691 [00:50<00:00, 19.92it/s]Loading dataset: 100%|██████████| 691/691 [00:50<00:00, 13.56it/s]
+Loading dataset:   0%|          | 0/619 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/619 [00:00<09:36,  1.07it/s]Loading dataset:   4%|▎         | 23/619 [00:01<00:22, 26.76it/s]Loading dataset:   5%|▍         | 30/619 [00:01<00:24, 23.79it/s]Loading dataset:   6%|▌         | 35/619 [00:02<00:49, 11.87it/s]Loading dataset:   9%|▊         | 53/619 [00:02<00:24, 23.06it/s]Loading dataset:  10%|▉         | 59/619 [00:02<00:22, 24.37it/s]Loading dataset:  10%|█         | 64/619 [00:03<00:35, 15.79it/s]Loading dataset:  12%|█▏        | 76/619 [00:03<00:24, 22.59it/s]Loading dataset:  13%|█▎        | 83/619 [00:04<00:28, 18.74it/s]Loading dataset:  15%|█▍        | 91/619 [00:04<00:24, 21.64it/s]Loading dataset:  17%|█▋        | 107/619 [00:04<00:16, 31.03it/s]Loading dataset:  18%|█▊        | 112/619 [00:05<00:20, 25.14it/s]Loading dataset:  20%|█▉        | 122/619 [00:05<00:20, 24.48it/s]Loading dataset:  20%|██        | 126/619 [00:05<00:19, 25.52it/s]Loading dataset:  21%|██        | 131/619 [00:06<00:22, 21.97it/s]Loading dataset:  22%|██▏       | 138/619 [00:06<00:22, 21.07it/s]Loading dataset:  23%|██▎       | 141/619 [00:07<00:42, 11.31it/s]Loading dataset:  26%|██▋       | 163/619 [00:07<00:17, 26.09it/s]Loading dataset:  28%|██▊       | 175/619 [00:07<00:14, 31.64it/s]Loading dataset:  29%|██▉       | 181/619 [00:08<00:17, 24.58it/s]Loading dataset:  31%|███       | 191/619 [00:08<00:19, 22.41it/s]Loading dataset:  33%|███▎      | 204/619 [00:09<00:21, 19.59it/s]Loading dataset:  37%|███▋      | 228/619 [00:09<00:11, 35.52it/s]Loading dataset:  38%|███▊      | 237/619 [00:10<00:13, 28.06it/s]Loading dataset:  39%|███▉      | 244/619 [00:10<00:14, 26.16it/s]Loading dataset:  40%|████      | 250/619 [00:11<00:16, 22.70it/s]Loading dataset:  41%|████      | 255/619 [00:11<00:21, 16.60it/s]Loading dataset:  42%|████▏     | 263/619 [00:12<00:17, 19.93it/s]Loading dataset:  45%|████▌     | 279/619 [00:12<00:12, 27.89it/s]Loading dataset:  47%|████▋     | 288/619 [00:12<00:11, 27.74it/s]Loading dataset:  47%|████▋     | 292/619 [00:12<00:13, 24.72it/s]Loading dataset:  49%|████▊     | 301/619 [00:13<00:11, 28.83it/s]Loading dataset:  49%|████▉     | 305/619 [00:14<00:21, 14.49it/s]Loading dataset:  52%|█████▏    | 320/619 [00:14<00:13, 22.91it/s]Loading dataset:  52%|█████▏    | 324/619 [00:14<00:17, 17.07it/s]Loading dataset:  54%|█████▎    | 332/619 [00:15<00:18, 15.14it/s]Loading dataset:  56%|█████▌    | 347/619 [00:16<00:14, 19.19it/s]Loading dataset:  58%|█████▊    | 360/619 [00:16<00:11, 23.49it/s]Loading dataset:  59%|█████▊    | 363/619 [00:17<00:17, 14.36it/s]Loading dataset:  60%|█████▉    | 370/619 [00:17<00:18, 13.64it/s]Loading dataset:  63%|██████▎   | 389/619 [00:18<00:09, 24.63it/s]Loading dataset:  64%|██████▎   | 394/619 [00:18<00:12, 17.76it/s]Loading dataset:  64%|██████▍   | 398/619 [00:20<00:28,  7.81it/s]Loading dataset:  69%|██████▊   | 425/619 [00:21<00:10, 17.98it/s]Loading dataset:  70%|██████▉   | 432/619 [00:22<00:14, 13.03it/s]Loading dataset:  78%|███████▊  | 483/619 [00:22<00:04, 32.70it/s]Loading dataset:  81%|████████▏ | 503/619 [00:22<00:03, 37.53it/s]Loading dataset:  83%|████████▎ | 511/619 [00:22<00:02, 40.14it/s]Loading dataset:  84%|████████▍ | 519/619 [00:23<00:03, 28.81it/s]Loading dataset:  88%|████████▊ | 544/619 [00:24<00:02, 30.20it/s]Loading dataset:  92%|█████████▏| 568/619 [00:24<00:01, 39.01it/s]Loading dataset:  93%|█████████▎| 576/619 [00:24<00:01, 41.43it/s]Loading dataset:  95%|█████████▍| 585/619 [00:25<00:00, 38.41it/s]Loading dataset:  95%|█████████▌| 591/619 [00:25<00:00, 34.95it/s]Loading dataset:  96%|█████████▋| 596/619 [00:26<00:01, 22.70it/s]Loading dataset: 100%|██████████| 619/619 [00:26<00:00, 23.74it/s]
+Traceback (most recent call last):
+  File "/app/liucd/deeplearn_dec/DL_multi/NewTrain2Val3/net_selfattnNew/hidden/dellayer/train_atn_hid.py", line 223, in <module>
+    output = my_model(x1.cuda(), x2.cuda(), cli.cuda())
+  File "/app/data/anaconda/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/liucd/deeplearn_dec/DL_multi/NewTrain2Val3/net_selfattnNew/hidden/dellayer/train_atn_hid.py", line 205, in forward
+    attn_output, _ = self.attn(concatenated, concatenated, concatenated)
+  File "/app/data/anaconda/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/data/anaconda/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 1189, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/app/data/anaconda/lib/python3.9/site-packages/torch/nn/functional.py", line 5168, in multi_head_attention_forward
+    assert embed_dim == embed_dim_to_check, \
+AssertionError: was expecting embedding dimension of 256, but got 512
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 619 1310
+Loading dataset:   0%|          | 0/691 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/691 [00:00<03:33,  3.23it/s]Loading dataset:   0%|          | 2/691 [00:02<14:24,  1.25s/it]Loading dataset:   2%|▏         | 17/691 [00:04<02:22,  4.73it/s]Loading dataset:   5%|▍         | 34/691 [00:04<01:12,  9.11it/s]Loading dataset:   9%|▉         | 61/691 [00:05<00:32, 19.24it/s]Loading dataset:  11%|█         | 75/691 [00:05<00:26, 23.47it/s]Loading dataset:  12%|█▏        | 82/691 [00:06<00:35, 16.93it/s]Loading dataset:  13%|█▎        | 89/691 [00:06<00:31, 19.38it/s]Loading dataset:  15%|█▌        | 106/691 [00:07<00:26, 22.16it/s]Loading dataset:  16%|█▌        | 112/691 [00:07<00:24, 23.54it/s]Loading dataset:  19%|█▊        | 128/691 [00:07<00:20, 28.04it/s]Loading dataset:  20%|█▉        | 135/691 [00:07<00:17, 31.42it/s]Loading dataset:  20%|██        | 140/691 [00:08<00:18, 30.55it/s]Loading dataset:  21%|██        | 144/691 [00:09<00:56,  9.73it/s]Loading dataset:  26%|██▌       | 181/691 [00:10<00:23, 21.92it/s]Loading dataset:  29%|██▉       | 200/691 [00:10<00:16, 30.04it/s]Loading dataset:  31%|███       | 211/691 [00:11<00:17, 27.99it/s]Loading dataset:  31%|███▏      | 216/691 [00:11<00:16, 29.20it/s]Loading dataset:  32%|███▏      | 221/691 [00:13<00:43, 10.68it/s]Loading dataset:  34%|███▎      | 232/691 [00:13<00:32, 14.07it/s]Loading dataset:  37%|███▋      | 256/691 [00:15<00:27, 16.08it/s]Loading dataset:  39%|███▉      | 271/691 [00:15<00:23, 17.57it/s]Loading dataset:  40%|███▉      | 274/691 [00:15<00:23, 17.87it/s]Loading dataset:  41%|████      | 283/691 [00:17<00:30, 13.42it/s]Loading dataset:  43%|████▎     | 300/691 [00:17<00:20, 19.47it/s]Loading dataset:  44%|████▍     | 304/691 [00:17<00:18, 20.62it/s]Loading dataset:  47%|████▋     | 324/691 [00:18<00:20, 17.68it/s]Loading dataset:  49%|████▉     | 341/691 [00:19<00:19, 18.26it/s]Loading dataset:  51%|█████     | 352/691 [00:20<00:20, 16.38it/s]Loading dataset:  54%|█████▍    | 375/691 [00:20<00:12, 25.94it/s]Loading dataset:  55%|█████▌    | 381/691 [00:22<00:23, 13.09it/s]Loading dataset:  56%|█████▌    | 385/691 [00:23<00:25, 12.13it/s]Loading dataset:  56%|█████▋    | 389/691 [00:23<00:23, 13.10it/s]Loading dataset:  57%|█████▋    | 392/691 [00:25<00:50,  5.91it/s]Loading dataset:  59%|█████▉    | 411/691 [00:27<00:34,  8.09it/s]Loading dataset:  62%|██████▏   | 427/691 [00:27<00:22, 11.88it/s]Loading dataset:  63%|██████▎   | 435/691 [00:29<00:32,  7.84it/s]Loading dataset:  64%|██████▍   | 443/691 [00:30<00:28,  8.76it/s]Loading dataset:  65%|██████▌   | 450/691 [00:32<00:35,  6.87it/s]Loading dataset:  69%|██████▉   | 479/691 [00:34<00:21,  9.89it/s]Loading dataset:  71%|███████   | 489/691 [00:34<00:16, 11.98it/s]Loading dataset:  74%|███████▍  | 513/691 [00:36<00:13, 12.74it/s]Loading dataset:  76%|███████▌  | 526/691 [00:37<00:14, 11.20it/s]Loading dataset:  78%|███████▊  | 540/691 [00:39<00:15,  9.64it/s]Loading dataset:  79%|███████▊  | 544/691 [00:41<00:19,  7.61it/s]Loading dataset:  86%|████████▌ | 591/691 [00:41<00:05, 19.13it/s]Loading dataset:  86%|████████▋ | 597/691 [00:42<00:05, 16.63it/s]Loading dataset:  88%|████████▊ | 607/691 [00:43<00:05, 14.89it/s]Loading dataset:  88%|████████▊ | 611/691 [00:45<00:08,  8.89it/s]Loading dataset:  91%|█████████▏| 631/691 [00:46<00:05, 10.69it/s]Loading dataset:  94%|█████████▍| 648/691 [00:47<00:03, 13.74it/s]Loading dataset:  95%|█████████▍| 653/691 [00:48<00:03, 10.06it/s]Loading dataset:  99%|█████████▉| 685/691 [00:48<00:00, 20.36it/s]Loading dataset: 100%|██████████| 691/691 [00:48<00:00, 14.18it/s]
+Loading dataset:   0%|          | 0/619 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/619 [00:01<10:30,  1.02s/it]Loading dataset:   4%|▍         | 27/619 [00:01<00:24, 23.90it/s]Loading dataset:   5%|▌         | 33/619 [00:01<00:26, 21.72it/s]Loading dataset:   6%|▌         | 36/619 [00:02<00:45, 12.92it/s]Loading dataset:   9%|▉         | 56/619 [00:02<00:22, 25.18it/s]Loading dataset:  10%|▉         | 61/619 [00:03<00:26, 21.18it/s]Loading dataset:  11%|█         | 65/619 [00:03<00:33, 16.51it/s]Loading dataset:  12%|█▏        | 76/619 [00:03<00:24, 21.91it/s]Loading dataset:  13%|█▎        | 83/619 [00:04<00:25, 20.69it/s]Loading dataset:  15%|█▍        | 91/619 [00:04<00:25, 21.08it/s]Loading dataset:  17%|█▋        | 107/619 [00:05<00:17, 29.80it/s]Loading dataset:  18%|█▊        | 111/619 [00:05<00:20, 24.43it/s]Loading dataset:  20%|█▉        | 122/619 [00:05<00:17, 28.30it/s]Loading dataset:  20%|██        | 126/619 [00:05<00:17, 27.45it/s]Loading dataset:  21%|██        | 131/619 [00:05<00:16, 29.64it/s]Loading dataset:  22%|██▏       | 138/619 [00:06<00:20, 23.79it/s]Loading dataset:  23%|██▎       | 141/619 [00:07<00:33, 14.21it/s]Loading dataset:  26%|██▋       | 163/619 [00:07<00:16, 27.43it/s]Loading dataset:  29%|██▉       | 179/619 [00:07<00:11, 39.34it/s]Loading dataset:  30%|██▉       | 185/619 [00:07<00:13, 33.03it/s]Loading dataset:  31%|███       | 190/619 [00:07<00:12, 33.28it/s]Loading dataset:  32%|███▏      | 195/619 [00:08<00:14, 28.51it/s]Loading dataset:  33%|███▎      | 204/619 [00:08<00:20, 19.80it/s]Loading dataset:  35%|███▌      | 218/619 [00:09<00:14, 28.64it/s]Loading dataset:  37%|███▋      | 231/619 [00:09<00:10, 37.39it/s]Loading dataset:  38%|███▊      | 237/619 [00:09<00:13, 27.92it/s]Loading dataset:  39%|███▉      | 244/619 [00:09<00:11, 32.48it/s]Loading dataset:  40%|████      | 249/619 [00:10<00:17, 21.03it/s]Loading dataset:  41%|████      | 254/619 [00:11<00:22, 16.41it/s]Loading dataset:  42%|████▏     | 263/619 [00:11<00:15, 22.67it/s]Loading dataset:  45%|████▌     | 279/619 [00:11<00:10, 31.20it/s]Loading dataset:  47%|████▋     | 288/619 [00:11<00:10, 31.26it/s]Loading dataset:  47%|████▋     | 293/619 [00:11<00:10, 30.29it/s]Loading dataset:  49%|████▊     | 301/619 [00:12<00:09, 33.72it/s]Loading dataset:  49%|████▉     | 305/619 [00:13<00:22, 13.80it/s]Loading dataset:  52%|█████▏    | 322/619 [00:13<00:16, 18.24it/s]Loading dataset:  54%|█████▎    | 332/619 [00:14<00:18, 15.12it/s]Loading dataset:  56%|█████▌    | 347/619 [00:15<00:14, 19.07it/s]Loading dataset:  58%|█████▊    | 360/619 [00:15<00:11, 21.74it/s]Loading dataset:  59%|█████▊    | 363/619 [00:16<00:14, 17.40it/s]Loading dataset:  60%|█████▉    | 370/619 [00:16<00:17, 13.92it/s]Loading dataset:  63%|██████▎   | 389/619 [00:17<00:09, 25.12it/s]Loading dataset:  64%|██████▍   | 396/619 [00:19<00:24,  9.25it/s]Loading dataset:  69%|██████▊   | 425/619 [00:19<00:10, 18.90it/s]Loading dataset:  70%|██████▉   | 433/619 [00:20<00:11, 16.10it/s]Loading dataset:  77%|███████▋  | 478/619 [00:20<00:03, 36.67it/s]Loading dataset:  80%|███████▉  | 493/619 [00:21<00:03, 35.78it/s]Loading dataset:  82%|████████▏ | 505/619 [00:21<00:03, 36.99it/s]Loading dataset:  83%|████████▎ | 516/619 [00:22<00:03, 30.34it/s]Loading dataset:  84%|████████▍ | 523/619 [00:22<00:02, 33.26it/s]Loading dataset:  88%|████████▊ | 544/619 [00:23<00:02, 31.92it/s]Loading dataset:  92%|█████████▏| 568/619 [00:23<00:01, 43.38it/s]Loading dataset:  93%|█████████▎| 576/619 [00:23<00:01, 41.66it/s]Loading dataset:  95%|█████████▍| 585/619 [00:23<00:00, 41.35it/s]Loading dataset:  95%|█████████▌| 591/619 [00:23<00:00, 36.70it/s]Loading dataset:  96%|█████████▋| 596/619 [00:24<00:00, 23.76it/s]Loading dataset: 100%|██████████| 619/619 [00:24<00:00, 25.18it/s]
+output:  torch.Size([8, 2])
+epoch 1 average  train loss: 0.6119
+saved new best metric model
+current epoch: 1 current accuracy: 0.6866 current AUC: 0.7335 best accuracy: 0.7335 at epoch 1
+epoch 2 average  train loss: 0.5767
+current epoch: 2 current accuracy: 0.6866 current AUC: 0.7201 best accuracy: 0.7335 at epoch 1
+epoch 3 average  train loss: 0.5587
+current epoch: 3 current accuracy: 0.7286 current AUC: 0.7236 best accuracy: 0.7335 at epoch 1
+epoch 4 average  train loss: 0.5409
+saved new best metric model
+current epoch: 4 current accuracy: 0.7367 current AUC: 0.7483 best accuracy: 0.7483 at epoch 4
+epoch 5 average  train loss: 0.5485
+current epoch: 5 current accuracy: 0.6882 current AUC: 0.7289 best accuracy: 0.7483 at epoch 4
+epoch 6 average  train loss: 0.5440
+saved new best metric model
+current epoch: 6 current accuracy: 0.6866 current AUC: 0.7714 best accuracy: 0.7714 at epoch 6
+epoch 7 average  train loss: 0.5309
+saved new best metric model
+current epoch: 7 current accuracy: 0.6898 current AUC: 0.7960 best accuracy: 0.7960 at epoch 7
+epoch 8 average  train loss: 0.5010
+current epoch: 8 current accuracy: 0.6931 current AUC: 0.7933 best accuracy: 0.7960 at epoch 7
+epoch 9 average  train loss: 0.5120
+current epoch: 9 current accuracy: 0.6931 current AUC: 0.7920 best accuracy: 0.7960 at epoch 7
+epoch 10 average  train loss: 0.5171
+current epoch: 10 current accuracy: 0.7318 current AUC: 0.7796 best accuracy: 0.7960 at epoch 7
+epoch 11 average  train loss: 0.5112
+saved new best metric model
+current epoch: 11 current accuracy: 0.7157 current AUC: 0.8018 best accuracy: 0.8018 at epoch 11
+epoch 12 average  train loss: 0.5188
+saved new best metric model
+current epoch: 12 current accuracy: 0.7480 current AUC: 0.8040 best accuracy: 0.8040 at epoch 12
+epoch 13 average  train loss: 0.4783
+current epoch: 13 current accuracy: 0.7383 current AUC: 0.7953 best accuracy: 0.8040 at epoch 12
+epoch 14 average  train loss: 0.4834
+current epoch: 14 current accuracy: 0.7157 current AUC: 0.7875 best accuracy: 0.8040 at epoch 12
+epoch 15 average  train loss: 0.4723
+saved new best metric model
+current epoch: 15 current accuracy: 0.7544 current AUC: 0.8204 best accuracy: 0.8204 at epoch 15
+epoch 16 average  train loss: 0.4731
+current epoch: 16 current accuracy: 0.7480 current AUC: 0.7994 best accuracy: 0.8204 at epoch 15
+epoch 17 average  train loss: 0.4641
+current epoch: 17 current accuracy: 0.7609 current AUC: 0.8121 best accuracy: 0.8204 at epoch 15
+epoch 18 average  train loss: 0.4538
+current epoch: 18 current accuracy: 0.7270 current AUC: 0.7996 best accuracy: 0.8204 at epoch 15
+epoch 19 average  train loss: 0.4598
+current epoch: 19 current accuracy: 0.7609 current AUC: 0.8054 best accuracy: 0.8204 at epoch 15
+epoch 20 average  train loss: 0.4689
+current epoch: 20 current accuracy: 0.6704 current AUC: 0.7802 best accuracy: 0.8204 at epoch 15
+epoch 21 average  train loss: 0.4585
+saved new best metric model
+current epoch: 21 current accuracy: 0.7674 current AUC: 0.8205 best accuracy: 0.8205 at epoch 21
+epoch 22 average  train loss: 0.4546
+current epoch: 22 current accuracy: 0.7447 current AUC: 0.8073 best accuracy: 0.8205 at epoch 21
+epoch 23 average  train loss: 0.4386
+current epoch: 23 current accuracy: 0.7609 current AUC: 0.8123 best accuracy: 0.8205 at epoch 21
+epoch 24 average  train loss: 0.4497
+current epoch: 24 current accuracy: 0.7108 current AUC: 0.8106 best accuracy: 0.8205 at epoch 21
+epoch 25 average  train loss: 0.4338
+current epoch: 25 current accuracy: 0.7189 current AUC: 0.8155 best accuracy: 0.8205 at epoch 21
+epoch 26 average  train loss: 0.4253
+current epoch: 26 current accuracy: 0.7577 current AUC: 0.8040 best accuracy: 0.8205 at epoch 21
+epoch 27 average  train loss: 0.4200
+current epoch: 27 current accuracy: 0.7302 current AUC: 0.7979 best accuracy: 0.8205 at epoch 21
+epoch 28 average  train loss: 0.4202
+current epoch: 28 current accuracy: 0.6478 current AUC: 0.7922 best accuracy: 0.8205 at epoch 21
+epoch 29 average  train loss: 0.4151
+current epoch: 29 current accuracy: 0.7625 current AUC: 0.8018 best accuracy: 0.8205 at epoch 21
+epoch 30 average  train loss: 0.4224
+current epoch: 30 current accuracy: 0.6931 current AUC: 0.7852 best accuracy: 0.8205 at epoch 21
+epoch 31 average  train loss: 0.4208
+current epoch: 31 current accuracy: 0.7415 current AUC: 0.8111 best accuracy: 0.8205 at epoch 21
+epoch 32 average  train loss: 0.4150
+current epoch: 32 current accuracy: 0.6446 current AUC: 0.8011 best accuracy: 0.8205 at epoch 21
+epoch 33 average  train loss: 0.4058
+current epoch: 33 current accuracy: 0.7399 current AUC: 0.7990 best accuracy: 0.8205 at epoch 21
+epoch 34 average  train loss: 0.4051
+current epoch: 34 current accuracy: 0.7609 current AUC: 0.7904 best accuracy: 0.8205 at epoch 21
+epoch 35 average  train loss: 0.4046
+current epoch: 35 current accuracy: 0.7415 current AUC: 0.8166 best accuracy: 0.8205 at epoch 21
+epoch 36 average  train loss: 0.3820
+saved new best metric model
+current epoch: 36 current accuracy: 0.7577 current AUC: 0.8265 best accuracy: 0.8265 at epoch 36
+epoch 37 average  train loss: 0.3602
+current epoch: 37 current accuracy: 0.7431 current AUC: 0.8040 best accuracy: 0.8265 at epoch 36
+epoch 38 average  train loss: 0.3883
+current epoch: 38 current accuracy: 0.7431 current AUC: 0.8029 best accuracy: 0.8265 at epoch 36
+epoch 39 average  train loss: 0.3641
+current epoch: 39 current accuracy: 0.7399 current AUC: 0.8086 best accuracy: 0.8265 at epoch 36
+epoch 40 average  train loss: 0.3620
+current epoch: 40 current accuracy: 0.7415 current AUC: 0.8117 best accuracy: 0.8265 at epoch 36
+epoch 41 average  train loss: 0.3756
+current epoch: 41 current accuracy: 0.7593 current AUC: 0.8108 best accuracy: 0.8265 at epoch 36
+epoch 42 average  train loss: 0.3484
+current epoch: 42 current accuracy: 0.7351 current AUC: 0.7896 best accuracy: 0.8265 at epoch 36
+epoch 43 average  train loss: 0.3669
+current epoch: 43 current accuracy: 0.6446 current AUC: 0.7985 best accuracy: 0.8265 at epoch 36
+epoch 44 average  train loss: 0.3460
+current epoch: 44 current accuracy: 0.6963 current AUC: 0.7852 best accuracy: 0.8265 at epoch 36
+epoch 45 average  train loss: 0.3270
+current epoch: 45 current accuracy: 0.6527 current AUC: 0.7849 best accuracy: 0.8265 at epoch 36
+epoch 46 average  train loss: 0.3332
+current epoch: 46 current accuracy: 0.6882 current AUC: 0.8029 best accuracy: 0.8265 at epoch 36
+epoch 47 average  train loss: 0.3222
+current epoch: 47 current accuracy: 0.7383 current AUC: 0.7793 best accuracy: 0.8265 at epoch 36
+epoch 48 average  train loss: 0.3275
+current epoch: 48 current accuracy: 0.7447 current AUC: 0.7959 best accuracy: 0.8265 at epoch 36
+epoch 49 average  train loss: 0.3034
+current epoch: 49 current accuracy: 0.7060 current AUC: 0.7859 best accuracy: 0.8265 at epoch 36
+epoch 50 average  train loss: 0.2788
+current epoch: 50 current accuracy: 0.7205 current AUC: 0.7699 best accuracy: 0.8265 at epoch 36
+epoch 51 average  train loss: 0.2736
+current epoch: 51 current accuracy: 0.7237 current AUC: 0.8210 best accuracy: 0.8265 at epoch 36
+epoch 52 average  train loss: 0.3118
+current epoch: 52 current accuracy: 0.7367 current AUC: 0.7755 best accuracy: 0.8265 at epoch 36
+epoch 53 average  train loss: 0.2841
+current epoch: 53 current accuracy: 0.7609 current AUC: 0.8057 best accuracy: 0.8265 at epoch 36
+epoch 54 average  train loss: 0.2605
+current epoch: 54 current accuracy: 0.6882 current AUC: 0.7741 best accuracy: 0.8265 at epoch 36
+epoch 55 average  train loss: 0.2502
+current epoch: 55 current accuracy: 0.6801 current AUC: 0.7710 best accuracy: 0.8265 at epoch 36
+epoch 56 average  train loss: 0.2550
+current epoch: 56 current accuracy: 0.7076 current AUC: 0.7593 best accuracy: 0.8265 at epoch 36
+epoch 57 average  train loss: 0.2860
+current epoch: 57 current accuracy: 0.7205 current AUC: 0.7746 best accuracy: 0.8265 at epoch 36
+epoch 58 average  train loss: 0.2182
+current epoch: 58 current accuracy: 0.7124 current AUC: 0.7364 best accuracy: 0.8265 at epoch 36
+epoch 59 average  train loss: 0.2371
+current epoch: 59 current accuracy: 0.6834 current AUC: 0.7380 best accuracy: 0.8265 at epoch 36
+epoch 60 average  train loss: 0.2316
+current epoch: 60 current accuracy: 0.6430 current AUC: 0.6717 best accuracy: 0.8265 at epoch 36
+epoch 61 average  train loss: 0.1871
+current epoch: 61 current accuracy: 0.6430 current AUC: 0.6636 best accuracy: 0.8265 at epoch 36
+epoch 62 average  train loss: 0.2244
+current epoch: 62 current accuracy: 0.7205 current AUC: 0.7452 best accuracy: 0.8265 at epoch 36
+epoch 63 average  train loss: 0.2130
+current epoch: 63 current accuracy: 0.6704 current AUC: 0.7198 best accuracy: 0.8265 at epoch 36
+epoch 64 average  train loss: 0.1979
+current epoch: 64 current accuracy: 0.6236 current AUC: 0.6684 best accuracy: 0.8265 at epoch 36
+epoch 65 average  train loss: 0.2062
+current epoch: 65 current accuracy: 0.6979 current AUC: 0.7369 best accuracy: 0.8265 at epoch 36
+epoch 66 average  train loss: 0.1650
+current epoch: 66 current accuracy: 0.6785 current AUC: 0.7355 best accuracy: 0.8265 at epoch 36
+epoch 67 average  train loss: 0.1784
+current epoch: 67 current accuracy: 0.7108 current AUC: 0.7228 best accuracy: 0.8265 at epoch 36
+epoch 68 average  train loss: 0.1990
+current epoch: 68 current accuracy: 0.7205 current AUC: 0.7213 best accuracy: 0.8265 at epoch 36
+epoch 69 average  train loss: 0.1986
+current epoch: 69 current accuracy: 0.7027 current AUC: 0.7039 best accuracy: 0.8265 at epoch 36
+epoch 70 average  train loss: 0.1992
+current epoch: 70 current accuracy: 0.7060 current AUC: 0.7504 best accuracy: 0.8265 at epoch 36
+epoch 71 average  train loss: 0.1493
+current epoch: 71 current accuracy: 0.7447 current AUC: 0.7594 best accuracy: 0.8265 at epoch 36
+epoch 72 average  train loss: 0.1502
+current epoch: 72 current accuracy: 0.6478 current AUC: 0.7066 best accuracy: 0.8265 at epoch 36
+epoch 73 average  train loss: 0.1512
+current epoch: 73 current accuracy: 0.7157 current AUC: 0.7520 best accuracy: 0.8265 at epoch 36
+epoch 74 average  train loss: 0.1637
+current epoch: 74 current accuracy: 0.6801 current AUC: 0.7440 best accuracy: 0.8265 at epoch 36
+epoch 75 average  train loss: 0.1491
+current epoch: 75 current accuracy: 0.6947 current AUC: 0.7103 best accuracy: 0.8265 at epoch 36
+epoch 76 average  train loss: 0.1592
+current epoch: 76 current accuracy: 0.6963 current AUC: 0.7275 best accuracy: 0.8265 at epoch 36
+epoch 77 average  train loss: 0.1354
+current epoch: 77 current accuracy: 0.6656 current AUC: 0.7219 best accuracy: 0.8265 at epoch 36
+epoch 78 average  train loss: 0.1288
+current epoch: 78 current accuracy: 0.7237 current AUC: 0.7520 best accuracy: 0.8265 at epoch 36
+epoch 79 average  train loss: 0.1617
+current epoch: 79 current accuracy: 0.7205 current AUC: 0.7349 best accuracy: 0.8265 at epoch 36
+epoch 80 average  train loss: 0.1251
+current epoch: 80 current accuracy: 0.7044 current AUC: 0.7407 best accuracy: 0.8265 at epoch 36
+train completed, best_metric: 0.8265 at epoch: 36

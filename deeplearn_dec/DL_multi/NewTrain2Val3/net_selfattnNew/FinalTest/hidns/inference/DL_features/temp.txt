@@ -1,0 +1,18 @@
+from sklearn import metrics
+
+def report_metric(label_list, pred_list):
+    Cmatrix = metrics.confusion_matrix(label_list, pred_list)
+    print(Cmatrix)
+    TN = Cmatrix[0, 0]
+    TP = Cmatrix[1, 1]
+    FN = Cmatrix[1, 0]
+    FP = Cmatrix[0, 1]
+
+    Acc = (TP+TN) / (TP+TN+FP+FN)
+    sensitivity = TPR = Recall = TP / (TP+FN)
+    specificity = TNR =  TN / (FP+TN)
+    PPV = TP / (TP + FP)
+    NPV = TN / (TN + FN)
+    
+    return Acc, sensitivity, specificity, PPV, NPV
+

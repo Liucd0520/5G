@@ -1,0 +1,1229 @@
+  File "/app/liucd/deeplearn_dec/DL_multi/Train1_val4/network_mul/train_mul.py", line 72
+    
+    ^
+SyntaxError: invalid syntax
+  File "train_mul.py", line 72
+    train_adcimages = sorted(glob.glob(os.path.join(syf1_adcdir,  '*.nii.gz'))) + \
+                 sorted(glob.glob(os.path.join(syf2_adcdir,  '*.nii.gz'))) + \
+
+    ^
+SyntaxError: invalid syntax
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/002_zhao_min_2017_02_09_426611_ADC2_0000_1.nii.gz 426611
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/003_sun_xian_ying_2017_03_15_428547_ADC2_0000_0.nii.gz 428547
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/004_kong_lan_xiang_2017_07_07_432029_ADC2_0000_0.nii.gz 432029
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/005_yu_wen_jing_2017_03_31_429662_ADC2_0000_0.nii.gz 429662
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/008_niu_ai_ju_2017_04_21_430938_ADC2_0000_0.nii.gz 430938
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/009_cao_lian_hua_2017_03_31_429653_ADC2_0000_0.nii.gz 429653
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/014_li_li_ling_2017_07_24_472510_ADC2_0000_0.nii.gz 472510
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/015_zhang_yu_zhen_2017_05_26_432923_ADC2_0000_1.nii.gz 432923
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/016_huang_chao_xiang_2017_06_14_433776_ADC2_0000_1.nii.gz 433776
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/018_ma_yu_2017_06_28_434514_ADC2_0000_0.nii.gz 434514
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/019_liu_fang_rong_2017_07_03_434748_ADC2_0000_1.nii.gz 434748
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/023_lu_gui_zhi_2017_07_28_472742_ADC2_0000_1.nii.gz 472742
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/026_shan_xiang_lan_2017_08_30_474587_ADC2_0000_0.nii.gz 474587
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/029_liu_hui_yun_2017_09_05_474848_ADC2_0000_0.nii.gz 474848
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/030_zhang_ai_zhen_2017_10_13_476780_ADC2_0000_0.nii.gz 476780
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/031_wang_qing_yan_2017_10_23_477200_ADC2_0000_0.nii.gz 477200
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/032_ding_cui_ying_2017_11_17_478782_ADC2_0000_0.nii.gz 478782
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/034_liu_feng_yun_2017_11_21_478947_ADC2_0000_0.nii.gz 478947
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/035_peng_zhi_rong_2017_11_23_479092_ADC2_0000_0.nii.gz 479092
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/036_li_qin_2017_12_05_479530_ADC2_0000_0.nii.gz 479530
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/037_gu_pei_mei_2014_08_22_201739_ADC2_0000_0.nii.gz 201739
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/039_shen_xue_zhi_2014_08_04_201944_ADC2_0000_0.nii.gz 201944
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/041_zhou_zong_ying_2014_09_05_203436_ADC2_0000_1.nii.gz 203436
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/043_liu_en_2014_09_25_204267_ADC2_0000_0.nii.gz 204267
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/044_liu_yan_2014_09_30_204509_ADC2_0000_0.nii.gz 204509
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/045_zhao_yu_qin_2014_10_07_204651_ADC2_0000_1.nii.gz 204651
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/046_sun_kai_lian_2014_10_10_204838_ADC2_0000_0.nii.gz 204838
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/047_bu_xiao_hong_2014_09_04_203326_ADC2_0000_0.nii.gz 203326
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/049_zhang_li_xiang_2014_10_22_205434_ADC2_0000_1.nii.gz 205434
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/050_tao_qi_2014_12_25_267810_ADC2_0000_0.nii.gz 267810
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/051_zhang_li_li_2014_11_03_265541_ADC2_0000_0.nii.gz 265541
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/052_xu_xiu_ying_2015_01_28_269151_ADC2_0000_0.nii.gz 269151
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/055_xiang_jia_hua_2015_03_17_271122_ADC2_0000_0.nii.gz 271122
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/056_liu_guang_ling_2015_04_23_272894_ADC2_0000_0.nii.gz 272894
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/057_liu_jie_2015_01_07_268198_ADC2_0000_0.nii.gz 268198
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/062_guo_feng_ju_2015_05_29_274611_ADC2_0000_0.nii.gz 274611
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/081_wang_xiu_ju_2015_10_14_280611_ADC2_0000_0.nii.gz 280611
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/082_wang_ke_xia_2015_12_30_350693_ADC2_0000_0.nii.gz 350693
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/083_li_xiu_rong_2015_09_22_279772_ADC2_0000_0.nii.gz 279772
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/085_li_zong_ju_2015_12_22_350368_ADC2_0000_0.nii.gz 350368
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/086_zhao_mei_ying_2015_12_07_349594_ADC2_0000_1.nii.gz 349594
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/087_zhang_li_dan_2016_02_29_368653_ADC2_0000_0.nii.gz 368653
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/088_yan_ling_zhi_2016_01_15_351433_ADC2_0000_0.nii.gz 351433
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/091_wang_xiu_rong_2016_05_25_386918_ADC2_0000_0.nii.gz 386918
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/092_lin_xin_hua_2016_03_09_376247_ADC2_0000_0.nii.gz 376247
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/094_li_jin_mei_2016_03_09_369088_ADC2_0000_0.nii.gz 369088
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/095_song_hai_xia_2016_03_01_368556_ADC2_0000_0.nii.gz 368556
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/096_lin_qing_shen_2016_04_14_378051_ADC2_0000_0.nii.gz 378051
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/098_duan_feng_lan_2016_04_21_378201_ADC2_0000_0.nii.gz 378201
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/099_du_zhao_qin_2016_04_27_385712_ADC2_0000_0.nii.gz 385712
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/100_wang_yue_qin_2016_07_18_400729_ADC2_0000_0.nii.gz 400729
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/101_wang_xiu_xin_2016_05_18_386575_ADC2_0000_1.nii.gz 386575
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/102_wang_gui_ying_2016_05_24_386987_ADC2_0000_0.nii.gz 386987
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/103_han_hong_xi_2016_06_03_395371_ADC2_0000_0.nii.gz 395371
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/105_chi_ping_ping_2016_07_21_401113_ADC2_0000_0.nii.gz 401113
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/106_lv_chun_ying_2016_05_31_394222_ADC2_0000_0.nii.gz 394222
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/107_gao_li_hong_2016_07_08_400465_ADC2_0000_0.nii.gz 400465
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/108_gao_rong_lan_2016_09_12_403411_ADC2_0000_0.nii.gz 403411
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/109_xie_pei_xiang_2016_07_05_400112_ADC2_0000_0.nii.gz 400112
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/110_chi_jun_2016_07_01_400096_ADC2_0000_1.nii.gz 400096
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/112_zhang_guo_lian_2016_09_08_403355_ADC2_0000_0.nii.gz 403355
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/113_zhang_min_2016_06_13_395745_ADC2_0000_1.nii.gz 395745
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/116_geng_qiao_huan_2016_08_29_402674_ADC2_0000_0.nii.gz 402674
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/119_wang_yu_min_2016_08_11_401951_ADC2_0000_1.nii.gz 401951
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/123_zhang_zai_yun_2016_11_14_422582_ADC2_0000_1.nii.gz 422582
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/124_wang_zhen_hua_2016_09_06_403210_ADC2_0000_1.nii.gz 403210
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/125_gao_shu_fen_2016_12_06_423679_ADC2_0000_1.nii.gz 423679
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/127_liu_ming_xia_2016_12_01_423505_ADC2_0000_0.nii.gz 423505
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/131_wang_xin_hong_2016_11_14_422449_ADC2_0000_0.nii.gz 422449
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/133_song_shu_ying_2016_12_29_424744_ADC2_0000_0.nii.gz 424744
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/134_zhang_hong_2016_11_14_422659_ADC2_0000_0.nii.gz 422659
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/136_zhu_ai_xiang_2017_02_07_426275_ADC2_0000_0.nii.gz 426275
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/137_li_feng_ling_2017_02_15_426718_ADC2_0000_0.nii.gz 426718
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/139_yu_tao_2019_01_22_522578_ADC2_0000_0.nii.gz 522578
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/142_xue_yu_ai_2019_03_08_525171_ADC2_0000_0.nii.gz 525171
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/143_wang_chun_ming_2019_03_15_525898_ADC2_0000_1.nii.gz 525898
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/144_shi_lian_zhen_2019_04_23_528770_ADC2_0000_0.nii.gz 528770
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/145_qiu_hui_xia_2019_03_12_525728_ADC2_0000_0.nii.gz 525728
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/147_zeng_xiang_yong_2019_03_29_526972_ADC2_0000_0.nii.gz 526972
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/148_zhang_jian_mei_2019_05_30_532173_ADC2_0000_1.nii.gz 532173
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/149_zheng_shu_juan_2019_04_10_527585_ADC2_0000_0.nii.gz 527585
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/150_man_gui_xiang_2019_07_02_534012_ADC2_0000_1.nii.gz 534012
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/154_leng_yue_hua_2019_05_23_530981_ADC2_0000_0.nii.gz 530981
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/155_xi_xiu_zhen_2019_05_22_531235_ADC2_0000_0.nii.gz 531235
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/157_yin_mei_2019_06_21_533305_ADC2_0000_1.nii.gz 533305
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/159_chang_ren_yuan_2019_07_12_534994_ADC2_0000_1.nii.gz 534994
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/160_yan_cui_2019_07_17_535156_ADC2_0000_0.nii.gz 535156
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/161_qian_an_na_2019_06_19_533141_ADC2_0000_0.nii.gz 533141
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/162_xing_rui_xue_2019_07_17_535111_ADC2_0000_0.nii.gz 535111
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/164_li_mei_ping_2019_09_05_538771_ADC2_0000_0.nii.gz 538771
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/165_liu_xue_fen_2019_08_26_537969_ADC2_0000_0.nii.gz 537969
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/166_man_jin_xiu_2019_08_08_536715_ADC2_0000_0.nii.gz 536715
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/168_zhang_chun_hua_2019_08_12_536923_ADC2_0000_0.nii.gz 536923
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/171_nie_zheng_ying_2019_09_24_540189_ADC2_0000_0.nii.gz 540189
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/172_wang_hong_xin_2019_09_11_539247_ADC2_0000_1.nii.gz 539247
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/173_yin_yan_feng_2019_09_20_539938_ADC2_0000_0.nii.gz 539938
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/175_wang_gui_ying_2019_10_08_540902_ADC2_0000_0.nii.gz 540902
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/176_deng_xue_ling_2019_10_18_542012_ADC2_0000_1.nii.gz 542012
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/179_jiang_li_2019_11_11_543546_ADC2_0000_0.nii.gz 543546
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/181_zhang_qiu_ju_543884_ADC2_0000_0.nii.gz 543884
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/182_dai_ying_ying_544900_ADC2_0000_0.nii.gz 544900
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/183_chen_ming_lian_543094_ADC2_0000_0.nii.gz 543094
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/184_wang_yi_juan_544418_ADC2_0000_1.nii.gz 544418
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/185_zhang_jun_fang_542209_ADC2_0000_1.nii.gz 542209
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/186_li_hong_xiang_543926_ADC2_0000_0.nii.gz 543926
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/188_xiao_gui_ying_544429_ADC2_0000_0.nii.gz 544429
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/190_wang_hai_yan_546193_ADC2_0000_0.nii.gz 546193
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/191_lv_xiao_pei_549581_ADC2_0000_0.nii.gz 549581
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/194_cui_wen_mei_549176_ADC2_0000_1.nii.gz 549176
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/196_liu_ru_yan_548651_ADC2_0000_0.nii.gz 548651
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/198_zhang_xin_hong_566006_ADC2_0000_0.nii.gz 566006
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/208_liu_gui_e_564002_ADC2_0000_0.nii.gz 564002
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/214_xing_feng_xia_567228_ADC2_0000_0.nii.gz 567228
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/221_du_xiu_yun_565291_ADC2_0000_1.nii.gz 565291
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/227_wang_li_ping_571461_ADC2_0000_1.nii.gz 571461
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/233_ya_jian_jun_569773_ADC2_0000_1.nii.gz 569773
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/238_xiong_fu_hua_574375_ADC2_0000_0.nii.gz 574375
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/239_li_xia_576449_ADC2_0000_1.nii.gz 576449
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/244_wang_gui_zhi_568630_ADC2_0000_1.nii.gz 568630
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/251_zuo_xiao_li_576195_ADC2_0000_1.nii.gz 576195
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/260_li_hong_xia_574715_ADC2_0000_0.nii.gz 574715
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/264_huang_fang_574476_ADC2_0000_0.nii.gz 574476
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/267_kong_xiang_mei_576570_ADC2_0000_1.nii.gz 576570
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/272_wang_wen_zhen_579053_ADC2_0000_0.nii.gz 579053
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/273_bao_jin_cui_581012_ADC2_0000_0.nii.gz 581012
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/274_wang_li_na_581496_ADC2_0000_1.nii.gz 581496
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/275_chen_ping_583110_ADC2_0000_1.nii.gz 583110
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/276_zhao_wei_ling_578804_ADC2_0000_1.nii.gz 578804
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/278_wen_yu_zhi_579620_ADC2_0000_1.nii.gz 579620
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/279_dou_yu_hua_582075_ADC2_0000_1.nii.gz 582075
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/280_zhao_dong_min_583250_ADC2_0000_0.nii.gz 583250
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/282_hou_rui_ying_582658_ADC2_0000_1.nii.gz 582658
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/283_wang_li_jie_587826_ADC2_0000_1.nii.gz 587826
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/285_zhao_yan_li_584020_ADC2_0000_0.nii.gz 584020
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/286_bu_ling_ling_582918_ADC2_0000_0.nii.gz 582918
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/287_liu_ying_587077_ADC2_0000_1.nii.gz 587077
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/288_cheng_gui_lan_586648_ADC2_0000_0.nii.gz 586648
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/290_liu_yang_584624_ADC2_0000_0.nii.gz 584624
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/293_yuan_chun_lan_581707_ADC2_0000_0.nii.gz 581707
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/294_wang_quan_hua_585203_ADC2_0000_0.nii.gz 585203
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/295_wang_yu_bo_582629_ADC2_0000_1.nii.gz 582629
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/296_liu_tian_tian_589233_ADC2_0000_1.nii.gz 589233
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/297_wang_jing_591833_ADC2_0000_0.nii.gz 591833
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/298_li_mei_585389_ADC2_0000_0.nii.gz 585389
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/300_meng_guang_xin_587029_ADC2_0000_0.nii.gz 587029
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/301_song_yu_min_587112_ADC2_0000_0.nii.gz 587112
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/302_du_ji_hong_584227_ADC2_0000_1.nii.gz 584227
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/303_hou_su_fang_587940_ADC2_0000_1.nii.gz 587940
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/304_zhang_yu_ying_585865_ADC2_0000_0.nii.gz 585865
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/305_li_zhang_song_585399_ADC2_0000_0.nii.gz 585399
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/306_jiang_li_hui_587435_ADC2_0000_1.nii.gz 587435
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/307_zhang_xiao_hua_590045_ADC2_0000_1.nii.gz 590045
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/308_chen_ping_587772_ADC2_0000_0.nii.gz 587772
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/309_wang_wei_zhen_587314_ADC2_0000_0.nii.gz 587314
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/310_qu_qin_586556_ADC2_0000_0.nii.gz 586556
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/312_leng_rui_ling_594887_ADC2_0000_0.nii.gz 594887
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/313_xu_hui_qian_587420_ADC2_0000_0.nii.gz 587420
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/314_ma_yu_zhen_584385_ADC2_0000_1.nii.gz 584385
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/316_wei_nai_hua_589469_ADC2_0000_0.nii.gz 589469
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/318_feng_yu_rong_585697_ADC2_0000_1.nii.gz 585697
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/319_li_dong_xia_585178_ADC2_0000_0.nii.gz 585178
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/320_jia_en_fang_588771_ADC2_0000_1.nii.gz 588771
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/321_yang_xiu_mei_588048_ADC2_0000_0.nii.gz 588048
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/322_li_wen_ying_590207_ADC2_0000_0.nii.gz 590207
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/323_pan_hong_yan_598098_ADC2_0000_0.nii.gz 598098
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/324_ma_xiao_fen_586532_ADC2_0000_1.nii.gz 586532
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/325_song_yu_lian_584222_ADC2_0000_1.nii.gz 584222
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/326_li_ai_ping_591472_ADC2_0000_1.nii.gz 591472
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/327_zang_cui_min_588193_ADC2_0000_1.nii.gz 588193
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/328_liang_li_593161_ADC2_0000_1.nii.gz 593161
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/329_ou_rui_fang_592051_ADC2_0000_0.nii.gz 592051
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/330_li_xin_qin_593237_ADC2_0000_0.nii.gz 593237
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/331_xu_feng_ling_590451_ADC2_0000_1.nii.gz 590451
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/333_yang_chun_hua_588724_ADC2_0000_0.nii.gz 588724
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/334_jiang_an_shu_590279_ADC2_0000_1.nii.gz 590279
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/336_gao_yan_588293_ADC2_0000_0.nii.gz 588293
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/337_wang_qiu_rong_592458_ADC2_0000_1.nii.gz 592458
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/339_zhou_rong_594807_ADC2_0000_0.nii.gz 594807
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/340_li_chun_yu_592858_ADC2_0000_0.nii.gz 592858
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/345_wu_yu_zhuo_593180_ADC2_0000_0.nii.gz 593180
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/346_gao_xiu_ling_595242_ADC2_0000_1.nii.gz 595242
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/347_cao_gui_ying_593145_ADC2_0000_1.nii.gz 593145
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/348_ren_guo_ying_592998_ADC2_0000_0.nii.gz 592998
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/349_liu_jun_yan_596453_ADC2_0000_0.nii.gz 596453
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/350_song_yan_ni_595531_ADC2_0000_1.nii.gz 595531
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/351_ma_jing_rui_589717_ADC2_0000_0.nii.gz 589717
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/353_wu_hong_mei_596790_ADC2_0000_1.nii.gz 596790
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/354_leng_li_591897_ADC2_0000_0.nii.gz 591897
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/355_yu_hai_tao_594927_ADC2_0000_0.nii.gz 594927
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/356_gu_mei_lan_597387_ADC2_0000_1.nii.gz 597387
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/357_wang_sheng_qing_590693_ADC2_0000_1.nii.gz 590693
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/358_peng_liang_xiao_594307_ADC2_0000_1.nii.gz 594307
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/359_zheng_gui_ying_597251_ADC2_0000_1.nii.gz 597251
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/364_wang_chun_lan_597508_ADC2_0000_0.nii.gz 597508
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/369_gu_cui_juan_599121_ADC2_0000_1.nii.gz 599121
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/377_yan_xian_ling_595737_ADC2_0000_1.nii.gz 595737
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/383_zhang_xuan_xuan_596333_ADC2_0000_0.nii.gz 596333
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/391_zhang_yan_ling_601350_ADC2_0000_0.nii.gz 601350
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/394_xin_gui_lan_596269_ADC2_0000_1.nii.gz 596269
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/401_ren_zhen_xia_603256_ADC2_0000_1.nii.gz 603256
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/403_yu_qing_hua_599188_ADC2_0000_1.nii.gz 599188
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/404_pang_yu_xia_598907_ADC2_0000_1.nii.gz 598907
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/405_sheng_qing_juan_598443_ADC2_0000_0.nii.gz 598443
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/406_yang_xi_gui_598600_ADC2_0000_0.nii.gz 598600
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/407_li_guang_xia_600866_ADC2_0000_0.nii.gz 600866
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/409_pan_hui_yan_608748_ADC2_0000_1.nii.gz 608748
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/418_wu_chun_qin_608264_ADC2_0000_1.nii.gz 608264
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/438_gao_yang_613732_ADC2_0000_0.nii.gz 613732
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/441_liu_li_li_614176_ADC2_0000_1.nii.gz 614176
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/446_liu_qiu_ying_614872_ADC2_0000_0.nii.gz 614872
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/452_cui_li_li_620018_ADC2_0000_1.nii.gz 620018
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/453_wanghong_619534_ADC2_0000_1.nii.gz 619534
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/455_zhu_li_li_620844_ADC2_0000_1.nii.gz 620844
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/456_dong_su_zhen_619139_ADC2_0000_1.nii.gz 619139
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/458_fan_qing_yun_617626_ADC2_0000_1.nii.gz 617626
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/460_liuguizhi_621613_ADC2_0000_1.nii.gz 621613
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/463_wang_xiao_feng_614780_ADC2_0000_1.nii.gz 614780
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/464_nie_hui_620883_ADC2_0000_1.nii.gz 620883
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/467_sui_yan_ping_625064_ADC2_0000_0.nii.gz 625064
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/468_sun_xue_hua_617231_ADC2_0000_0.nii.gz 617231
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/469_leng_hai_yan_625298_ADC2_0000_0.nii.gz 625298
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/482_zhang_ai_ling_627864_ADC2_0000_1.nii.gz 627864
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/492_li_yi_jun_634971_ADC2_0000_0.nii.gz 634971
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/493_yu_gui_hua_630559_ADC2_0000_1.nii.gz 630559
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/497_geng_qing_fang_632239_ADC2_0000_1.nii.gz 632239
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/506_gao_lei_lei_635663_ADC2_0000_1.nii.gz 635663
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/508_gao_jian_630177_ADC2_0000_0.nii.gz 630177
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/510_wu_xiu_ju_637159_ADC2_0000_0.nii.gz 637159
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/511_wang_hong_xia_637003_ADC2_0000_1.nii.gz 637003
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/512_fan_mei_qin_634919_ADC2_0000_1.nii.gz 634919
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/513_li_xian_mei_203145_ADC2_0000_1.nii.gz 203145
+/app/liucd/deeplearn_dec/DL_dec/data_adc/shandong/Mixed/516_xu_feng_hua_637730_ADC2_0000_0.nii.gz 637730
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/001_1323771_ADC2_0000_0.nii.gz 1323771
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/002_1331323_ADC2_0000_1.nii.gz 1331323
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/003_1313404_ADC2_0000_0.nii.gz 1313404
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/004_1332600_ADC2_0000_0.nii.gz 1332600
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/005_1348448_ADC2_0000_0.nii.gz 1348448
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/006_1343706_ADC2_0000_0.nii.gz 1343706
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/007_1348552_ADC2_0000_0.nii.gz 1348552
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/008_1265583_ADC2_0000_1.nii.gz 1265583
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/009_1267172_ADC2_0000_0.nii.gz 1267172
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/010_1258244_ADC2_0000_0.nii.gz 1258244
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/011_1696930_ADC2_0000_0.nii.gz 1696930
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/012_1703403_ADC2_0000_0.nii.gz 1703403
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/013_1700366_ADC2_0000_0.nii.gz 1700366
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/014_1708085_ADC2_0000_0.nii.gz 1708085
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/015_1700183_ADC2_0000_0.nii.gz 1700183
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/016_1698525_ADC2_0000_0.nii.gz 1698525
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/017_1677800_ADC2_0000_0.nii.gz 1677800
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/018_1693140_ADC2_0000_0.nii.gz 1693140
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/019_1669169_ADC2_0000_0.nii.gz 1669169
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/020_1690740_ADC2_0000_0.nii.gz 1690740
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/021_1690492_ADC2_0000_0.nii.gz 1690492
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/022_1690992_ADC2_0000_0.nii.gz 1690992
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/023_1684215_ADC2_0000_0.nii.gz 1684215
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/024_1685620_ADC2_0000_1.nii.gz 1685620
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/025_1680882_ADC2_0000_0.nii.gz 1680882
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/026_1691172_ADC2_0000_0.nii.gz 1691172
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/027_1684821_ADC2_0000_0.nii.gz 1684821
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/028_1673058_ADC2_0000_0.nii.gz 1673058
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/029_1684845_ADC2_0000_0.nii.gz 1684845
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/030_1684360_ADC2_0000_0.nii.gz 1684360
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/031_1668124_ADC2_0000_1.nii.gz 1668124
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/032_1671510_ADC2_0000_0.nii.gz 1671510
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/033_1638845_ADC2_0000_0.nii.gz 1638845
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/034_1673180_ADC2_0000_0.nii.gz 1673180
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/035_1682036_ADC2_0000_1.nii.gz 1682036
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/036_1647704_ADC2_0000_0.nii.gz 1647704
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/037_1678332_ADC2_0000_0.nii.gz 1678332
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/038_1653262_ADC2_0000_0.nii.gz 1653262
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/039_1656905_ADC2_0000_1.nii.gz 1656905
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/040_1653717_ADC2_0000_0.nii.gz 1653717
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/041_1642654_ADC2_0000_0.nii.gz 1642654
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/042_1653084_ADC2_0000_0.nii.gz 1653084
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/043_1651364_ADC2_0000_0.nii.gz 1651364
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/044_974548_ADC2_0000_0.nii.gz 974548
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/045_1644797_ADC2_0000_0.nii.gz 1644797
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/046_1642397_ADC2_0000_0.nii.gz 1642397
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/047_1639900_ADC2_0000_0.nii.gz 1639900
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/048_1642272_ADC2_0000_0.nii.gz 1642272
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/049_1640644_ADC2_0000_0.nii.gz 1640644
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/050_1648732_ADC2_0000_0.nii.gz 1648732
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/051_1639735_ADC2_0000_1.nii.gz 1639735
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/052_1639197_ADC2_0000_0.nii.gz 1639197
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/053_1640840_ADC2_0000_0.nii.gz 1640840
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/054_1638169_ADC2_0000_0.nii.gz 1638169
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/055_1637483_ADC2_0000_0.nii.gz 1637483
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/056_1638920_ADC2_0000_0.nii.gz 1638920
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/057_1637881_ADC2_0000_0.nii.gz 1637881
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/058_1606270_ADC2_0000_0.nii.gz 1606270
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/059_1599423_ADC2_0000_0.nii.gz 1599423
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/060_1573938_ADC2_0000_0.nii.gz 1573938
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/061_1578103_ADC2_0000_1.nii.gz 1578103
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/062_1576270_ADC2_0000_0.nii.gz 1576270
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/063_1571569_ADC2_0000_1.nii.gz 1571569
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/064_1574318_ADC2_0000_0.nii.gz 1574318
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/065_1569008_ADC2_0000_1.nii.gz 1569008
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/066_1564521_ADC2_0000_1.nii.gz 1564521
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/067_1563050_ADC2_0000_0.nii.gz 1563050
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/068_1536694_ADC2_0000_0.nii.gz 1536694
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/069_1542074_ADC2_0000_0.nii.gz 1542074
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/070_1537817_ADC2_0000_0.nii.gz 1537817
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/071_1536273_ADC2_0000_0.nii.gz 1536273
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/072_1533592_ADC2_0000_1.nii.gz 1533592
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/073_1522707_ADC2_0000_0.nii.gz 1522707
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/074_1519821_ADC2_0000_1.nii.gz 1519821
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/075_1506062_ADC2_0000_0.nii.gz 1506062
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/076_1498593_ADC2_0000_1.nii.gz 1498593
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/077_1402572_ADC2_0000_0.nii.gz 1402572
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/078_1390385_ADC2_0000_0.nii.gz 1390385
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/079_1388036_ADC2_0000_0.nii.gz 1388036
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/080_1686143_ADC2_0000_0.nii.gz 1686143
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/081_1662146_ADC2_0000_0.nii.gz 1662146
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/082_1679059_ADC2_0000_0.nii.gz 1679059
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/083_1659617_ADC2_0000_0.nii.gz 1659617
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/084_1651712_ADC2_0000_0.nii.gz 1651712
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/085_1579721_ADC2_0000_0.nii.gz 1579721
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/086_1640697_ADC2_0000_0.nii.gz 1640697
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/088_1773709_ADC2_0000_0.nii.gz 1773709
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/089_1746992_ADC2_0000_0.nii.gz 1746992
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/090_1750612_ADC2_0000_0.nii.gz 1750612
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/091_1750103_ADC2_0000_0.nii.gz 1750103
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/093_1694390_ADC2_0000_0.nii.gz 1694390
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/094_1724763_ADC2_0000_0.nii.gz 1724763
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/095_1709296_ADC2_0000_0.nii.gz 1709296
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/096_1689610_ADC2_0000_0.nii.gz 1689610
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/097_1690519_ADC2_0000_0.nii.gz 1690519
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/098_1257976_ADC2_0000_0.nii.gz 1257976
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/099_1680561_ADC2_0000_0.nii.gz 1680561
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/101_1684076_ADC2_0000_0.nii.gz 1684076
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/102_1677477_ADC2_0000_1.nii.gz 1677477
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/103_1660563_ADC2_0000_0.nii.gz 1660563
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/104_1559412_ADC2_0000_0.nii.gz 1559412
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/105_1482502_ADC2_0000_0.nii.gz 1482502
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/106_1338482_ADC2_0000_0.nii.gz 1338482
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/107_1653859_ADC2_0000_0.nii.gz 1653859
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/108_1636079_ADC2_0000_0.nii.gz 1636079
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/109_1624497_ADC2_0000_1.nii.gz 1624497
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/110_1618247_ADC2_0000_0.nii.gz 1618247
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/111_1619272_ADC2_0000_0.nii.gz 1619272
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/112_1490363_ADC2_0000_0.nii.gz 1490363
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/113_1399951_ADC2_0000_0.nii.gz 1399951
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/115_815223_ADC2_0000_0.nii.gz 815223
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/116_1253741_ADC2_0000_0.nii.gz 1253741
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/117_1262909_ADC2_0000_0.nii.gz 1262909
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/118_1260117_ADC2_0000_0.nii.gz 1260117
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/120_1692217_ADC2_0000_0.nii.gz 1692217
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/121_1670502_ADC2_0000_0.nii.gz 1670502
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/122_1652904_ADC2_0000_0.nii.gz 1652904
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/123_1641272_ADC2_0000_0.nii.gz 1641272
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/124_1652017_ADC2_0000_0.nii.gz 1652017
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/125_1766941_ADC2_0000_0.nii.gz 1766941
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/126_1707453_ADC2_0000_0.nii.gz 1707453
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/127_1703868_ADC2_0000_0.nii.gz 1703868
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/128_1685375_ADC2_0000_0.nii.gz 1685375
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/129_1256892_ADC2_0000_0.nii.gz 1256892
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/130_1263063_ADC2_0000_0.nii.gz 1263063
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/131_1706511_ADC2_0000_0.nii.gz 1706511
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/132_1682093_ADC2_0000_0.nii.gz 1682093
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/133_1670846_ADC2_0000_1.nii.gz 1670846
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/134_1646031_ADC2_0000_0.nii.gz 1646031
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/135_1520410_ADC2_0000_0.nii.gz 1520410
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/136_1415020_ADC2_0000_0.nii.gz 1415020
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/137_1406226_ADC2_0000_0.nii.gz 1406226
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/138_1332731_ADC2_0000_0.nii.gz 1332731
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/139_1345547_ADC2_0000_0.nii.gz 1345547
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/140_1334353_ADC2_0000_0.nii.gz 1334353
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/141_1328014_ADC2_0000_1.nii.gz 1328014
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/142_1351878_ADC2_0000_1.nii.gz 1351878
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/143_1344984_ADC2_0000_1.nii.gz 1344984
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/144_1636134_ADC2_0000_0.nii.gz 1636134
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/145_1627570_ADC2_0000_0.nii.gz 1627570
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/146_1616199_ADC2_0000_0.nii.gz 1616199
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/147_1591761_ADC2_0000_0.nii.gz 1591761
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/148_1591637_ADC2_0000_0.nii.gz 1591637
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/149_1581632_ADC2_0000_1.nii.gz 1581632
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/150_1572653_ADC2_0000_0.nii.gz 1572653
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/151_1559408_ADC2_0000_0.nii.gz 1559408
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/152_1529885_ADC2_0000_0.nii.gz 1529885
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/153_1523219_ADC2_0000_0.nii.gz 1523219
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/154_1509945_ADC2_0000_1.nii.gz 1509945
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/155_1505094_ADC2_0000_0.nii.gz 1505094
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/156_1502440_ADC2_0000_0.nii.gz 1502440
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/157_1488599_ADC2_0000_0.nii.gz 1488599
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/158_1500646_ADC2_0000_0.nii.gz 1500646
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/159_1705849_ADC2_0000_0.nii.gz 1705849
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/160_1337416_ADC2_0000_0.nii.gz 1337416
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/161_1332024_ADC2_0000_0.nii.gz 1332024
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/162_1328938_ADC2_0000_1.nii.gz 1328938
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/163_1344989_ADC2_0000_0.nii.gz 1344989
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/164_1357454_ADC2_0000_0.nii.gz 1357454
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/165_1259157_ADC2_0000_0.nii.gz 1259157
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/166_1262309_ADC2_0000_0.nii.gz 1262309
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/167_1242391_ADC2_0000_0.nii.gz 1242391
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/168_1262127_ADC2_0000_0.nii.gz 1262127
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/169_1701070_ADC2_0000_0.nii.gz 1701070
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/170_1699065_ADC2_0000_0.nii.gz 1699065
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/171_1673193_ADC2_0000_0.nii.gz 1673193
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/172_1677559_ADC2_0000_1.nii.gz 1677559
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/173_1654640_ADC2_0000_0.nii.gz 1654640
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/174_1672191_ADC2_0000_0.nii.gz 1672191
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/175_1670335_ADC2_0000_0.nii.gz 1670335
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/176_1648344_ADC2_0000_0.nii.gz 1648344
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/177_726816_ADC2_0000_0.nii.gz 726816
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/178_1648697_ADC2_0000_0.nii.gz 1648697
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/179_1644512_ADC2_0000_0.nii.gz 1644512
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/180_1604330_ADC2_0000_0.nii.gz 1604330
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/181_1599228_ADC2_0000_0.nii.gz 1599228
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/182_1588320_ADC2_0000_0.nii.gz 1588320
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/183_1595719_ADC2_0000_0.nii.gz 1595719
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/184_1561023_ADC2_0000_0.nii.gz 1561023
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/185_1570312_ADC2_0000_0.nii.gz 1570312
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/186_1536239_ADC2_0000_0.nii.gz 1536239
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/187_1539409_ADC2_0000_0.nii.gz 1539409
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/188_1510478_ADC2_0000_0.nii.gz 1510478
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/189_1501227_ADC2_0000_0.nii.gz 1501227
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/190_1412562_ADC2_0000_0.nii.gz 1412562
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/191_1683668_ADC2_0000_0.nii.gz 1683668
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/192_1664056_ADC2_0000_0.nii.gz 1664056
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/193_1735400_ADC2_0000_0.nii.gz 1735400
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/194_1730815_ADC2_0000_0.nii.gz 1730815
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/195_1706051_ADC2_0000_0.nii.gz 1706051
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/196_1651015_ADC2_0000_0.nii.gz 1651015
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/197_1594466_ADC2_0000_0.nii.gz 1594466
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/198_1370423_ADC2_0000_0.nii.gz 1370423
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/199_1693949_ADC2_0000_0.nii.gz 1693949
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/200_1574691_ADC2_0000_0.nii.gz 1574691
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/201_1388069_ADC2_0000_0.nii.gz 1388069
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/202_1555420_ADC2_0000_0.nii.gz 1555420
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/203_1696554_ADC2_0000_0.nii.gz 1696554
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/204_1689901_ADC2_0000_0.nii.gz 1689901
+/app/liucd/deeplearn_dec/DL_dec/data_adc/yizhong/Mixed/205_1510029_ADC2_0000_0.nii.gz 1510029
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/001_1697500_ADC2_0000_0.nii.gz 1697500
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/003_1489632_ADC2_0000_0.nii.gz 1489632
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/004_1592901_ADC2_0000_0.nii.gz 1592901
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/005_1534974_ADC2_0000_1.nii.gz 1534974
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/006_1475441_ADC2_0000_0.nii.gz 1475441
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/007_1816892_ADC2_0000_1.nii.gz 1816892
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/012_1811716_ADC2_0000_0.nii.gz 1811716
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/014_1808076_ADC2_0000_0.nii.gz 1808076
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/017_1806421_ADC2_0000_1.nii.gz 1806421
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/023_1798070_ADC2_0000_0.nii.gz 1798070
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/024_1797336_ADC2_0000_0.nii.gz 1797336
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/025_1796965_ADC2_0000_0.nii.gz 1796965
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/026_1796116_ADC2_0000_1.nii.gz 1796116
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/028_1794173_ADC2_0000_0.nii.gz 1794173
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/029_1793301_ADC2_0000_0.nii.gz 1793301
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/031_1789119_ADC2_0000_0.nii.gz 1789119
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/032_1787154_ADC2_0000_1.nii.gz 1787154
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/033_1784071_ADC2_0000_0.nii.gz 1784071
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/035_1768924_ADC2_0000_1.nii.gz 1768924
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/036_1768799_ADC2_0000_0.nii.gz 1768799
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/037_1766683_ADC2_0000_1.nii.gz 1766683
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/039_1764380_ADC2_0000_1.nii.gz 1764380
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/040_1763996_ADC2_0000_1.nii.gz 1763996
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/042_1760764_ADC2_0000_0.nii.gz 1760764
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/044_1760511_ADC2_0000_0.nii.gz 1760511
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/045_1760507_ADC2_0000_1.nii.gz 1760507
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/046_1757844_ADC2_0000_0.nii.gz 1757844
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/048_1756530_ADC2_0000_0.nii.gz 1756530
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/049_1756073_ADC2_0000_0.nii.gz 1756073
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/051_1755375_ADC2_0000_0.nii.gz 1755375
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/052_1754105_ADC2_0000_0.nii.gz 1754105
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/053_1753561_ADC2_0000_1.nii.gz 1753561
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/056_1748411_ADC2_0000_1.nii.gz 1748411
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/057_1747971_ADC2_0000_1.nii.gz 1747971
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/059_1747071_ADC2_0000_1.nii.gz 1747071
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/060_1746871_ADC2_0000_0.nii.gz 1746871
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/061_1744075_ADC2_0000_0.nii.gz 1744075
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/062_1743479_ADC2_0000_1.nii.gz 1743479
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/063_1743426_ADC2_0000_1.nii.gz 1743426
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/064_1742732_ADC2_0000_1.nii.gz 1742732
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/065_1742684_ADC2_0000_0.nii.gz 1742684
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/066_1742560_ADC2_0000_0.nii.gz 1742560
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/068_1741867_ADC2_0000_0.nii.gz 1741867
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/071_1739269_ADC2_0000_0.nii.gz 1739269
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/072_1738420_ADC2_0000_0.nii.gz 1738420
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/073_1735886_ADC2_0000_1.nii.gz 1735886
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/074_1734882_ADC2_0000_0.nii.gz 1734882
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/076_1733095_ADC2_0000_0.nii.gz 1733095
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/078_1732297_ADC2_0000_0.nii.gz 1732297
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/080_1730535_ADC2_0000_1.nii.gz 1730535
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/081_1730197_ADC2_0000_0.nii.gz 1730197
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/082_1727894_ADC2_0000_1.nii.gz 1727894
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/083_1727270_ADC2_0000_0.nii.gz 1727270
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/084_1727176_ADC2_0000_1.nii.gz 1727176
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/085_1726743_ADC2_0000_0.nii.gz 1726743
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/087_1726490_ADC2_0000_1.nii.gz 1726490
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/088_1726198_ADC2_0000_0.nii.gz 1726198
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/089_1726047_ADC2_0000_0.nii.gz 1726047
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/090_1725109_ADC2_0000_0.nii.gz 1725109
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/091_1723677_ADC2_0000_1.nii.gz 1723677
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/092_1722869_ADC2_0000_0.nii.gz 1722869
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/093_1722162_ADC2_0000_1.nii.gz 1722162
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/094_1721323_ADC2_0000_1.nii.gz 1721323
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/095_1721162_ADC2_0000_1.nii.gz 1721162
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/096_1720644_ADC2_0000_0.nii.gz 1720644
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/097_1720622_ADC2_0000_0.nii.gz 1720622
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/098_1719907_ADC2_0000_1.nii.gz 1719907
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/099_1719465_ADC2_0000_1.nii.gz 1719465
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/100_1718055_ADC2_0000_1.nii.gz 1718055
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/101_1716819_ADC2_0000_0.nii.gz 1716819
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/102_1714040_ADC2_0000_1.nii.gz 1714040
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/103_1711157_ADC2_0000_0.nii.gz 1711157
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/105_1710773_ADC2_0000_0.nii.gz 1710773
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/106_1710372_ADC2_0000_1.nii.gz 1710372
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/107_1710138_ADC2_0000_1.nii.gz 1710138
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/109_1709537_ADC2_0000_1.nii.gz 1709537
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/111_1708100_ADC2_0000_0.nii.gz 1708100
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/112_1708091_ADC2_0000_1.nii.gz 1708091
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/113_1706967_ADC2_0000_0.nii.gz 1706967
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/114_1706770_ADC2_0000_1.nii.gz 1706770
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/116_1703447_ADC2_0000_0.nii.gz 1703447
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/117_1702728_ADC2_0000_0.nii.gz 1702728
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/119_1700829_ADC2_0000_1.nii.gz 1700829
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/120_1699600_ADC2_0000_0.nii.gz 1699600
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/121_1699066_ADC2_0000_0.nii.gz 1699066
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/122_1698713_ADC2_0000_0.nii.gz 1698713
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/123_1697020_ADC2_0000_1.nii.gz 1697020
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/124_1696924_ADC2_0000_0.nii.gz 1696924
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/125_1696741_ADC2_0000_1.nii.gz 1696741
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/126_1696486_ADC2_0000_0.nii.gz 1696486
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/127_1695516_ADC2_0000_1.nii.gz 1695516
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/128_1695244_ADC2_0000_1.nii.gz 1695244
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/129_1694640_ADC2_0000_0.nii.gz 1694640
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/130_1694125_ADC2_0000_1.nii.gz 1694125
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/131_1693108_ADC2_0000_0.nii.gz 1693108
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/132_1692846_ADC2_0000_1.nii.gz 1692846
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/133_1692840_ADC2_0000_1.nii.gz 1692840
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/135_1691596_ADC2_0000_0.nii.gz 1691596
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/136_1691149_ADC2_0000_1.nii.gz 1691149
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/137_1690793_ADC2_0000_1.nii.gz 1690793
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/138_1690585_ADC2_0000_0.nii.gz 1690585
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/139_1689827_ADC2_0000_1.nii.gz 1689827
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/140_1689580_ADC2_0000_0.nii.gz 1689580
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/142_1687287_ADC2_0000_1.nii.gz 1687287
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/143_1686243_ADC2_0000_1.nii.gz 1686243
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/144_1685977_ADC2_0000_0.nii.gz 1685977
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/145_1683340_ADC2_0000_1.nii.gz 1683340
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/146_1681111_ADC2_0000_1.nii.gz 1681111
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/148_1679317_ADC2_0000_0.nii.gz 1679317
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/150_1675893_ADC2_0000_1.nii.gz 1675893
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/151_1675812_ADC2_0000_0.nii.gz 1675812
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/152_1675406_ADC2_0000_1.nii.gz 1675406
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/153_1673623_ADC2_0000_1.nii.gz 1673623
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/154_1672946_ADC2_0000_1.nii.gz 1672946
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/155_1667263_ADC2_0000_0.nii.gz 1667263
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/156_1666439_ADC2_0000_0.nii.gz 1666439
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/157_1664063_ADC2_0000_0.nii.gz 1664063
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/158_1662229_ADC2_0000_0.nii.gz 1662229
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/159_1662110_ADC2_0000_1.nii.gz 1662110
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/160_1662008_ADC2_0000_0.nii.gz 1662008
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/161_1661234_ADC2_0000_1.nii.gz 1661234
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/162_1660347_ADC2_0000_1.nii.gz 1660347
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/163_1659175_ADC2_0000_1.nii.gz 1659175
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/164_1658989_ADC2_0000_0.nii.gz 1658989
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/165_1658847_ADC2_0000_1.nii.gz 1658847
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/168_1657181_ADC2_0000_0.nii.gz 1657181
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/169_1656706_ADC2_0000_1.nii.gz 1656706
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/170_1656564_ADC2_0000_0.nii.gz 1656564
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/171_1655231_ADC2_0000_1.nii.gz 1655231
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/172_1654381_ADC2_0000_0.nii.gz 1654381
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/173_1653041_ADC2_0000_0.nii.gz 1653041
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/174_1652554_ADC2_0000_0.nii.gz 1652554
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/177_1650771_ADC2_0000_0.nii.gz 1650771
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/178_1650439_ADC2_0000_1.nii.gz 1650439
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/179_1649727_ADC2_0000_0.nii.gz 1649727
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/180_1648859_ADC2_0000_1.nii.gz 1648859
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/181_1648732_ADC2_0000_0.nii.gz 1648732
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/185_1644346_ADC2_0000_0.nii.gz 1644346
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/186_1643992_ADC2_0000_0.nii.gz 1643992
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/189_1642001_ADC2_0000_0.nii.gz 1642001
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/190_1641823_ADC2_0000_1.nii.gz 1641823
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/192_1636744_ADC2_0000_1.nii.gz 1636744
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/201_1601066_ADC2_0000_0.nii.gz 1601066
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/204_1598361_ADC2_0000_1.nii.gz 1598361
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/205_1598097_ADC2_0000_1.nii.gz 1598097
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/206_1596196_ADC2_0000_0.nii.gz 1596196
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/207_1594262_ADC2_0000_1.nii.gz 1594262
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/208_1593145_ADC2_0000_1.nii.gz 1593145
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/210_1589931_ADC2_0000_0.nii.gz 1589931
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/211_1579589_ADC2_0000_1.nii.gz 1579589
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/213_1566617_ADC2_0000_1.nii.gz 1566617
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/214_1565305_ADC2_0000_1.nii.gz 1565305
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/215_1562277_ADC2_0000_1.nii.gz 1562277
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/216_1559539_ADC2_0000_0.nii.gz 1559539
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/217_1550326_ADC2_0000_1.nii.gz 1550326
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/218_1535251_ADC2_0000_0.nii.gz 1535251
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/219_1534893_ADC2_0000_0.nii.gz 1534893
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/220_1530910_ADC2_0000_1.nii.gz 1530910
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/221_1526009_ADC2_0000_0.nii.gz 1526009
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/222_1501712_ADC2_0000_0.nii.gz 1501712
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/223_1494707_ADC2_0000_0.nii.gz 1494707
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/224_1492855_ADC2_0000_0.nii.gz 1492855
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/225_1492043_ADC2_0000_0.nii.gz 1492043
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/226_1478175_ADC2_0000_1.nii.gz 1478175
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/227_1475626_ADC2_0000_0.nii.gz 1475626
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/229_1470193_ADC2_0000_1.nii.gz 1470193
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/230_1467999_ADC2_0000_1.nii.gz 1467999
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/232_1463193_ADC2_0000_1.nii.gz 1463193
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/233_1452236_ADC2_0000_0.nii.gz 1452236
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/234_1422422_ADC2_0000_0.nii.gz 1422422
+/app/liucd/deeplearn_dec/DL_dec/data_adc/xian/Mixed/236_1412879_ADC2_0000_0.nii.gz 1412879
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2013_03_14_1001769_ADC2_0000_0.nii.gz 1001769
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2013_12_13_976497_ADC2_0000_0.nii.gz 976497
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2013_12_18_978509_ADC2_0000_0.nii.gz 978509
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2013_12_19_976855_ADC2_0000_0.nii.gz 976855
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_03_20_1580248_ADC2_0000_0.nii.gz 1580248
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_04_04_1006675_ADC2_0000_0.nii.gz 1006675
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_05_06_1016364_ADC2_0000_1.nii.gz 1016364
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_06_11_1026287_ADC2_0000_0.nii.gz 1026287
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_06_17_1025243_ADC2_0000_0.nii.gz 1025243
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_07_09_1034248_ADC2_0000_0.nii.gz 1034248
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_08_13_1044852_ADC2_0000_0.nii.gz 1044852
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_09_24_1057535_ADC2_0000_0.nii.gz 1057535
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_10_17_1062912_ADC2_0000_1.nii.gz 1062912
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2014_11_12_1070819_ADC2_0000_0.nii.gz 1070819
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2015_01_22_1090474_ADC2_0000_0.nii.gz 1090474
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2015_02_11_1095166_ADC2_0000_0.nii.gz 1095166
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2015_03_04_1101429_ADC2_0000_0.nii.gz 1101429
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2015_05_29_1126813_ADC2_0000_0.nii.gz 1126813
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2015_07_03_1136715_ADC2_0000_0.nii.gz 1136715
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2016_06_15_1229991_ADC2_0000_1.nii.gz 1229991
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2016_11_22_1271660_ADC2_0000_0.nii.gz 1271660
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2016_12_23_1280223_ADC2_0000_0.nii.gz 1280223
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_01_22_1287483_ADC2_0000_0.nii.gz 1287483
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_03_08_1298634_ADC2_0000_0.nii.gz 1298634
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_03_10_1300172_ADC2_0000_0.nii.gz 1300172
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_04_06_1306043_ADC2_0000_0.nii.gz 1306043
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_04_26_1310567_ADC2_0000_0.nii.gz 1310567
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_05_17_1318287_ADC2_0000_0.nii.gz 1318287
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_05_19_1319315_ADC2_0000_0.nii.gz 1319315
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_05_24_1300517_ADC2_0000_0.nii.gz 1300517
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_05_25_1319260_ADC2_0000_0.nii.gz 1319260
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_06_12_1321968_ADC2_0000_0.nii.gz 1321968
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_07_05_1330260_ADC2_0000_0.nii.gz 1330260
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_07_24_1336949_ADC2_0000_1.nii.gz 1336949
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_07_28_1339316_ADC2_0000_0.nii.gz 1339316
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_08_01_1338343_ADC2_0000_0.nii.gz 1338343
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_08_08_1342331_ADC2_0000_0.nii.gz 1342331
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_08_11_1343012_ADC2_0000_1.nii.gz 1343012
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_08_31_1348299_ADC2_0000_0.nii.gz 1348299
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_09_07_1350436_ADC2_0000_0.nii.gz 1350436
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_09_15_1352717_ADC2_0000_0.nii.gz 1352717
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_09_25_1354802_ADC2_0000_0.nii.gz 1354802
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_10_27_1359807_ADC2_0000_0.nii.gz 1359807
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_11_16_1369399_ADC2_0000_0.nii.gz 1369399
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_11_29_1371662_ADC2_0000_0.nii.gz 1371662
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_11_30_1371950_ADC2_0000_1.nii.gz 1371950
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_12_14_1375989_ADC2_0000_0.nii.gz 1375989
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_12_20_1376439_ADC2_0000_0.nii.gz 1376439
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2017_12_28_1378614_ADC2_0000_0.nii.gz 1378614
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_01_16_1382991_ADC2_0000_1.nii.gz 1382991
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_01_19_1384496_ADC2_0000_1.nii.gz 1384496
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_01_21_1384381_ADC2_0000_1.nii.gz 1384381
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_02_02_1388946_ADC2_0000_0.nii.gz 1388946
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_02_11_1390392_ADC2_0000_1.nii.gz 1390392
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_02_11_1390535_ADC2_0000_0.nii.gz 1390535
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_08_1395853_ADC2_0000_0.nii.gz 1395853
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_08_1396450_ADC2_0000_0.nii.gz 1396450
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_12_1397621_ADC2_0000_1.nii.gz 1397621
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_15_1397600_ADC2_0000_0.nii.gz 1397600
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_17_1398205_ADC2_0000_1.nii.gz 1398205
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_19_1400216_ADC2_0000_0.nii.gz 1400216
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_23_1398937_ADC2_0000_0.nii.gz 1398937
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_03_29_1401647_ADC2_0000_0.nii.gz 1401647
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_04_08_1404401_ADC2_0000_0.nii.gz 1404401
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_04_09_1404920_ADC2_0000_0.nii.gz 1404920
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_04_17_1406722_ADC2_0000_1.nii.gz 1406722
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_04_19_1408710_ADC2_0000_0.nii.gz 1408710
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_04_28_1411077_ADC2_0000_0.nii.gz 1411077
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_05_15_1415196_ADC2_0000_1.nii.gz 1415196
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_06_13_1423252_ADC2_0000_0.nii.gz 1423252
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_07_03_1428990_ADC2_0000_0.nii.gz 1428990
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_07_15_1431650_ADC2_0000_1.nii.gz 1431650
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_08_14_1441311_ADC2_0000_0.nii.gz 1441311
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_08_21_1444196_ADC2_0000_1.nii.gz 1444196
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_08_23_1444585_ADC2_0000_1.nii.gz 1444585
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_09_18_1451939_ADC2_0000_0.nii.gz 1451939
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_09_29_1456005_ADC2_0000_1.nii.gz 1456005
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_05_1443878_ADC2_0000_0.nii.gz 1443878
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_08_1465298_ADC2_0000_0.nii.gz 1465298
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_09_1465821_ADC2_0000_1.nii.gz 1465821
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_11_1466245_ADC2_0000_0.nii.gz 1466245
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_14_1143028_ADC2_0000_1.nii.gz 1143028
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_14_1467143_ADC2_0000_1.nii.gz 1467143
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_28_1471126_ADC2_0000_0.nii.gz 1471126
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_11_30_1471107_ADC2_0000_0.nii.gz 1471107
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_12_03_1472118_ADC2_0000_0.nii.gz 1472118
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_12_15_1475953_ADC2_0000_1.nii.gz 1475953
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2018_12_18_1475569_ADC2_0000_0.nii.gz 1475569
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_02_02_1474918_ADC2_0000_0.nii.gz 1474918
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_02_10_1491769_ADC2_0000_0.nii.gz 1491769
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_02_20_1493466_ADC2_0000_0.nii.gz 1493466
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_03_19_1487269_ADC2_0000_0.nii.gz 1487269
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_03_19_1500924_ADC2_0000_0.nii.gz 1500924
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_03_22_1502852_ADC2_0000_0.nii.gz 1502852
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_04_02_1497924_ADC2_0000_0.nii.gz 1497924
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_04_03_1506290_ADC2_0000_1.nii.gz 1506290
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_04_10_1508252_ADC2_0000_0.nii.gz 1508252
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_04_11_1508780_ADC2_0000_0.nii.gz 1508780
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_04_19_1510823_ADC2_0000_0.nii.gz 1510823
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_05_01_1514982_ADC2_0000_0.nii.gz 1514982
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_05_17_1519664_ADC2_0000_0.nii.gz 1519664
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_06_06_1524437_ADC2_0000_0.nii.gz 1524437
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_06_19_1528227_ADC2_0000_0.nii.gz 1528227
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_06_21_1528993_ADC2_0000_1.nii.gz 1528993
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_07_05_1532112_ADC2_0000_1.nii.gz 1532112
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_07_15_1534792_ADC2_0000_0.nii.gz 1534792
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_07_17_1536678_ADC2_0000_1.nii.gz 1536678
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_08_14_1544696_ADC2_0000_0.nii.gz 1544696
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_08_14_1544841_ADC2_0000_0.nii.gz 1544841
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_08_29_1549708_ADC2_0000_1.nii.gz 1549708
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_09_28_1558299_ADC2_0000_1.nii.gz 1558299
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_10_14_1561383_ADC2_0000_0.nii.gz 1561383
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_11_06_1566760_ADC2_0000_1.nii.gz 1566760
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_11_19_1569924_ADC2_0000_0.nii.gz 1569924
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_11_29_1572985_ADC2_0000_1.nii.gz 1572985
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_12_04_1574144_ADC2_0000_1.nii.gz 1574144
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2019_12_06_1574903_ADC2_0000_0.nii.gz 1574903
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_01_10_1582465_ADC2_0000_0.nii.gz 1582465
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_01_15_1583657_ADC2_0000_0.nii.gz 1583657
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_01_22_1586117_ADC2_0000_0.nii.gz 1586117
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_02_27_1589476_ADC2_0000_1.nii.gz 1589476
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_02_1589719_ADC2_0000_0.nii.gz 1589719
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_02_1589773_ADC2_0000_1.nii.gz 1589773
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_02_1590054_ADC2_0000_0.nii.gz 1590054
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_11_1591661_ADC2_0000_0.nii.gz 1591661
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_14_1592113_ADC2_0000_0.nii.gz 1592113
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_16_1592144_ADC2_0000_1.nii.gz 1592144
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_17_1592787_ADC2_0000_0.nii.gz 1592787
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_21_1594107_ADC2_0000_0.nii.gz 1594107
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_23_1479104_ADC2_0000_1.nii.gz 1479104
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_03_24_1593003_ADC2_0000_1.nii.gz 1593003
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_14_1598204_ADC2_0000_1.nii.gz 1598204
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_20_1601755_ADC2_0000_1.nii.gz 1601755
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_21_1600962_ADC2_0000_1.nii.gz 1600962
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_21_1601496_ADC2_0000_0.nii.gz 1601496
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_23_1601516_ADC2_0000_1.nii.gz 1601516
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_24_1603475_ADC2_0000_1.nii.gz 1603475
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_04_27_1602872_ADC2_0000_1.nii.gz 1602872
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_05_06_1603513_ADC2_0000_0.nii.gz 1603513
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_05_09_1606048_ADC2_0000_0.nii.gz 1606048
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_06_09_1810844_ADC2_0000_1.nii.gz 1810844
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_06_10_1614876_ADC2_0000_0.nii.gz 1614876
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_06_15_1616061_ADC2_0000_0.nii.gz 1616061
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_06_18_1617504_ADC2_0000_0.nii.gz 1617504
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_06_22_1618208_ADC2_0000_0.nii.gz 1618208
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_06_23_1618352_ADC2_0000_0.nii.gz 1618352
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_01_1620596_ADC2_0000_1.nii.gz 1620596
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_04_1621283_ADC2_0000_0.nii.gz 1621283
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_06_1621242_ADC2_0000_1.nii.gz 1621242
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_10_1622651_ADC2_0000_0.nii.gz 1622651
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_17_1624385_ADC2_0000_0.nii.gz 1624385
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_29_1627591_ADC2_0000_0.nii.gz 1627591
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_07_31_1628946_ADC2_0000_1.nii.gz 1628946
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_04_1629279_ADC2_0000_0.nii.gz 1629279
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_11_1632020_ADC2_0000_0.nii.gz 1632020
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_11_1632343_ADC2_0000_0.nii.gz 1632343
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_13_1397050_ADC2_0000_0.nii.gz 1397050
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_14_1632194_ADC2_0000_0.nii.gz 1632194
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_25_1635230_ADC2_0000_0.nii.gz 1635230
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_25_1636652_ADC2_0000_0.nii.gz 1636652
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_27_1637136_ADC2_0000_0.nii.gz 1637136
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_29_1636722_ADC2_0000_0.nii.gz 1636722
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_08_4_1630136_ADC2_0000_0.nii.gz 1630136
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_09_10_1640082_ADC2_0000_0.nii.gz 1640082
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_09_11_1641279_ADC2_0000_0.nii.gz 1641279
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_09_30_1646533_ADC2_0000_0.nii.gz 1646533
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_10_09_1647391_ADC2_0000_1.nii.gz 1647391
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_10_23_1651742_ADC2_0000_0.nii.gz 1651742
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_10_23_1651777_ADC2_0000_1.nii.gz 1651777
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_10_24_1651733_ADC2_0000_0.nii.gz 1651733
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_10_30_1651783_ADC2_0000_1.nii.gz 1651783
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_10_31_1653689_ADC2_0000_0.nii.gz 1653689
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_11_24_1660442_ADC2_0000_0.nii.gz 1660442
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_11_25_1661073_ADC2_0000_0.nii.gz 1661073
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_02_1662786_ADC2_0000_0.nii.gz 1662786
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_04_1662942_ADC2_0000_1.nii.gz 1662942
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_04_1663258_ADC2_0000_0.nii.gz 1663258
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_05_1663548_ADC2_0000_0.nii.gz 1663548
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_09_1664718_ADC2_0000_0.nii.gz 1664718
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_10_1664904_ADC2_0000_0.nii.gz 1664904
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_11_1469755_ADC2_0000_0.nii.gz 1469755
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_25_1668544_ADC2_0000_0.nii.gz 1668544
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_12_26_1650696_ADC2_0000_0.nii.gz 1650696
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2020_1_20_1584962_ADC2_0000_1.nii.gz 1584962
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_01_01_1670348_ADC2_0000_1.nii.gz 1670348
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_01_04_1670872_ADC2_0000_1.nii.gz 1670872
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_01_12_1585507_ADC2_0000_1.nii.gz 1585507
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_01_26_1424127_ADC2_0000_1.nii.gz 1424127
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_01_29_1677987_ADC2_0000_1.nii.gz 1677987
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_01_29_1678050_ADC2_0000_0.nii.gz 1678050
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_02_04_1680188_ADC2_0000_1.nii.gz 1680188
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_02_21_1681708_ADC2_0000_1.nii.gz 1681708
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_02_21_1684306_ADC2_0000_1.nii.gz 1684306
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_03_1687152_ADC2_0000_1.nii.gz 1687152
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_08_1687856_ADC2_0000_0.nii.gz 1687856
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_09_1686787_ADC2_0000_0.nii.gz 1686787
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_09_1688429_ADC2_0000_0.nii.gz 1688429
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_17_1690702_ADC2_0000_1.nii.gz 1690702
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_23_1692186_ADC2_0000_0.nii.gz 1692186
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_29_1693841_ADC2_0000_0.nii.gz 1693841
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_30_1692487_ADC2_0000_1.nii.gz 1692487
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_30_1694460_ADC2_0000_0.nii.gz 1694460
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_03_30_1694644_ADC2_0000_0.nii.gz 1694644
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_04_06_1695831_ADC2_0000_0.nii.gz 1695831
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_04_07_1696408_ADC2_0000_0.nii.gz 1696408
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_04_07_1696692_ADC2_0000_1.nii.gz 1696692
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_04_13_1698389_ADC2_0000_0.nii.gz 1698389
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_04_22_1701204_ADC2_0000_1.nii.gz 1701204
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_05_1696103_ADC2_0000_0.nii.gz 1696103
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_06_1704453_ADC2_0000_0.nii.gz 1704453
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_07_1704832_ADC2_0000_0.nii.gz 1704832
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_08_1705267_ADC2_0000_1.nii.gz 1705267
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_10_1706208_ADC2_0000_1.nii.gz 1706208
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_17_1519342_ADC2_0000_0.nii.gz 1519342
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_05_26_1710304_ADC2_0000_0.nii.gz 1710304
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_01_1711816_ADC2_0000_1.nii.gz 1711816
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_03_1712487_ADC2_0000_1.nii.gz 1712487
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_03_1712977_ADC2_0000_0.nii.gz 1712977
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_07_1712636_ADC2_0000_0.nii.gz 1712636
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_07_1713433_ADC2_0000_0.nii.gz 1713433
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_09_1714284_ADC2_0000_0.nii.gz 1714284
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_11_1714779_ADC2_0000_1.nii.gz 1714779
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_12_1717251_ADC2_0000_0.nii.gz 1717251
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_17_1716207_ADC2_0000_0.nii.gz 1716207
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_18_1686628_ADC2_0000_0.nii.gz 1686628
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_19_1717475_ADC2_0000_1.nii.gz 1717475
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_24_1360311_ADC2_0000_0.nii.gz 1360311
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_25_1719050_ADC2_0000_1.nii.gz 1719050
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_26_1719621_ADC2_0000_0.nii.gz 1719621
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_29_1720190_ADC2_0000_1.nii.gz 1720190
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_06_29_1720309_ADC2_0000_1.nii.gz 1720309
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_02_1721010_ADC2_0000_0.nii.gz 1721010
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_03_1721307_ADC2_0000_0.nii.gz 1721307
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_05_1721774_ADC2_0000_0.nii.gz 1721774
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_10_1723470_ADC2_0000_0.nii.gz 1723470
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_16_1725404_ADC2_0000_0.nii.gz 1725404
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_26_1727392_ADC2_0000_0.nii.gz 1727392
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_26_1727753_ADC2_0000_1.nii.gz 1727753
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_07_29_1729293_ADC2_0000_0.nii.gz 1729293
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_06_1731018_ADC2_0000_0.nii.gz 1731018
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_09_1732329_ADC2_0000_1.nii.gz 1732329
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_09_1732665_ADC2_0000_1.nii.gz 1732665
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_09_1732671_ADC2_0000_0.nii.gz 1732671
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_10_1733215_ADC2_0000_0.nii.gz 1733215
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_11_1733377_ADC2_0000_0.nii.gz 1733377
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_11_1733470_ADC2_0000_0.nii.gz 1733470
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_16_1732688_ADC2_0000_1.nii.gz 1732688
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_16_1735072_ADC2_0000_0.nii.gz 1735072
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_19_1736393_ADC2_0000_1.nii.gz 1736393
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_19_1742602_ADC2_0000_0.nii.gz 1742602
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_08_20_1736403_ADC2_0000_0.nii.gz 1736403
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_09_07_1741009_ADC2_0000_1.nii.gz 1741009
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_09_10_1741645_ADC2_0000_0.nii.gz 1741645
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_09_13_1742047_ADC2_0000_0.nii.gz 1742047
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_09_13_1742279_ADC2_0000_0.nii.gz 1742279
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_09_26_1744713_ADC2_0000_0.nii.gz 1744713
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_09_30_1747581_ADC2_0000_0.nii.gz 1747581
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_10_12_1748724_ADC2_0000_0.nii.gz 1748724
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_10_13_1750420_ADC2_0000_0.nii.gz 1750420
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_10_14_1750760_ADC2_0000_0.nii.gz 1750760
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_10_26_1512277_ADC2_0000_0.nii.gz 1512277
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_04_1747318_ADC2_0000_0.nii.gz 1747318
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_08_1754271_ADC2_0000_0.nii.gz 1754271
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_11_1754744_ADC2_0000_0.nii.gz 1754744
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_17_1755927_ADC2_0000_1.nii.gz 1755927
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_18_1756781_ADC2_0000_1.nii.gz 1756781
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_26_1756621_ADC2_0000_0.nii.gz 1756621
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_26_1758627_ADC2_0000_0.nii.gz 1758627
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_29_1758843_ADC2_0000_0.nii.gz 1758843
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_11_30_1759331_ADC2_0000_0.nii.gz 1759331
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_02_1321037_ADC2_0000_1.nii.gz 1321037
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_03_1759750_ADC2_0000_0.nii.gz 1759750
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_03_1760330_ADC2_0000_1.nii.gz 1760330
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_08_1761261_ADC2_0000_0.nii.gz 1761261
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_17_1763971_ADC2_0000_1.nii.gz 1763971
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_22_1765202_ADC2_0000_1.nii.gz 1765202
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_27_1765194_ADC2_0000_1.nii.gz 1765194
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_12_27_1766376_ADC2_0000_0.nii.gz 1766376
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_6_24_1718953_ADC2_0000_1.nii.gz 1718953
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2021_6_2_1712465_ADC2_0000_1.nii.gz 1712465
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_01_21_1771473_ADC2_0000_1.nii.gz 1771473
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_02_23_1782561_ADC2_0000_1.nii.gz 1782561
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_02_24_1783205_ADC2_0000_0.nii.gz 1783205
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_03_03_1343312_ADC2_0000_0.nii.gz 1343312
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_03_04_1354332_ADC2_0000_0.nii.gz 1354332
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_03_10_1744779_ADC2_0000_1.nii.gz 1744779
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_03_25_1768691_ADC2_0000_1.nii.gz 1768691
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_03_25_1790878_ADC2_0000_1.nii.gz 1790878
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_04_22_1797800_ADC2_0000_1.nii.gz 1797800
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_04_27_1335825_ADC2_0000_0.nii.gz 1335825
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_05_04_1800463_ADC2_0000_0.nii.gz 1800463
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_05_06_1801004_ADC2_0000_0.nii.gz 1801004
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_05_13_1259891_ADC2_0000_1.nii.gz 1259891
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_05_19_1116708_ADC2_0000_0.nii.gz 1116708
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_06_02_1808477_ADC2_0000_1.nii.gz 1808477
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_06_03_1808229_ADC2_0000_0.nii.gz 1808229
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_06_07_1809340_ADC2_0000_1.nii.gz 1809340
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_06_24_1814339_ADC2_0000_1.nii.gz 1814339
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_07_06_1817890_ADC2_0000_1.nii.gz 1817890
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_07_09_1622444_ADC2_0000_0.nii.gz 1622444
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_07_11_1819369_ADC2_0000_1.nii.gz 1819369
+/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz 1650366
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/syf_stage2/Mixed/2021_12_20_7043687_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/syf_stage2/Mixed/2021_12_20_7043687_+C2_0000_0.nii.gz', 'clinical': [4.0, 1.0, 2.0, 0.8, 0.05, 0.25], 'label': 0}
+Loading dataset:   0%|          | 0/354 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/354 [00:00<02:31,  2.34it/s]Loading dataset:   1%|          | 2/354 [00:02<06:58,  1.19s/it]Loading dataset:   5%|▍         | 16/354 [00:03<01:10,  4.78it/s]Loading dataset:   9%|▉         | 32/354 [00:04<00:37,  8.50it/s]Loading dataset:  18%|█▊        | 63/354 [00:04<00:13, 21.16it/s]Loading dataset:  20%|██        | 71/354 [00:05<00:17, 16.51it/s]Loading dataset:  25%|██▌       | 90/354 [00:06<00:11, 23.07it/s]Loading dataset:  27%|██▋       | 96/354 [00:06<00:12, 20.40it/s]Loading dataset:  31%|███       | 109/354 [00:07<00:10, 24.44it/s]Loading dataset:  32%|███▏      | 114/354 [00:07<00:10, 21.86it/s]Loading dataset:  34%|███▍      | 120/354 [00:07<00:10, 22.44it/s]Loading dataset:  35%|███▌      | 125/354 [00:09<00:24,  9.30it/s]Loading dataset:  46%|████▋     | 164/354 [00:09<00:06, 27.28it/s]Loading dataset:  49%|████▉     | 174/354 [00:09<00:06, 27.61it/s]Loading dataset:  51%|█████▏    | 182/354 [00:10<00:06, 26.66it/s]Loading dataset:  53%|█████▎    | 188/354 [00:10<00:05, 28.41it/s]Loading dataset:  55%|█████▍    | 194/354 [00:10<00:07, 22.62it/s]Loading dataset:  56%|█████▌    | 199/354 [00:11<00:06, 23.07it/s]Loading dataset:  57%|█████▋    | 203/354 [00:13<00:19,  7.90it/s]Loading dataset:  60%|█████▉    | 212/354 [00:13<00:12, 11.76it/s]Loading dataset:  67%|██████▋   | 237/354 [00:14<00:06, 17.39it/s]Loading dataset:  70%|███████   | 248/354 [00:14<00:05, 19.52it/s]Loading dataset:  71%|███████▏  | 253/354 [00:15<00:06, 15.27it/s]Loading dataset:  75%|███████▍  | 264/354 [00:16<00:07, 12.38it/s]Loading dataset:  79%|███████▉  | 281/354 [00:17<00:04, 17.69it/s]Loading dataset:  86%|████████▌ | 303/354 [00:18<00:02, 17.29it/s]Loading dataset:  88%|████████▊ | 311/354 [00:18<00:02, 20.18it/s]Loading dataset:  90%|█████████ | 320/354 [00:19<00:02, 16.96it/s]Loading dataset:  94%|█████████▎| 331/354 [00:19<00:01, 21.75it/s]Loading dataset: 100%|██████████| 354/354 [00:19<00:00, 18.26it/s]
+Loading dataset:   0%|          | 0/896 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/896 [00:01<17:53,  1.20s/it]Loading dataset:   2%|▏         | 22/896 [00:01<00:43, 19.98it/s]Loading dataset:   3%|▎         | 28/896 [00:01<00:47, 18.46it/s]Loading dataset:   4%|▎         | 32/896 [00:02<00:56, 15.34it/s]Loading dataset:   4%|▍         | 35/896 [00:03<01:32,  9.29it/s]Loading dataset:   6%|▌         | 51/896 [00:03<00:42, 19.75it/s]Loading dataset:   6%|▋         | 56/896 [00:03<00:46, 18.06it/s]Loading dataset:   7%|▋         | 60/896 [00:03<00:49, 16.79it/s]Loading dataset:   7%|▋         | 66/896 [00:04<00:40, 20.63it/s]Loading dataset:   8%|▊         | 70/896 [00:04<00:45, 18.03it/s]Loading dataset:   8%|▊         | 73/896 [00:04<00:51, 15.93it/s]Loading dataset:   8%|▊         | 76/896 [00:05<01:16, 10.70it/s]Loading dataset:  10%|█         | 90/896 [00:05<00:36, 21.94it/s]Loading dataset:  11%|█         | 99/896 [00:05<00:38, 20.54it/s]Loading dataset:  11%|█▏        | 103/896 [00:06<00:44, 17.71it/s]Loading dataset:  12%|█▎        | 112/896 [00:06<00:38, 20.17it/s]Loading dataset:  13%|█▎        | 115/896 [00:06<00:42, 18.41it/s]Loading dataset:  14%|█▍        | 127/896 [00:07<00:31, 24.56it/s]Loading dataset:  15%|█▍        | 130/896 [00:07<00:42, 18.24it/s]Loading dataset:  15%|█▍        | 133/896 [00:08<00:56, 13.46it/s]Loading dataset:  17%|█▋        | 152/896 [00:08<00:34, 21.28it/s]Loading dataset:  18%|█▊        | 160/896 [00:08<00:28, 25.55it/s]Loading dataset:  18%|█▊        | 164/896 [00:09<00:28, 25.92it/s]Loading dataset:  19%|█▉        | 169/896 [00:09<00:37, 19.51it/s]Loading dataset:  20%|█▉        | 178/896 [00:09<00:29, 24.07it/s]Loading dataset:  20%|██        | 181/896 [00:10<00:38, 18.58it/s]Loading dataset:  21%|██▏       | 192/896 [00:11<00:49, 14.26it/s]Loading dataset:  23%|██▎       | 206/896 [00:11<00:32, 21.17it/s]Loading dataset:  24%|██▍       | 217/896 [00:11<00:26, 25.87it/s]Loading dataset:  25%|██▍       | 221/896 [00:11<00:32, 20.98it/s]Loading dataset:  25%|██▌       | 225/896 [00:12<00:30, 22.19it/s]Loading dataset:  26%|██▌       | 232/896 [00:12<00:29, 22.35it/s]Loading dataset:  26%|██▌       | 235/896 [00:12<00:36, 18.11it/s]Loading dataset:  27%|██▋       | 240/896 [00:13<00:49, 13.17it/s]Loading dataset:  28%|██▊       | 249/896 [00:13<00:34, 18.92it/s]Loading dataset:  30%|██▉       | 265/896 [00:14<00:24, 25.43it/s]Loading dataset:  31%|███       | 274/896 [00:14<00:25, 24.85it/s]Loading dataset:  31%|███       | 278/896 [00:14<00:24, 24.97it/s]Loading dataset:  32%|███▏      | 287/896 [00:14<00:23, 26.27it/s]Loading dataset:  32%|███▏      | 291/896 [00:15<00:42, 14.27it/s]Loading dataset:  34%|███▍      | 306/896 [00:15<00:26, 22.58it/s]Loading dataset:  35%|███▍      | 310/896 [00:16<00:35, 16.48it/s]Loading dataset:  35%|███▌      | 318/896 [00:17<00:41, 14.00it/s]Loading dataset:  37%|███▋      | 333/896 [00:17<00:28, 19.55it/s]Loading dataset:  39%|███▊      | 346/896 [00:18<00:24, 22.42it/s]Loading dataset:  39%|███▉      | 349/896 [00:18<00:35, 15.23it/s]Loading dataset:  40%|███▉      | 356/896 [00:19<00:40, 13.41it/s]Loading dataset:  42%|████▏     | 375/896 [00:19<00:23, 22.37it/s]Loading dataset:  42%|████▏     | 379/896 [00:20<00:22, 22.68it/s]Loading dataset:  43%|████▎     | 382/896 [00:22<01:10,  7.31it/s]Loading dataset:  46%|████▌     | 411/896 [00:22<00:27, 17.36it/s]Loading dataset:  46%|████▋     | 416/896 [00:22<00:25, 18.96it/s]Loading dataset:  47%|████▋     | 421/896 [00:24<00:39, 12.08it/s]Loading dataset:  52%|█████▏    | 463/896 [00:24<00:13, 31.05it/s]Loading dataset:  53%|█████▎    | 475/896 [00:24<00:11, 35.43it/s]Loading dataset:  54%|█████▍    | 483/896 [00:24<00:11, 36.74it/s]Loading dataset:  55%|█████▍    | 490/896 [00:24<00:11, 35.29it/s]Loading dataset:  55%|█████▌    | 496/896 [00:25<00:17, 23.42it/s]Loading dataset:  58%|█████▊    | 521/896 [00:25<00:08, 41.79it/s]Loading dataset:  59%|█████▉    | 529/896 [00:26<00:14, 26.19it/s]Loading dataset:  61%|██████    | 547/896 [00:26<00:10, 32.48it/s]Loading dataset:  62%|██████▏   | 558/896 [00:26<00:08, 37.56it/s]Loading dataset:  63%|██████▎   | 565/896 [00:27<00:12, 27.42it/s]Loading dataset:  64%|██████▎   | 570/896 [00:30<00:39,  8.16it/s]Loading dataset:  67%|██████▋   | 596/896 [00:30<00:17, 17.10it/s]Loading dataset:  68%|██████▊   | 606/896 [00:31<00:19, 14.68it/s]Loading dataset:  69%|██████▊   | 614/896 [00:34<00:33,  8.40it/s]Loading dataset:  70%|███████   | 628/896 [00:35<00:33,  8.03it/s]Loading dataset:  72%|███████▏  | 643/896 [00:36<00:26,  9.59it/s]Loading dataset:  73%|███████▎  | 651/896 [00:38<00:33,  7.41it/s]Loading dataset:  74%|███████▎  | 659/896 [00:39<00:28,  8.28it/s]Loading dataset:  74%|███████▍  | 665/896 [00:41<00:36,  6.32it/s]Loading dataset:  77%|███████▋  | 693/896 [00:43<00:23,  8.53it/s]Loading dataset:  78%|███████▊  | 702/896 [00:44<00:19,  9.73it/s]Loading dataset:  80%|████████  | 718/896 [00:44<00:12, 13.80it/s]Loading dataset:  81%|████████  | 725/896 [00:46<00:18,  9.48it/s]Loading dataset:  82%|████████▏ | 737/896 [00:48<00:19,  8.15it/s]Loading dataset:  84%|████████▍ | 751/896 [00:50<00:19,  7.58it/s]Loading dataset:  84%|████████▍ | 755/896 [00:51<00:22,  6.25it/s]Loading dataset:  88%|████████▊ | 788/896 [00:52<00:07, 14.12it/s]Loading dataset:  89%|████████▉ | 799/896 [00:52<00:06, 14.70it/s]Loading dataset:  90%|████████▉ | 803/896 [00:52<00:06, 15.43it/s]Loading dataset:  90%|█████████ | 807/896 [00:53<00:07, 12.39it/s]Loading dataset:  90%|█████████ | 810/896 [00:53<00:07, 12.11it/s]Loading dataset:  91%|█████████ | 815/896 [00:54<00:08,  9.20it/s]Loading dataset:  91%|█████████▏| 818/896 [00:56<00:14,  5.34it/s]Loading dataset:  92%|█████████▏| 825/896 [00:57<00:09,  7.29it/s]Loading dataset:  94%|█████████▎| 838/896 [00:58<00:07,  7.70it/s]Loading dataset:  95%|█████████▌| 855/896 [00:59<00:03, 10.50it/s]Loading dataset:  96%|█████████▌| 860/896 [01:01<00:04,  7.80it/s]Loading dataset:  98%|█████████▊| 876/896 [01:01<00:01, 13.17it/s]Loading dataset:  98%|█████████▊| 882/896 [01:01<00:00, 15.08it/s]Loading dataset:  99%|█████████▉| 890/896 [01:01<00:00, 18.20it/s]Loading dataset: 100%|██████████| 896/896 [01:01<00:00, 14.58it/s]output:  torch.Size([8, 2])
+
+epoch 1 average  train loss: 0.6535
+saved new best metric model
+current epoch: 1 current accuracy: 0.6786 current AUC: 0.7045 best accuracy: 0.7045 at epoch 1
+epoch 2 average  train loss: 0.6051
+saved new best metric model
+current epoch: 2 current accuracy: 0.6763 current AUC: 0.7301 best accuracy: 0.7301 at epoch 2
+epoch 3 average  train loss: 0.5635
+saved new best metric model
+current epoch: 3 current accuracy: 0.6786 current AUC: 0.7831 best accuracy: 0.7831 at epoch 3
+epoch 4 average  train loss: 0.5348
+current epoch: 4 current accuracy: 0.6808 current AUC: 0.7525 best accuracy: 0.7831 at epoch 3
+epoch 5 average  train loss: 0.5284
+current epoch: 5 current accuracy: 0.6998 current AUC: 0.7807 best accuracy: 0.7831 at epoch 3
+epoch 6 average  train loss: 0.5356
+current epoch: 6 current accuracy: 0.6819 current AUC: 0.7828 best accuracy: 0.7831 at epoch 3
+epoch 7 average  train loss: 0.5433
+current epoch: 7 current accuracy: 0.6842 current AUC: 0.7754 best accuracy: 0.7831 at epoch 3
+epoch 8 average  train loss: 0.5290
+current epoch: 8 current accuracy: 0.7299 current AUC: 0.7811 best accuracy: 0.7831 at epoch 3
+epoch 9 average  train loss: 0.5161
+current epoch: 9 current accuracy: 0.7154 current AUC: 0.7420 best accuracy: 0.7831 at epoch 3
+epoch 10 average  train loss: 0.5168
+current epoch: 10 current accuracy: 0.7020 current AUC: 0.7813 best accuracy: 0.7831 at epoch 3
+epoch 11 average  train loss: 0.5081
+saved new best metric model
+current epoch: 11 current accuracy: 0.7132 current AUC: 0.7930 best accuracy: 0.7930 at epoch 11
+epoch 12 average  train loss: 0.4992
+current epoch: 12 current accuracy: 0.7221 current AUC: 0.7898 best accuracy: 0.7930 at epoch 11
+epoch 13 average  train loss: 0.5148
+saved new best metric model
+current epoch: 13 current accuracy: 0.7121 current AUC: 0.8006 best accuracy: 0.8006 at epoch 13
+epoch 14 average  train loss: 0.4628
+current epoch: 14 current accuracy: 0.7299 current AUC: 0.7808 best accuracy: 0.8006 at epoch 13
+epoch 15 average  train loss: 0.4938
+current epoch: 15 current accuracy: 0.7288 current AUC: 0.7900 best accuracy: 0.8006 at epoch 13
+epoch 16 average  train loss: 0.5029
+saved new best metric model
+current epoch: 16 current accuracy: 0.7500 current AUC: 0.8028 best accuracy: 0.8028 at epoch 16
+epoch 17 average  train loss: 0.4958
+current epoch: 17 current accuracy: 0.7098 current AUC: 0.7900 best accuracy: 0.8028 at epoch 16
+epoch 18 average  train loss: 0.4990
+current epoch: 18 current accuracy: 0.6975 current AUC: 0.7905 best accuracy: 0.8028 at epoch 16
+epoch 19 average  train loss: 0.4698
+current epoch: 19 current accuracy: 0.7321 current AUC: 0.7909 best accuracy: 0.8028 at epoch 16
+epoch 20 average  train loss: 0.4844
+current epoch: 20 current accuracy: 0.6975 current AUC: 0.7970 best accuracy: 0.8028 at epoch 16
+epoch 21 average  train loss: 0.4787
+current epoch: 21 current accuracy: 0.7165 current AUC: 0.7960 best accuracy: 0.8028 at epoch 16
+epoch 22 average  train loss: 0.4853
+current epoch: 22 current accuracy: 0.6842 current AUC: 0.7725 best accuracy: 0.8028 at epoch 16
+epoch 23 average  train loss: 0.4931
+current epoch: 23 current accuracy: 0.7188 current AUC: 0.7936 best accuracy: 0.8028 at epoch 16
+epoch 24 average  train loss: 0.4720
+current epoch: 24 current accuracy: 0.7154 current AUC: 0.7916 best accuracy: 0.8028 at epoch 16
+epoch 25 average  train loss: 0.4569
+current epoch: 25 current accuracy: 0.7277 current AUC: 0.7972 best accuracy: 0.8028 at epoch 16
+epoch 26 average  train loss: 0.4755
+saved new best metric model
+current epoch: 26 current accuracy: 0.6987 current AUC: 0.8216 best accuracy: 0.8216 at epoch 26
+epoch 27 average  train loss: 0.4033
+current epoch: 27 current accuracy: 0.7444 current AUC: 0.7923 best accuracy: 0.8216 at epoch 26
+epoch 28 average  train loss: 0.4214
+current epoch: 28 current accuracy: 0.7422 current AUC: 0.7994 best accuracy: 0.8216 at epoch 26
+epoch 29 average  train loss: 0.4808
+current epoch: 29 current accuracy: 0.7355 current AUC: 0.7998 best accuracy: 0.8216 at epoch 26
+epoch 30 average  train loss: 0.4327
+saved new best metric model
+current epoch: 30 current accuracy: 0.7679 current AUC: 0.8244 best accuracy: 0.8244 at epoch 30
+epoch 31 average  train loss: 0.4417
+current epoch: 31 current accuracy: 0.7433 current AUC: 0.8014 best accuracy: 0.8244 at epoch 30
+epoch 32 average  train loss: 0.3983
+current epoch: 32 current accuracy: 0.7400 current AUC: 0.8043 best accuracy: 0.8244 at epoch 30
+epoch 33 average  train loss: 0.4459
+current epoch: 33 current accuracy: 0.7612 current AUC: 0.8126 best accuracy: 0.8244 at epoch 30
+epoch 34 average  train loss: 0.4256
+current epoch: 34 current accuracy: 0.7377 current AUC: 0.8104 best accuracy: 0.8244 at epoch 30
+epoch 35 average  train loss: 0.4224
+current epoch: 35 current accuracy: 0.7511 current AUC: 0.8213 best accuracy: 0.8244 at epoch 30
+epoch 36 average  train loss: 0.4096
+current epoch: 36 current accuracy: 0.7132 current AUC: 0.8062 best accuracy: 0.8244 at epoch 30
+epoch 37 average  train loss: 0.4002
+current epoch: 37 current accuracy: 0.7121 current AUC: 0.7977 best accuracy: 0.8244 at epoch 30
+epoch 38 average  train loss: 0.4082
+current epoch: 38 current accuracy: 0.7478 current AUC: 0.8106 best accuracy: 0.8244 at epoch 30
+epoch 39 average  train loss: 0.4126
+current epoch: 39 current accuracy: 0.7679 current AUC: 0.8155 best accuracy: 0.8244 at epoch 30
+epoch 40 average  train loss: 0.3997
+current epoch: 40 current accuracy: 0.7455 current AUC: 0.7938 best accuracy: 0.8244 at epoch 30
+epoch 41 average  train loss: 0.4091
+current epoch: 41 current accuracy: 0.7701 current AUC: 0.8129 best accuracy: 0.8244 at epoch 30
+epoch 42 average  train loss: 0.3743
+current epoch: 42 current accuracy: 0.7444 current AUC: 0.8058 best accuracy: 0.8244 at epoch 30
+epoch 43 average  train loss: 0.3421
+current epoch: 43 current accuracy: 0.7254 current AUC: 0.8124 best accuracy: 0.8244 at epoch 30
+epoch 44 average  train loss: 0.3676
+current epoch: 44 current accuracy: 0.7511 current AUC: 0.8143 best accuracy: 0.8244 at epoch 30
+epoch 45 average  train loss: 0.3959
+current epoch: 45 current accuracy: 0.7154 current AUC: 0.7907 best accuracy: 0.8244 at epoch 30
+epoch 46 average  train loss: 0.3704
+current epoch: 46 current accuracy: 0.7377 current AUC: 0.8129 best accuracy: 0.8244 at epoch 30
+epoch 47 average  train loss: 0.3743
+current epoch: 47 current accuracy: 0.7567 current AUC: 0.8029 best accuracy: 0.8244 at epoch 30
+epoch 48 average  train loss: 0.3410
+current epoch: 48 current accuracy: 0.7333 current AUC: 0.7920 best accuracy: 0.8244 at epoch 30
+epoch 49 average  train loss: 0.3637
+current epoch: 49 current accuracy: 0.7277 current AUC: 0.7927 best accuracy: 0.8244 at epoch 30
+epoch 50 average  train loss: 0.3535
+current epoch: 50 current accuracy: 0.7567 current AUC: 0.8058 best accuracy: 0.8244 at epoch 30
+epoch 51 average  train loss: 0.3945
+current epoch: 51 current accuracy: 0.6886 current AUC: 0.8110 best accuracy: 0.8244 at epoch 30
+epoch 52 average  train loss: 0.3087
+current epoch: 52 current accuracy: 0.7210 current AUC: 0.7664 best accuracy: 0.8244 at epoch 30
+epoch 53 average  train loss: 0.3689
+current epoch: 53 current accuracy: 0.5792 current AUC: 0.7600 best accuracy: 0.8244 at epoch 30
+epoch 54 average  train loss: 0.3675
+current epoch: 54 current accuracy: 0.7478 current AUC: 0.7959 best accuracy: 0.8244 at epoch 30
+epoch 55 average  train loss: 0.3409
+current epoch: 55 current accuracy: 0.7400 current AUC: 0.8039 best accuracy: 0.8244 at epoch 30
+epoch 56 average  train loss: 0.3491
+current epoch: 56 current accuracy: 0.7422 current AUC: 0.8030 best accuracy: 0.8244 at epoch 30
+epoch 57 average  train loss: 0.3295
+current epoch: 57 current accuracy: 0.7433 current AUC: 0.8008 best accuracy: 0.8244 at epoch 30
+epoch 58 average  train loss: 0.3425
+current epoch: 58 current accuracy: 0.7600 current AUC: 0.8077 best accuracy: 0.8244 at epoch 30
+epoch 59 average  train loss: 0.3009
+current epoch: 59 current accuracy: 0.7254 current AUC: 0.8082 best accuracy: 0.8244 at epoch 30
+epoch 60 average  train loss: 0.3240
+current epoch: 60 current accuracy: 0.7121 current AUC: 0.7704 best accuracy: 0.8244 at epoch 30
+epoch 61 average  train loss: 0.3006
+current epoch: 61 current accuracy: 0.6987 current AUC: 0.8011 best accuracy: 0.8244 at epoch 30
+epoch 62 average  train loss: 0.3039
+saved new best metric model
+current epoch: 62 current accuracy: 0.7679 current AUC: 0.8282 best accuracy: 0.8282 at epoch 62
+epoch 63 average  train loss: 0.3099
+current epoch: 63 current accuracy: 0.7377 current AUC: 0.8056 best accuracy: 0.8282 at epoch 62
+epoch 64 average  train loss: 0.2910
+current epoch: 64 current accuracy: 0.7589 current AUC: 0.8075 best accuracy: 0.8282 at epoch 62
+epoch 65 average  train loss: 0.3308
+current epoch: 65 current accuracy: 0.7143 current AUC: 0.7994 best accuracy: 0.8282 at epoch 62
+epoch 66 average  train loss: 0.2967
+current epoch: 66 current accuracy: 0.7533 current AUC: 0.7912 best accuracy: 0.8282 at epoch 62
+epoch 67 average  train loss: 0.2899
+current epoch: 67 current accuracy: 0.7165 current AUC: 0.7975 best accuracy: 0.8282 at epoch 62
+epoch 68 average  train loss: 0.3038
+current epoch: 68 current accuracy: 0.7121 current AUC: 0.7945 best accuracy: 0.8282 at epoch 62
+epoch 69 average  train loss: 0.2703
+current epoch: 69 current accuracy: 0.6853 current AUC: 0.7656 best accuracy: 0.8282 at epoch 62
+epoch 70 average  train loss: 0.2930
+current epoch: 70 current accuracy: 0.6975 current AUC: 0.7444 best accuracy: 0.8282 at epoch 62
+epoch 71 average  train loss: 0.2936
+current epoch: 71 current accuracy: 0.7188 current AUC: 0.7824 best accuracy: 0.8282 at epoch 62
+epoch 72 average  train loss: 0.2513
+current epoch: 72 current accuracy: 0.7266 current AUC: 0.7864 best accuracy: 0.8282 at epoch 62
+epoch 73 average  train loss: 0.3366
+current epoch: 73 current accuracy: 0.6897 current AUC: 0.7769 best accuracy: 0.8282 at epoch 62
+epoch 74 average  train loss: 0.2625
+current epoch: 74 current accuracy: 0.7076 current AUC: 0.7706 best accuracy: 0.8282 at epoch 62
+epoch 75 average  train loss: 0.2720
+current epoch: 75 current accuracy: 0.7266 current AUC: 0.7746 best accuracy: 0.8282 at epoch 62
+epoch 76 average  train loss: 0.2678
+current epoch: 76 current accuracy: 0.7210 current AUC: 0.7727 best accuracy: 0.8282 at epoch 62
+epoch 77 average  train loss: 0.2162
+current epoch: 77 current accuracy: 0.7321 current AUC: 0.7889 best accuracy: 0.8282 at epoch 62
+epoch 78 average  train loss: 0.2608
+current epoch: 78 current accuracy: 0.6585 current AUC: 0.7433 best accuracy: 0.8282 at epoch 62
+epoch 79 average  train loss: 0.2806
+current epoch: 79 current accuracy: 0.7154 current AUC: 0.7743 best accuracy: 0.8282 at epoch 62
+epoch 80 average  train loss: 0.2275
+current epoch: 80 current accuracy: 0.7277 current AUC: 0.7618 best accuracy: 0.8282 at epoch 62
+epoch 81 average  train loss: 0.2407
+current epoch: 81 current accuracy: 0.7065 current AUC: 0.7620 best accuracy: 0.8282 at epoch 62
+epoch 82 average  train loss: 0.2394
+current epoch: 82 current accuracy: 0.7366 current AUC: 0.7923 best accuracy: 0.8282 at epoch 62
+epoch 83 average  train loss: 0.2348
+current epoch: 83 current accuracy: 0.7266 current AUC: 0.7766 best accuracy: 0.8282 at epoch 62
+epoch 84 average  train loss: 0.1931
+current epoch: 84 current accuracy: 0.7500 current AUC: 0.7879 best accuracy: 0.8282 at epoch 62
+epoch 85 average  train loss: 0.2341
+current epoch: 85 current accuracy: 0.7400 current AUC: 0.7967 best accuracy: 0.8282 at epoch 62
+epoch 86 average  train loss: 0.2173
+current epoch: 86 current accuracy: 0.6931 current AUC: 0.7468 best accuracy: 0.8282 at epoch 62
+epoch 87 average  train loss: 0.1972
+current epoch: 87 current accuracy: 0.7188 current AUC: 0.7762 best accuracy: 0.8282 at epoch 62
+epoch 88 average  train loss: 0.2587
+current epoch: 88 current accuracy: 0.7411 current AUC: 0.7866 best accuracy: 0.8282 at epoch 62
+epoch 89 average  train loss: 0.2310
+current epoch: 89 current accuracy: 0.7076 current AUC: 0.7656 best accuracy: 0.8282 at epoch 62
+epoch 90 average  train loss: 0.2372
+current epoch: 90 current accuracy: 0.6942 current AUC: 0.7827 best accuracy: 0.8282 at epoch 62
+epoch 91 average  train loss: 0.1752
+current epoch: 91 current accuracy: 0.7199 current AUC: 0.7603 best accuracy: 0.8282 at epoch 62
+epoch 92 average  train loss: 0.1916
+current epoch: 92 current accuracy: 0.7422 current AUC: 0.7800 best accuracy: 0.8282 at epoch 62
+epoch 93 average  train loss: 0.2224
+current epoch: 93 current accuracy: 0.7009 current AUC: 0.7619 best accuracy: 0.8282 at epoch 62
+epoch 94 average  train loss: 0.2282
+current epoch: 94 current accuracy: 0.6350 current AUC: 0.7604 best accuracy: 0.8282 at epoch 62
+epoch 95 average  train loss: 0.1811
+current epoch: 95 current accuracy: 0.6819 current AUC: 0.7706 best accuracy: 0.8282 at epoch 62
+epoch 96 average  train loss: 0.1491
+current epoch: 96 current accuracy: 0.6875 current AUC: 0.7738 best accuracy: 0.8282 at epoch 62
+epoch 97 average  train loss: 0.2252
+current epoch: 97 current accuracy: 0.6964 current AUC: 0.7559 best accuracy: 0.8282 at epoch 62
+epoch 98 average  train loss: 0.1618
+current epoch: 98 current accuracy: 0.7377 current AUC: 0.7641 best accuracy: 0.8282 at epoch 62
+epoch 99 average  train loss: 0.1889
+current epoch: 99 current accuracy: 0.6752 current AUC: 0.7558 best accuracy: 0.8282 at epoch 62
+epoch 100 average  train loss: 0.1687
+current epoch: 100 current accuracy: 0.7310 current AUC: 0.7711 best accuracy: 0.8282 at epoch 62
+epoch 101 average  train loss: 0.1708
+current epoch: 101 current accuracy: 0.7165 current AUC: 0.7478 best accuracy: 0.8282 at epoch 62
+epoch 102 average  train loss: 0.1513
+current epoch: 102 current accuracy: 0.7042 current AUC: 0.7326 best accuracy: 0.8282 at epoch 62
+epoch 103 average  train loss: 0.1731
+current epoch: 103 current accuracy: 0.6775 current AUC: 0.7592 best accuracy: 0.8282 at epoch 62
+epoch 104 average  train loss: 0.1906
+current epoch: 104 current accuracy: 0.6618 current AUC: 0.7553 best accuracy: 0.8282 at epoch 62
+epoch 105 average  train loss: 0.1361
+current epoch: 105 current accuracy: 0.6953 current AUC: 0.7510 best accuracy: 0.8282 at epoch 62
+epoch 106 average  train loss: 0.1149
+current epoch: 106 current accuracy: 0.6730 current AUC: 0.7604 best accuracy: 0.8282 at epoch 62
+epoch 107 average  train loss: 0.1599
+current epoch: 107 current accuracy: 0.6819 current AUC: 0.7416 best accuracy: 0.8282 at epoch 62
+epoch 108 average  train loss: 0.1957
+current epoch: 108 current accuracy: 0.7031 current AUC: 0.7363 best accuracy: 0.8282 at epoch 62
+epoch 109 average  train loss: 0.1735
+current epoch: 109 current accuracy: 0.7031 current AUC: 0.7487 best accuracy: 0.8282 at epoch 62
+epoch 110 average  train loss: 0.1761
+current epoch: 110 current accuracy: 0.6931 current AUC: 0.7539 best accuracy: 0.8282 at epoch 62
+epoch 111 average  train loss: 0.1304
+current epoch: 111 current accuracy: 0.6440 current AUC: 0.7538 best accuracy: 0.8282 at epoch 62
+epoch 112 average  train loss: 0.0926
+current epoch: 112 current accuracy: 0.6987 current AUC: 0.7408 best accuracy: 0.8282 at epoch 62
+epoch 113 average  train loss: 0.1388
+current epoch: 113 current accuracy: 0.6652 current AUC: 0.7572 best accuracy: 0.8282 at epoch 62
+epoch 114 average  train loss: 0.1121
+current epoch: 114 current accuracy: 0.7176 current AUC: 0.7381 best accuracy: 0.8282 at epoch 62
+epoch 115 average  train loss: 0.1503
+current epoch: 115 current accuracy: 0.7277 current AUC: 0.7666 best accuracy: 0.8282 at epoch 62
+epoch 116 average  train loss: 0.1269
+current epoch: 116 current accuracy: 0.7154 current AUC: 0.7596 best accuracy: 0.8282 at epoch 62
+epoch 117 average  train loss: 0.1287
+current epoch: 117 current accuracy: 0.7009 current AUC: 0.7393 best accuracy: 0.8282 at epoch 62
+epoch 118 average  train loss: 0.1408
+current epoch: 118 current accuracy: 0.7254 current AUC: 0.7685 best accuracy: 0.8282 at epoch 62
+epoch 119 average  train loss: 0.1311
+current epoch: 119 current accuracy: 0.6897 current AUC: 0.7101 best accuracy: 0.8282 at epoch 62
+epoch 120 average  train loss: 0.1078
+current epoch: 120 current accuracy: 0.7020 current AUC: 0.7483 best accuracy: 0.8282 at epoch 62
+epoch 121 average  train loss: 0.1146
+current epoch: 121 current accuracy: 0.6931 current AUC: 0.7495 best accuracy: 0.8282 at epoch 62
+epoch 122 average  train loss: 0.0664
+current epoch: 122 current accuracy: 0.7087 current AUC: 0.7632 best accuracy: 0.8282 at epoch 62
+epoch 123 average  train loss: 0.0683
+current epoch: 123 current accuracy: 0.6819 current AUC: 0.7470 best accuracy: 0.8282 at epoch 62
+epoch 124 average  train loss: 0.1228
+current epoch: 124 current accuracy: 0.6964 current AUC: 0.7555 best accuracy: 0.8282 at epoch 62
+epoch 125 average  train loss: 0.1306
+current epoch: 125 current accuracy: 0.7087 current AUC: 0.7655 best accuracy: 0.8282 at epoch 62
+epoch 126 average  train loss: 0.1180
+current epoch: 126 current accuracy: 0.7277 current AUC: 0.7746 best accuracy: 0.8282 at epoch 62
+epoch 127 average  train loss: 0.1233
+current epoch: 127 current accuracy: 0.7221 current AUC: 0.7448 best accuracy: 0.8282 at epoch 62
+epoch 128 average  train loss: 0.1053
+current epoch: 128 current accuracy: 0.7076 current AUC: 0.7437 best accuracy: 0.8282 at epoch 62
+epoch 129 average  train loss: 0.0926
+current epoch: 129 current accuracy: 0.6819 current AUC: 0.7513 best accuracy: 0.8282 at epoch 62
+epoch 130 average  train loss: 0.1736
+current epoch: 130 current accuracy: 0.7087 current AUC: 0.7524 best accuracy: 0.8282 at epoch 62
+epoch 131 average  train loss: 0.0804
+current epoch: 131 current accuracy: 0.6975 current AUC: 0.7495 best accuracy: 0.8282 at epoch 62
+epoch 132 average  train loss: 0.0713
+current epoch: 132 current accuracy: 0.7154 current AUC: 0.7509 best accuracy: 0.8282 at epoch 62
+epoch 133 average  train loss: 0.0511
+current epoch: 133 current accuracy: 0.6496 current AUC: 0.7246 best accuracy: 0.8282 at epoch 62
+epoch 134 average  train loss: 0.0671
+current epoch: 134 current accuracy: 0.6953 current AUC: 0.7354 best accuracy: 0.8282 at epoch 62
+epoch 135 average  train loss: 0.0793
+current epoch: 135 current accuracy: 0.6964 current AUC: 0.7344 best accuracy: 0.8282 at epoch 62
+epoch 136 average  train loss: 0.1002
+current epoch: 136 current accuracy: 0.6685 current AUC: 0.7371 best accuracy: 0.8282 at epoch 62
+epoch 137 average  train loss: 0.0971
+current epoch: 137 current accuracy: 0.7076 current AUC: 0.7533 best accuracy: 0.8282 at epoch 62
+epoch 138 average  train loss: 0.0757
+current epoch: 138 current accuracy: 0.7210 current AUC: 0.7644 best accuracy: 0.8282 at epoch 62
+epoch 139 average  train loss: 0.0630
+current epoch: 139 current accuracy: 0.7143 current AUC: 0.7355 best accuracy: 0.8282 at epoch 62
+epoch 140 average  train loss: 0.0585
+current epoch: 140 current accuracy: 0.7210 current AUC: 0.7620 best accuracy: 0.8282 at epoch 62
+epoch 141 average  train loss: 0.0718
+current epoch: 141 current accuracy: 0.6853 current AUC: 0.7190 best accuracy: 0.8282 at epoch 62
+epoch 142 average  train loss: 0.0773
+current epoch: 142 current accuracy: 0.6663 current AUC: 0.7338 best accuracy: 0.8282 at epoch 62
+epoch 143 average  train loss: 0.0731
+current epoch: 143 current accuracy: 0.6730 current AUC: 0.7055 best accuracy: 0.8282 at epoch 62
+epoch 144 average  train loss: 0.1893
+current epoch: 144 current accuracy: 0.5960 current AUC: 0.7281 best accuracy: 0.8282 at epoch 62
+epoch 145 average  train loss: 0.1254
+current epoch: 145 current accuracy: 0.6730 current AUC: 0.7128 best accuracy: 0.8282 at epoch 62
+epoch 146 average  train loss: 0.0914
+current epoch: 146 current accuracy: 0.6562 current AUC: 0.7253 best accuracy: 0.8282 at epoch 62
+epoch 147 average  train loss: 0.0807
+current epoch: 147 current accuracy: 0.6507 current AUC: 0.7137 best accuracy: 0.8282 at epoch 62
+epoch 148 average  train loss: 0.0590
+current epoch: 148 current accuracy: 0.6685 current AUC: 0.7321 best accuracy: 0.8282 at epoch 62
+epoch 149 average  train loss: 0.0929
+current epoch: 149 current accuracy: 0.6752 current AUC: 0.7193 best accuracy: 0.8282 at epoch 62
+epoch 150 average  train loss: 0.0980
+current epoch: 150 current accuracy: 0.5926 current AUC: 0.6783 best accuracy: 0.8282 at epoch 62
+train completed, best_metric: 0.8282 at epoch: 62

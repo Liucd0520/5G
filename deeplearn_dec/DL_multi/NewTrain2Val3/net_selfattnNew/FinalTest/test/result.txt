@@ -1,0 +1,1 @@
+current epoch: 135 train_acc:0.8683, train_AUC: 0.9399, val_acc: 0.7994 val_AUC: 0.8540 best val_acc: 3.4616 at epoch 135

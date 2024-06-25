@@ -1,0 +1,433 @@
+1317
+2264 2263
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'rad': [-0.426334239, 0.315025113, 8.35283075, 0.068442358, 0.121029744, 2.725956892, 4.15475501, 7.113295602, 0.737770167], 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 618 1309
+Loading dataset:   0%|          | 0/691 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/691 [00:00<03:07,  3.69it/s]Loading dataset:   0%|          | 2/691 [00:01<12:35,  1.10s/it]Loading dataset:   2%|▏         | 17/691 [00:03<01:59,  5.63it/s]Loading dataset:   5%|▍         | 34/691 [00:04<01:06,  9.81it/s]Loading dataset:   9%|▉         | 61/691 [00:04<00:32, 19.09it/s]Loading dataset:  12%|█▏        | 82/691 [00:05<00:30, 20.08it/s]Loading dataset:  14%|█▍        | 96/691 [00:06<00:24, 24.71it/s]Loading dataset:  15%|█▌        | 106/691 [00:06<00:25, 23.26it/s]Loading dataset:  16%|█▌        | 112/691 [00:06<00:23, 24.43it/s]Loading dataset:  19%|█▊        | 128/691 [00:07<00:20, 27.50it/s]Loading dataset:  20%|█▉        | 137/691 [00:07<00:18, 29.28it/s]Loading dataset:  21%|██        | 143/691 [00:09<00:42, 12.94it/s]Loading dataset:  26%|██▌       | 181/691 [00:09<00:18, 27.02it/s]Loading dataset:  29%|██▉       | 200/691 [00:09<00:14, 34.74it/s]Loading dataset:  30%|██▉       | 207/691 [00:09<00:13, 36.99it/s]Loading dataset:  31%|███       | 213/691 [00:10<00:16, 29.03it/s]Loading dataset:  32%|███▏      | 218/691 [00:10<00:17, 27.43it/s]Loading dataset:  32%|███▏      | 222/691 [00:12<00:44, 10.55it/s]Loading dataset:  34%|███▎      | 232/691 [00:12<00:34, 13.25it/s]Loading dataset:  37%|███▋      | 256/691 [00:13<00:26, 16.35it/s]Loading dataset:  39%|███▉      | 271/691 [00:14<00:21, 19.50it/s]Loading dataset:  41%|████      | 283/691 [00:15<00:26, 15.61it/s]Loading dataset:  43%|████▎     | 300/691 [00:16<00:20, 19.09it/s]Loading dataset:  47%|████▋     | 324/691 [00:16<00:16, 21.87it/s]Loading dataset:  48%|████▊     | 332/691 [00:17<00:15, 23.51it/s]Loading dataset:  49%|████▉     | 341/691 [00:17<00:18, 18.68it/s]Loading dataset:  51%|█████     | 352/691 [00:18<00:18, 18.02it/s]Loading dataset:  54%|█████▍    | 375/691 [00:18<00:11, 28.70it/s]Loading dataset:  55%|█████▍    | 380/691 [00:20<00:22, 14.12it/s]Loading dataset:  56%|█████▌    | 384/691 [00:21<00:25, 12.07it/s]Loading dataset:  56%|█████▋    | 389/691 [00:21<00:22, 13.47it/s]Loading dataset:  57%|█████▋    | 392/691 [00:23<00:46,  6.40it/s]Loading dataset:  59%|█████▉    | 411/691 [00:24<00:30,  9.10it/s]Loading dataset:  62%|██████▏   | 427/691 [00:25<00:20, 12.95it/s]Loading dataset:  63%|██████▎   | 435/691 [00:27<00:28,  8.99it/s]Loading dataset:  64%|██████▍   | 443/691 [00:27<00:25,  9.77it/s]Loading dataset:  65%|██████▌   | 450/691 [00:29<00:32,  7.45it/s]Loading dataset:  69%|██████▉   | 479/691 [00:31<00:19, 10.68it/s]Loading dataset:  71%|███████   | 489/691 [00:31<00:16, 12.26it/s]Loading dataset:  74%|███████▍  | 513/691 [00:32<00:12, 13.95it/s]Loading dataset:  76%|███████▌  | 526/691 [00:34<00:14, 11.77it/s]Loading dataset:  78%|███████▊  | 540/691 [00:36<00:14, 10.44it/s]Loading dataset:  79%|███████▊  | 544/691 [00:37<00:17,  8.35it/s]Loading dataset:  86%|████████▌ | 591/691 [00:38<00:04, 20.18it/s]Loading dataset:  86%|████████▋ | 596/691 [00:38<00:05, 16.59it/s]Loading dataset:  88%|████████▊ | 607/691 [00:39<00:05, 15.78it/s]Loading dataset:  88%|████████▊ | 611/691 [00:41<00:08,  9.81it/s]Loading dataset:  89%|████████▉ | 618/691 [00:41<00:06, 11.47it/s]Loading dataset:  91%|█████████▏| 631/691 [00:42<00:05, 11.29it/s]Loading dataset:  94%|█████████▍| 648/691 [00:43<00:02, 16.26it/s]Loading dataset:  95%|█████████▍| 653/691 [00:44<00:03, 10.66it/s]Loading dataset:  99%|█████████▉| 685/691 [00:44<00:00, 22.90it/s]Loading dataset: 100%|██████████| 691/691 [00:44<00:00, 15.40it/s]
+Loading dataset:   0%|          | 0/618 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/618 [00:00<09:51,  1.04it/s]Loading dataset:   4%|▍         | 27/618 [00:01<00:23, 25.59it/s]Loading dataset:   5%|▌         | 33/618 [00:01<00:25, 23.24it/s]Loading dataset:   6%|▌         | 37/618 [00:02<00:42, 13.60it/s]Loading dataset:   9%|▉         | 56/618 [00:02<00:21, 26.11it/s]Loading dataset:  10%|▉         | 61/618 [00:03<00:26, 20.97it/s]Loading dataset:  11%|█         | 65/618 [00:03<00:24, 22.76it/s]Loading dataset:  12%|█▏        | 73/618 [00:03<00:20, 26.92it/s]Loading dataset:  12%|█▏        | 77/618 [00:03<00:23, 23.12it/s]Loading dataset:  13%|█▎        | 83/618 [00:04<00:27, 19.73it/s]Loading dataset:  15%|█▍        | 91/618 [00:04<00:21, 24.25it/s]Loading dataset:  17%|█▋        | 106/618 [00:04<00:13, 37.19it/s]Loading dataset:  18%|█▊        | 111/618 [00:04<00:18, 28.10it/s]Loading dataset:  20%|█▉        | 121/618 [00:05<00:16, 30.00it/s]Loading dataset:  20%|██        | 125/618 [00:05<00:16, 29.30it/s]Loading dataset:  22%|██▏       | 136/618 [00:05<00:13, 34.77it/s]Loading dataset:  23%|██▎       | 140/618 [00:06<00:29, 16.04it/s]Loading dataset:  26%|██▌       | 162/618 [00:06<00:15, 29.86it/s]Loading dataset:  29%|██▉       | 179/618 [00:07<00:14, 30.98it/s]Loading dataset:  31%|███       | 190/618 [00:07<00:13, 30.77it/s]Loading dataset:  33%|███▎      | 203/618 [00:08<00:16, 24.77it/s]Loading dataset:  35%|███▌      | 217/618 [00:08<00:12, 32.29it/s]Loading dataset:  37%|███▋      | 230/618 [00:08<00:09, 39.70it/s]Loading dataset:  38%|███▊      | 237/618 [00:09<00:11, 32.00it/s]Loading dataset:  40%|███▉      | 245/618 [00:09<00:10, 36.63it/s]Loading dataset:  41%|████      | 251/618 [00:09<00:13, 27.92it/s]Loading dataset:  41%|████▏     | 256/618 [00:10<00:18, 19.49it/s]Loading dataset:  42%|████▏     | 262/618 [00:10<00:15, 22.46it/s]Loading dataset:  45%|████▍     | 278/618 [00:10<00:10, 31.06it/s]Loading dataset:  46%|████▋     | 287/618 [00:10<00:09, 33.39it/s]Loading dataset:  47%|████▋     | 292/618 [00:11<00:11, 29.02it/s]Loading dataset:  49%|████▉     | 304/618 [00:11<00:15, 20.41it/s]Loading dataset:  50%|█████     | 312/618 [00:12<00:13, 23.11it/s]Loading dataset:  52%|█████▏    | 321/618 [00:12<00:14, 19.83it/s]Loading dataset:  54%|█████▎    | 331/618 [00:13<00:15, 18.29it/s]Loading dataset:  56%|█████▌    | 346/618 [00:13<00:11, 23.34it/s]Loading dataset:  58%|█████▊    | 359/618 [00:14<00:09, 26.10it/s]Loading dataset:  59%|█████▊    | 362/618 [00:14<00:13, 19.07it/s]Loading dataset:  60%|█████▉    | 369/618 [00:15<00:15, 15.70it/s]Loading dataset:  63%|██████▎   | 388/618 [00:15<00:08, 27.44it/s]Loading dataset:  64%|██████▎   | 393/618 [00:16<00:11, 20.02it/s]Loading dataset:  64%|██████▍   | 397/618 [00:18<00:24,  8.90it/s]Loading dataset:  69%|██████▊   | 424/618 [00:18<00:09, 19.75it/s]Loading dataset:  70%|██████▉   | 431/618 [00:19<00:11, 16.01it/s]Loading dataset:  78%|███████▊  | 481/618 [00:19<00:03, 41.82it/s]Loading dataset:  80%|████████  | 495/618 [00:19<00:02, 41.09it/s]Loading dataset:  82%|████████▏ | 506/618 [00:19<00:02, 42.54it/s]Loading dataset:  83%|████████▎ | 515/618 [00:20<00:03, 30.71it/s]Loading dataset:  88%|████████▊ | 543/618 [00:21<00:02, 36.34it/s]Loading dataset:  92%|█████████▏| 567/618 [00:21<00:01, 44.90it/s]Loading dataset:  93%|█████████▎| 575/618 [00:21<00:00, 46.96it/s]1317
+2264 2263
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'rad': [-0.426334239, 0.315025113, 8.35283075, 0.068442358, 0.121029744, 2.725956892, 4.15475501, 7.113295602, 0.737770167], 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 618 1309
+Loading dataset:   0%|          | 0/691 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/691 [00:00<03:10,  3.62it/s]Loading dataset:   0%|          | 2/691 [00:01<12:09,  1.06s/it]Loading dataset:   2%|▏         | 17/691 [00:03<02:03,  5.47it/s]Loading dataset:   5%|▍         | 34/691 [00:04<01:10,  9.33it/s]Loading dataset:   9%|▉         | 61/691 [00:04<00:31, 19.96it/s]Loading dataset:  11%|█         | 75/691 [00:04<00:23, 25.97it/s]Loading dataset:  12%|█▏        | 82/691 [00:06<00:37, 16.38it/s]Loading dataset:  15%|█▌        | 106/691 [00:06<00:25, 22.56it/s]Loading dataset:  18%|█▊        | 124/691 [00:06<00:18, 30.11it/s]Loading dataset:  19%|█▉        | 130/691 [00:07<00:20, 27.42it/s]Loading dataset:  20%|█▉        | 137/691 [00:07<00:21, 25.94it/s]Loading dataset:  21%|██        | 143/691 [00:09<00:43, 12.67it/s]Loading dataset:  26%|██▌       | 181/691 [00:09<00:19, 25.63it/s]Loading dataset:  29%|██▉       | 200/691 [00:09<00:14, 32.95it/s]Loading dataset:  30%|██▉       | 207/691 [00:10<00:14, 34.23it/s]Loading dataset:  31%|███       | 213/691 [00:10<00:17, 27.68it/s]Loading dataset:  32%|███▏      | 218/691 [00:10<00:15, 29.59it/s]Loading dataset:  32%|███▏      | 223/691 [00:12<00:46,  9.96it/s]Loading dataset:  37%|███▋      | 256/691 [00:14<00:27, 15.72it/s]Loading dataset:  39%|███▉      | 271/691 [00:14<00:22, 18.96it/s]Loading dataset:  40%|███▉      | 275/691 [00:14<00:21, 19.16it/s]Loading dataset:  41%|████      | 283/691 [00:15<00:28, 14.12it/s]Loading dataset:  43%|████▎     | 300/691 [00:15<00:18, 20.60it/s]Loading dataset:  46%|████▌     | 318/691 [00:16<00:13, 27.46it/s]Loading dataset:  47%|████▋     | 324/691 [00:17<00:20, 18.32it/s]Loading dataset:  48%|████▊     | 332/691 [00:17<00:16, 21.35it/s]Loading dataset:  49%|████▉     | 341/691 [00:18<00:20, 16.85it/s]Loading dataset:  51%|█████     | 352/691 [00:18<00:20, 16.18it/s]Loading dataset:  55%|█████▍    | 378/691 [00:20<00:19, 15.78it/s]Loading dataset:  55%|█████▌    | 381/691 [00:20<00:19, 15.82it/s]Loading dataset:  56%|█████▌    | 384/691 [00:21<00:23, 13.02it/s]Loading dataset:  56%|█████▋    | 389/691 [00:21<00:21, 13.92it/s]Loading dataset:  57%|█████▋    | 391/691 [00:23<00:52,  5.69it/s]Loading dataset:  59%|█████▉    | 411/691 [00:25<00:30,  9.21it/s]Loading dataset:  60%|█████▉    | 413/691 [00:25<00:30,  9.06it/s]Loading dataset:  62%|██████▏   | 427/691 [00:25<00:19, 13.48it/s]Loading dataset:  63%|██████▎   | 435/691 [00:27<00:31,  8.13it/s]Loading dataset:  65%|██████▌   | 450/691 [00:29<00:31,  7.68it/s]Loading dataset:  69%|██████▉   | 479/691 [00:31<00:19, 11.00it/s]Loading dataset:  71%|███████   | 489/691 [00:31<00:16, 12.60it/s]Loading dataset:  74%|███████▍  | 510/691 [00:32<00:09, 18.95it/s]Loading dataset:  75%|███████▍  | 515/691 [00:33<00:14, 12.42it/s]Loading dataset:  76%|███████▌  | 526/691 [00:34<00:15, 10.89it/s]Loading dataset:  78%|███████▊  | 540/691 [00:36<00:16,  9.34it/s]Loading dataset:  79%|███████▊  | 544/691 [00:38<00:19,  7.46it/s]Loading dataset:  86%|████████▌ | 591/691 [00:38<00:04, 20.53it/s]Loading dataset:  87%|████████▋ | 598/691 [00:39<00:05, 16.70it/s]Loading dataset:  88%|████████▊ | 607/691 [00:40<00:05, 16.13it/s]Loading dataset:  88%|████████▊ | 611/691 [00:42<00:08,  9.34it/s]Loading dataset:  91%|█████████▏| 631/691 [00:43<00:05, 11.22it/s]Loading dataset:  94%|█████████▍| 648/691 [00:43<00:02, 14.41it/s]Loading dataset:  95%|█████████▍| 653/691 [00:45<00:03, 10.74it/s]Loading dataset:  99%|█████████▉| 685/691 [00:45<00:00, 22.03it/s]Loading dataset: 100%|██████████| 691/691 [00:45<00:00, 15.24it/s]
+Loading dataset:   0%|          | 0/618 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/618 [00:00<10:16,  1.00it/s]Loading dataset:   4%|▍         | 27/618 [00:01<00:21, 27.77it/s]Loading dataset:   5%|▌         | 33/618 [00:01<00:26, 22.01it/s]Loading dataset:   6%|▌         | 37/618 [00:02<00:40, 14.43it/s]Loading dataset:   9%|▊         | 53/618 [00:02<00:21, 26.56it/s]Loading dataset:  10%|▉         | 60/618 [00:02<00:19, 28.17it/s]Loading dataset:  11%|█         | 66/618 [00:03<00:25, 21.28it/s]Loading dataset:  12%|█▏        | 73/618 [00:03<00:22, 24.68it/s]Loading dataset:  12%|█▏        | 77/618 [00:03<00:26, 20.23it/s]Loading dataset:  13%|█▎        | 83/618 [00:04<00:30, 17.43it/s]Loading dataset:  15%|█▍        | 91/618 [00:04<00:22, 23.05it/s]Loading dataset:  17%|█▋        | 106/618 [00:04<00:15, 32.88it/s]Loading dataset:  18%|█▊        | 111/618 [00:04<00:18, 27.70it/s]Loading dataset:  20%|█▉        | 121/618 [00:05<00:16, 29.28it/s]Loading dataset:  21%|██        | 130/618 [00:05<00:14, 33.77it/s]Loading dataset:  22%|██▏       | 136/618 [00:05<00:13, 36.75it/s]Loading dataset:  23%|██▎       | 141/618 [00:06<00:28, 16.89it/s]Loading dataset:  26%|██▌       | 162/618 [00:06<00:15, 29.02it/s]Loading dataset:  29%|██▉       | 179/618 [00:07<00:13, 32.25it/s]Loading dataset:  30%|███       | 188/618 [00:07<00:13, 32.23it/s]Loading dataset:  31%|███       | 192/618 [00:07<00:14, 30.24it/s]Loading dataset:  33%|███▎      | 203/618 [00:08<00:18, 22.44it/s]Loading dataset:  37%|███▋      | 227/618 [00:08<00:09, 41.30it/s]Loading dataset:  38%|███▊      | 236/618 [00:09<00:11, 31.85it/s]Loading dataset:  39%|███▉      | 243/618 [00:09<00:11, 32.06it/s]Loading dataset:  40%|████      | 249/618 [00:09<00:14, 25.94it/s]Loading dataset:  41%|████      | 254/618 [00:10<00:17, 20.92it/s]Loading dataset:  42%|████▏     | 262/618 [00:10<00:14, 24.55it/s]Loading dataset:  45%|████▍     | 277/618 [00:10<00:08, 38.71it/s]Loading dataset:  46%|████▌     | 284/618 [00:10<00:09, 34.65it/s]Loading dataset:  47%|████▋     | 290/618 [00:11<00:12, 27.08it/s]Loading dataset:  49%|████▊     | 300/618 [00:11<00:10, 30.86it/s]Loading dataset:  49%|████▉     | 305/618 [00:12<00:19, 16.03it/s]Loading dataset:  52%|█████▏    | 319/618 [00:12<00:11, 25.26it/s]Loading dataset:  53%|█████▎    | 325/618 [00:12<00:13, 20.98it/s]Loading dataset:  54%|█████▎    | 331/618 [00:13<00:17, 16.55it/s]Loading dataset:  56%|█████▌    | 346/618 [00:14<00:13, 19.93it/s]Loading dataset:  58%|█████▊    | 359/618 [00:14<00:10, 24.37it/s]Loading dataset:  59%|█████▊    | 363/618 [00:14<00:13, 18.33it/s]Loading dataset:  60%|█████▉    | 369/618 [00:15<00:17, 14.23it/s]Loading dataset:  63%|██████▎   | 392/618 [00:15<00:08, 27.11it/s]Loading dataset:  64%|██████▍   | 397/618 [00:18<00:22,  9.63it/s]Loading dataset:  69%|██████▉   | 425/618 [00:18<00:09, 19.66it/s]Loading dataset:  70%|███████   | 433/618 [00:19<00:10, 16.88it/s]Loading dataset:  78%|███████▊  | 482/618 [00:19<00:03, 35.76it/s]Loading dataset:  80%|███████▉  | 494/618 [00:19<00:03, 40.70it/s]Loading dataset:  81%|████████▏ | 503/618 [00:19<00:02, 43.35it/s]Loading dataset:  83%|████████▎ | 515/618 [00:20<00:03, 32.06it/s]Loading dataset:  88%|████████▊ | 543/618 [00:21<00:02, 35.89it/s]Loading dataset:  92%|█████████▏| 567/618 [00:21<00:01, 46.41it/s]Loading dataset:  93%|█████████▎| 575/618 [00:21<00:00, 47.14it/s]Loading dataset:  94%|█████████▍| 584/618 [00:21<00:00, 43.66it/s]Loading dataset:  95%|█████████▌| 590/618 [00:22<00:00, 39.03it/s]Loading dataset:  96%|█████████▋| 595/618 [00:22<00:00, 27.11it/s]Loading dataset: 100%|██████████| 618/618 [00:22<00:00, 27.27it/s]
+Loading dataset:   0%|          | 0/691 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/691 [00:00<03:04,  3.75it/s]Loading dataset:   0%|          | 2/691 [00:01<12:07,  1.06s/it]Loading dataset:   2%|▏         | 17/691 [00:03<02:07,  5.30it/s]Loading dataset:   5%|▍         | 34/691 [00:04<01:10,  9.26it/s]Loading dataset:   9%|▉         | 61/691 [00:04<00:30, 20.37it/s]Loading dataset:  11%|█         | 74/691 [00:04<00:24, 25.46it/s]Loading dataset:  12%|█▏        | 81/691 [00:05<00:22, 27.01it/s]Loading dataset:  13%|█▎        | 87/691 [00:06<00:36, 16.63it/s]Loading dataset:  15%|█▌        | 104/691 [00:06<00:24, 24.40it/s]Loading dataset:  16%|█▌        | 109/691 [00:06<00:26, 21.80it/s]Loading dataset:  16%|█▋        | 113/691 [00:06<00:24, 23.34it/s]Loading dataset:  18%|█▊        | 124/691 [00:07<00:18, 29.99it/s]Loading dataset:  19%|█▊        | 129/691 [00:07<00:25, 22.11it/s]Loading dataset:  20%|█▉        | 137/691 [00:07<00:22, 24.42it/s]Loading dataset:  21%|██        | 143/691 [00:09<00:52, 10.48it/s]Loading dataset:  26%|██▌       | 181/691 [00:10<00:22, 23.18it/s]Loading dataset:  29%|██▉       | 200/691 [00:10<00:15, 32.01it/s]Loading dataset:  30%|███       | 209/691 [00:10<00:14, 34.03it/s]Loading dataset:  31%|███       | 215/691 [00:10<00:17, 27.91it/s]Loading dataset:  32%|███▏      | 220/691 [00:11<00:17, 27.43it/s]Loading dataset:  32%|███▏      | 224/691 [00:13<00:48,  9.70it/s]Loading dataset:  37%|███▋      | 256/691 [00:14<00:29, 14.68it/s]Loading dataset:  39%|███▉      | 271/691 [00:14<00:23, 17.60it/s]Loading dataset:  41%|████      | 283/691 [00:16<00:26, 15.14it/s]Loading dataset:  43%|████▎     | 300/691 [00:16<00:20, 19.38it/s]Loading dataset:  46%|████▌     | 317/691 [00:16<00:14, 26.50it/s]Loading dataset:  47%|████▋     | 323/691 [00:16<00:13, 28.08it/s]Loading dataset:  48%|████▊     | 329/691 [00:17<00:19, 18.36it/s]Loading dataset:  48%|████▊     | 333/691 [00:17<00:18, 18.86it/s]Loading dataset:  49%|████▉     | 341/691 [00:18<00:26, 13.14it/s]Loading dataset:  51%|█████     | 352/691 [00:19<00:23, 14.51it/s]Loading dataset:  54%|█████▍    | 375/691 [00:19<00:11, 26.36it/s]Loading dataset:  55%|█████▌    | 381/691 [00:21<00:22, 13.49it/s]Loading dataset:  56%|█████▌    | 385/691 [00:22<00:27, 11.19it/s]Loading dataset:  56%|█████▋    | 390/691 [00:24<00:47,  6.33it/s]Loading dataset:  59%|█████▉    | 411/691 [00:25<00:29,  9.36it/s]Loading dataset:  60%|█████▉    | 413/691 [00:26<00:31,  8.78it/s]Loading dataset:  62%|██████▏   | 427/691 [00:26<00:21, 12.47it/s]Loading dataset:  63%|██████▎   | 435/691 [00:28<00:28,  8.91it/s]Loading dataset:  64%|██████▍   | 443/691 [00:28<00:24, 10.12it/s]Loading dataset:  65%|██████▌   | 450/691 [00:30<00:34,  6.97it/s]Loading dataset:  69%|██████▉   | 479/691 [00:32<00:20, 10.50it/s]Loading dataset:  71%|███████   | 489/691 [00:32<00:15, 12.87it/s]Loading dataset:  74%|███████▍  | 510/691 [00:32<00:08, 20.17it/s]Loading dataset:  75%|███████▍  | 516/691 [00:34<00:13, 13.02it/s]Loading dataset:  76%|███████▌  | 526/691 [00:35<00:16, 10.31it/s]Loading dataset:  78%|███████▊  | 540/691 [00:37<00:16,  9.13it/s]Loading dataset:  79%|███████▊  | 544/691 [00:39<00:20,  7.16it/s]Loading dataset:  86%|████████▌ | 591/691 [00:39<00:04, 20.44it/s]Loading dataset:  87%|████████▋ | 600/691 [00:40<00:05, 18.16it/s]Loading dataset:  88%|████████▊ | 607/691 [00:40<00:05, 15.05it/s]Loading dataset:  89%|████████▊ | 612/691 [00:42<00:08,  9.32it/s]Loading dataset:  91%|█████████▏| 631/691 [00:44<00:05, 10.86it/s]Loading dataset:  94%|█████████▍| 648/691 [00:44<00:02, 14.74it/s]Loading dataset:  95%|█████████▍| 653/691 [00:46<00:03, 10.43it/s]Loading dataset:  99%|█████████▉| 685/691 [00:46<00:00, 21.47it/s]Loading dataset: 100%|██████████| 691/691 [00:46<00:00, 14.97it/s]
+epoch 1 average  train loss: 0.4149
+saved new best metric model
+current epoch: 1 train_acc:0.7974, train_AUC: 0.8874, val_acc: 0.7573 val_AUC: 0.8016 best val_acc: 3.2437 at epoch 1
+epoch 2 average  train loss: 0.3778
+saved new best metric model
+current epoch: 2 train_acc:0.8148, train_AUC: 0.8927, val_acc: 0.7540 val_AUC: 0.8046 best val_acc: 3.2660 at epoch 2
+epoch 3 average  train loss: 0.3951
+saved new best metric model
+current epoch: 3 train_acc:0.8191, train_AUC: 0.8944, val_acc: 0.7557 val_AUC: 0.8098 best val_acc: 3.2790 at epoch 3
+epoch 4 average  train loss: 0.3813
+saved new best metric model
+current epoch: 4 train_acc:0.8278, train_AUC: 0.8971, val_acc: 0.7508 val_AUC: 0.8164 best val_acc: 3.2922 at epoch 4
+epoch 5 average  train loss: 0.3688
+saved new best metric model
+current epoch: 5 train_acc:0.8263, train_AUC: 0.9041, val_acc: 0.7670 val_AUC: 0.8285 best val_acc: 3.3259 at epoch 5
+epoch 6 average  train loss: 0.3756
+current epoch: 6 train_acc:0.8017, train_AUC: 0.9021, val_acc: 0.7654 val_AUC: 0.8274 best val_acc: 3.3259 at epoch 5
+epoch 7 average  train loss: 0.3540
+current epoch: 7 train_acc:0.8133, train_AUC: 0.9047, val_acc: 0.7654 val_AUC: 0.8272 best val_acc: 3.3259 at epoch 5
+epoch 8 average  train loss: 0.3632
+current epoch: 8 train_acc:0.8191, train_AUC: 0.9039, val_acc: 0.7718 val_AUC: 0.8290 best val_acc: 3.3259 at epoch 5
+epoch 9 average  train loss: 0.3597
+saved new best metric model
+current epoch: 9 train_acc:0.8234, train_AUC: 0.9077, val_acc: 0.7702 val_AUC: 0.8356 best val_acc: 3.3370 at epoch 9
+epoch 10 average  train loss: 0.3724
+current epoch: 10 train_acc:0.8032, train_AUC: 0.9035, val_acc: 0.7605 val_AUC: 0.8324 best val_acc: 3.3370 at epoch 9
+epoch 11 average  train loss: 0.3636
+current epoch: 11 train_acc:0.8162, train_AUC: 0.9078, val_acc: 0.7654 val_AUC: 0.8369 best val_acc: 3.3370 at epoch 9
+epoch 12 average  train loss: 0.3650
+saved new best metric model
+current epoch: 12 train_acc:0.8307, train_AUC: 0.9073, val_acc: 0.7913 val_AUC: 0.8400 best val_acc: 3.3692 at epoch 12
+epoch 13 average  train loss: 0.3728
+current epoch: 13 train_acc:0.8191, train_AUC: 0.9057, val_acc: 0.7654 val_AUC: 0.8343 best val_acc: 3.3692 at epoch 12
+epoch 14 average  train loss: 0.3712
+current epoch: 14 train_acc:0.8234, train_AUC: 0.9041, val_acc: 0.7832 val_AUC: 0.8384 best val_acc: 3.3692 at epoch 12
+epoch 15 average  train loss: 0.3607
+current epoch: 15 train_acc:0.8263, train_AUC: 0.9070, val_acc: 0.7848 val_AUC: 0.8381 best val_acc: 3.3692 at epoch 12
+epoch 16 average  train loss: 0.3620
+current epoch: 16 train_acc:0.8234, train_AUC: 0.9075, val_acc: 0.7799 val_AUC: 0.8387 best val_acc: 3.3692 at epoch 12
+epoch 17 average  train loss: 0.3661
+saved new best metric model
+current epoch: 17 train_acc:0.8249, train_AUC: 0.9104, val_acc: 0.7896 val_AUC: 0.8482 best val_acc: 3.3731 at epoch 17
+epoch 18 average  train loss: 0.3545
+current epoch: 18 train_acc:0.8321, train_AUC: 0.9078, val_acc: 0.7880 val_AUC: 0.8438 best val_acc: 3.3731 at epoch 17
+epoch 19 average  train loss: 0.3539
+current epoch: 19 train_acc:0.8234, train_AUC: 0.9084, val_acc: 0.7751 val_AUC: 0.8415 best val_acc: 3.3731 at epoch 17
+epoch 20 average  train loss: 0.3665
+saved new best metric model
+current epoch: 20 train_acc:0.8350, train_AUC: 0.9081, val_acc: 0.7896 val_AUC: 0.8444 best val_acc: 3.3771 at epoch 20
+epoch 21 average  train loss: 0.3628
+current epoch: 21 train_acc:0.8191, train_AUC: 0.9109, val_acc: 0.7799 val_AUC: 0.8500 best val_acc: 3.3771 at epoch 20
+epoch 22 average  train loss: 0.3472
+saved new best metric model
+current epoch: 22 train_acc:0.8365, train_AUC: 0.9107, val_acc: 0.7913 val_AUC: 0.8449 best val_acc: 3.3833 at epoch 22
+epoch 23 average  train loss: 0.3453
+current epoch: 23 train_acc:0.8307, train_AUC: 0.9099, val_acc: 0.7832 val_AUC: 0.8440 best val_acc: 3.3833 at epoch 22
+epoch 24 average  train loss: 0.3372
+current epoch: 24 train_acc:0.8177, train_AUC: 0.9096, val_acc: 0.7718 val_AUC: 0.8472 best val_acc: 3.3833 at epoch 22
+epoch 25 average  train loss: 0.3460
+current epoch: 25 train_acc:0.8379, train_AUC: 0.9106, val_acc: 0.7864 val_AUC: 0.8433 best val_acc: 3.3833 at epoch 22
+epoch 26 average  train loss: 0.3429
+current epoch: 26 train_acc:0.8307, train_AUC: 0.9086, val_acc: 0.7913 val_AUC: 0.8410 best val_acc: 3.3833 at epoch 22
+epoch 27 average  train loss: 0.3527
+current epoch: 27 train_acc:0.8336, train_AUC: 0.9103, val_acc: 0.7896 val_AUC: 0.8476 best val_acc: 3.3833 at epoch 22
+epoch 28 average  train loss: 0.3495
+current epoch: 28 train_acc:0.8365, train_AUC: 0.9075, val_acc: 0.7702 val_AUC: 0.8375 best val_acc: 3.3833 at epoch 22
+epoch 29 average  train loss: 0.3409
+current epoch: 29 train_acc:0.8321, train_AUC: 0.9098, val_acc: 0.7913 val_AUC: 0.8440 best val_acc: 3.3833 at epoch 22
+epoch 30 average  train loss: 0.3542
+current epoch: 30 train_acc:0.8220, train_AUC: 0.9113, val_acc: 0.7816 val_AUC: 0.8478 best val_acc: 3.3833 at epoch 22
+epoch 31 average  train loss: 0.3506
+current epoch: 31 train_acc:0.8220, train_AUC: 0.9114, val_acc: 0.7832 val_AUC: 0.8456 best val_acc: 3.3833 at epoch 22
+epoch 32 average  train loss: 0.3283
+current epoch: 32 train_acc:0.8336, train_AUC: 0.9086, val_acc: 0.7896 val_AUC: 0.8455 best val_acc: 3.3833 at epoch 22
+epoch 33 average  train loss: 0.3491
+current epoch: 33 train_acc:0.8263, train_AUC: 0.9110, val_acc: 0.7816 val_AUC: 0.8406 best val_acc: 3.3833 at epoch 22
+epoch 34 average  train loss: 0.3447
+current epoch: 34 train_acc:0.8350, train_AUC: 0.9100, val_acc: 0.7945 val_AUC: 0.8432 best val_acc: 3.3833 at epoch 22
+epoch 35 average  train loss: 0.3489
+saved new best metric model
+current epoch: 35 train_acc:0.8321, train_AUC: 0.9099, val_acc: 0.7961 val_AUC: 0.8453 best val_acc: 3.3834 at epoch 35
+epoch 36 average  train loss: 0.3512
+current epoch: 36 train_acc:0.8307, train_AUC: 0.9108, val_acc: 0.7929 val_AUC: 0.8428 best val_acc: 3.3834 at epoch 35
+epoch 37 average  train loss: 0.3451
+current epoch: 37 train_acc:0.8307, train_AUC: 0.9109, val_acc: 0.7832 val_AUC: 0.8435 best val_acc: 3.3834 at epoch 35
+epoch 38 average  train loss: 0.3347
+current epoch: 38 train_acc:0.8321, train_AUC: 0.9099, val_acc: 0.7913 val_AUC: 0.8448 best val_acc: 3.3834 at epoch 35
+epoch 39 average  train loss: 0.3481
+current epoch: 39 train_acc:0.8249, train_AUC: 0.9093, val_acc: 0.7961 val_AUC: 0.8420 best val_acc: 3.3834 at epoch 35
+epoch 40 average  train loss: 0.3362
+current epoch: 40 train_acc:0.8278, train_AUC: 0.9100, val_acc: 0.7880 val_AUC: 0.8405 best val_acc: 3.3834 at epoch 35
+epoch 41 average  train loss: 0.3371
+current epoch: 41 train_acc:0.8249, train_AUC: 0.9070, val_acc: 0.7994 val_AUC: 0.8447 best val_acc: 3.3834 at epoch 35
+epoch 42 average  train loss: 0.3607
+saved new best metric model
+current epoch: 42 train_acc:0.8292, train_AUC: 0.9086, val_acc: 0.8026 val_AUC: 0.8464 best val_acc: 3.3868 at epoch 42
+epoch 43 average  train loss: 0.3610
+current epoch: 43 train_acc:0.8292, train_AUC: 0.9099, val_acc: 0.7961 val_AUC: 0.8479 best val_acc: 3.3868 at epoch 42
+epoch 44 average  train loss: 0.3351
+current epoch: 44 train_acc:0.8365, train_AUC: 0.9109, val_acc: 0.7929 val_AUC: 0.8451 best val_acc: 3.3868 at epoch 42
+epoch 45 average  train loss: 0.3399
+current epoch: 45 train_acc:0.8321, train_AUC: 0.9107, val_acc: 0.7913 val_AUC: 0.8465 best val_acc: 3.3868 at epoch 42
+epoch 46 average  train loss: 0.3466
+current epoch: 46 train_acc:0.8321, train_AUC: 0.9120, val_acc: 0.7896 val_AUC: 0.8424 best val_acc: 3.3868 at epoch 42
+epoch 47 average  train loss: 0.3249
+current epoch: 47 train_acc:0.8379, train_AUC: 0.9117, val_acc: 0.7913 val_AUC: 0.8398 best val_acc: 3.3868 at epoch 42
+epoch 48 average  train loss: 0.3372
+current epoch: 48 train_acc:0.8234, train_AUC: 0.9109, val_acc: 0.7896 val_AUC: 0.8437 best val_acc: 3.3868 at epoch 42
+epoch 49 average  train loss: 0.3572
+current epoch: 49 train_acc:0.8307, train_AUC: 0.9110, val_acc: 0.7945 val_AUC: 0.8463 best val_acc: 3.3868 at epoch 42
+epoch 50 average  train loss: 0.3366
+saved new best metric model
+current epoch: 50 train_acc:0.8365, train_AUC: 0.9118, val_acc: 0.7961 val_AUC: 0.8481 best val_acc: 3.3925 at epoch 50
+epoch 51 average  train loss: 0.3300
+saved new best metric model
+current epoch: 51 train_acc:0.8350, train_AUC: 0.9088, val_acc: 0.8074 val_AUC: 0.8471 best val_acc: 3.3984 at epoch 51
+epoch 52 average  train loss: 0.3207
+current epoch: 52 train_acc:0.8205, train_AUC: 0.9136, val_acc: 0.7832 val_AUC: 0.8482 best val_acc: 3.3984 at epoch 51
+epoch 53 average  train loss: 0.3415
+current epoch: 53 train_acc:0.8321, train_AUC: 0.9109, val_acc: 0.7896 val_AUC: 0.8447 best val_acc: 3.3984 at epoch 51
+epoch 54 average  train loss: 0.3226
+current epoch: 54 train_acc:0.8263, train_AUC: 0.9122, val_acc: 0.7832 val_AUC: 0.8429 best val_acc: 3.3984 at epoch 51
+epoch 55 average  train loss: 0.3405
+current epoch: 55 train_acc:0.8336, train_AUC: 0.9114, val_acc: 0.7994 val_AUC: 0.8438 best val_acc: 3.3984 at epoch 51
+epoch 56 average  train loss: 0.3178
+current epoch: 56 train_acc:0.8234, train_AUC: 0.9134, val_acc: 0.7961 val_AUC: 0.8427 best val_acc: 3.3984 at epoch 51
+epoch 57 average  train loss: 0.3223
+current epoch: 57 train_acc:0.8307, train_AUC: 0.9114, val_acc: 0.7848 val_AUC: 0.8343 best val_acc: 3.3984 at epoch 51
+epoch 58 average  train loss: 0.3350
+current epoch: 58 train_acc:0.8292, train_AUC: 0.9107, val_acc: 0.7848 val_AUC: 0.8404 best val_acc: 3.3984 at epoch 51
+epoch 59 average  train loss: 0.3038
+current epoch: 59 train_acc:0.8350, train_AUC: 0.9125, val_acc: 0.7945 val_AUC: 0.8429 best val_acc: 3.3984 at epoch 51
+epoch 60 average  train loss: 0.2959
+current epoch: 60 train_acc:0.8307, train_AUC: 0.9115, val_acc: 0.7864 val_AUC: 0.8399 best val_acc: 3.3984 at epoch 51
+epoch 61 average  train loss: 0.2942
+current epoch: 61 train_acc:0.8278, train_AUC: 0.9105, val_acc: 0.7913 val_AUC: 0.8361 best val_acc: 3.3984 at epoch 51
+epoch 62 average  train loss: 0.3513
+current epoch: 62 train_acc:0.8177, train_AUC: 0.9118, val_acc: 0.7799 val_AUC: 0.8441 best val_acc: 3.3984 at epoch 51
+epoch 63 average  train loss: 0.3567
+current epoch: 63 train_acc:0.8307, train_AUC: 0.9140, val_acc: 0.7913 val_AUC: 0.8433 best val_acc: 3.3984 at epoch 51
+epoch 64 average  train loss: 0.3406
+current epoch: 64 train_acc:0.8307, train_AUC: 0.9112, val_acc: 0.7945 val_AUC: 0.8398 best val_acc: 3.3984 at epoch 51
+epoch 65 average  train loss: 0.3334
+current epoch: 65 train_acc:0.8263, train_AUC: 0.9105, val_acc: 0.7864 val_AUC: 0.8386 best val_acc: 3.3984 at epoch 51
+epoch 66 average  train loss: 0.3483
+current epoch: 66 train_acc:0.8292, train_AUC: 0.9119, val_acc: 0.7913 val_AUC: 0.8408 best val_acc: 3.3984 at epoch 51
+epoch 67 average  train loss: 0.3553
+current epoch: 67 train_acc:0.8234, train_AUC: 0.9121, val_acc: 0.7945 val_AUC: 0.8419 best val_acc: 3.3984 at epoch 51
+epoch 68 average  train loss: 0.3598
+current epoch: 68 train_acc:0.8249, train_AUC: 0.9109, val_acc: 0.7880 val_AUC: 0.8428 best val_acc: 3.3984 at epoch 51
+epoch 69 average  train loss: 0.3529
+current epoch: 69 train_acc:0.8307, train_AUC: 0.9121, val_acc: 0.7945 val_AUC: 0.8477 best val_acc: 3.3984 at epoch 51
+epoch 70 average  train loss: 0.3481
+current epoch: 70 train_acc:0.8394, train_AUC: 0.9127, val_acc: 0.7945 val_AUC: 0.8453 best val_acc: 3.3984 at epoch 51
+epoch 71 average  train loss: 0.3509
+current epoch: 71 train_acc:0.8278, train_AUC: 0.9114, val_acc: 0.7880 val_AUC: 0.8425 best val_acc: 3.3984 at epoch 51
+epoch 72 average  train loss: 0.3525
+current epoch: 72 train_acc:0.8292, train_AUC: 0.9135, val_acc: 0.7945 val_AUC: 0.8452 best val_acc: 3.3984 at epoch 51
+epoch 73 average  train loss: 0.3454
+current epoch: 73 train_acc:0.8365, train_AUC: 0.9132, val_acc: 0.7961 val_AUC: 0.8448 best val_acc: 3.3984 at epoch 51
+epoch 74 average  train loss: 0.3310
+current epoch: 74 train_acc:0.8336, train_AUC: 0.9134, val_acc: 0.8026 val_AUC: 0.8480 best val_acc: 3.3984 at epoch 51
+epoch 75 average  train loss: 0.3353
+current epoch: 75 train_acc:0.8307, train_AUC: 0.9136, val_acc: 0.7896 val_AUC: 0.8434 best val_acc: 3.3984 at epoch 51
+epoch 76 average  train loss: 0.3281
+current epoch: 76 train_acc:0.8408, train_AUC: 0.9096, val_acc: 0.7864 val_AUC: 0.8414 best val_acc: 3.3984 at epoch 51
+epoch 77 average  train loss: 0.3491
+current epoch: 77 train_acc:0.8220, train_AUC: 0.9153, val_acc: 0.7913 val_AUC: 0.8487 best val_acc: 3.3984 at epoch 51
+epoch 78 average  train loss: 0.3522
+current epoch: 78 train_acc:0.8278, train_AUC: 0.9112, val_acc: 0.7977 val_AUC: 0.8493 best val_acc: 3.3984 at epoch 51
+epoch 79 average  train loss: 0.3495
+current epoch: 79 train_acc:0.8321, train_AUC: 0.9159, val_acc: 0.7929 val_AUC: 0.8462 best val_acc: 3.3984 at epoch 51
+epoch 80 average  train loss: 0.3491
+current epoch: 80 train_acc:0.8365, train_AUC: 0.9108, val_acc: 0.8026 val_AUC: 0.8445 best val_acc: 3.3984 at epoch 51
+epoch 81 average  train loss: 0.3529
+current epoch: 81 train_acc:0.8249, train_AUC: 0.9084, val_acc: 0.7961 val_AUC: 0.8427 best val_acc: 3.3984 at epoch 51
+epoch 82 average  train loss: 0.3560
+current epoch: 82 train_acc:0.8365, train_AUC: 0.9135, val_acc: 0.7799 val_AUC: 0.8475 best val_acc: 3.3984 at epoch 51
+epoch 83 average  train loss: 0.3511
+current epoch: 83 train_acc:0.8321, train_AUC: 0.9123, val_acc: 0.8010 val_AUC: 0.8469 best val_acc: 3.3984 at epoch 51
+epoch 84 average  train loss: 0.3534
+current epoch: 84 train_acc:0.8307, train_AUC: 0.9115, val_acc: 0.7945 val_AUC: 0.8510 best val_acc: 3.3984 at epoch 51
+epoch 85 average  train loss: 0.3490
+current epoch: 85 train_acc:0.8336, train_AUC: 0.9163, val_acc: 0.7994 val_AUC: 0.8491 best val_acc: 3.3984 at epoch 51
+epoch 86 average  train loss: 0.3649
+current epoch: 86 train_acc:0.8307, train_AUC: 0.9147, val_acc: 0.7945 val_AUC: 0.8481 best val_acc: 3.3984 at epoch 51
+epoch 87 average  train loss: 0.3457
+current epoch: 87 train_acc:0.8336, train_AUC: 0.9163, val_acc: 0.7929 val_AUC: 0.8488 best val_acc: 3.3984 at epoch 51
+epoch 88 average  train loss: 0.3460
+current epoch: 88 train_acc:0.8307, train_AUC: 0.9128, val_acc: 0.7994 val_AUC: 0.8484 best val_acc: 3.3984 at epoch 51
+epoch 89 average  train loss: 0.3340
+current epoch: 89 train_acc:0.8321, train_AUC: 0.9151, val_acc: 0.7961 val_AUC: 0.8517 best val_acc: 3.3984 at epoch 51
+epoch 90 average  train loss: 0.3629
+saved new best metric model
+current epoch: 90 train_acc:0.8365, train_AUC: 0.9138, val_acc: 0.7977 val_AUC: 0.8522 best val_acc: 3.4002 at epoch 90
+epoch 91 average  train loss: 0.3571
+current epoch: 91 train_acc:0.8292, train_AUC: 0.9159, val_acc: 0.7896 val_AUC: 0.8504 best val_acc: 3.4002 at epoch 90
+epoch 92 average  train loss: 0.3415
+current epoch: 92 train_acc:0.8307, train_AUC: 0.9143, val_acc: 0.7929 val_AUC: 0.8495 best val_acc: 3.4002 at epoch 90
+epoch 93 average  train loss: 0.3316
+saved new best metric model
+current epoch: 93 train_acc:0.8423, train_AUC: 0.9127, val_acc: 0.8026 val_AUC: 0.8481 best val_acc: 3.4056 at epoch 93
+epoch 94 average  train loss: 0.3541
+current epoch: 94 train_acc:0.8350, train_AUC: 0.9117, val_acc: 0.7880 val_AUC: 0.8452 best val_acc: 3.4056 at epoch 93
+epoch 95 average  train loss: 0.3260
+current epoch: 95 train_acc:0.8365, train_AUC: 0.9138, val_acc: 0.7945 val_AUC: 0.8485 best val_acc: 3.4056 at epoch 93
+epoch 96 average  train loss: 0.3446
+current epoch: 96 train_acc:0.8350, train_AUC: 0.9153, val_acc: 0.7945 val_AUC: 0.8486 best val_acc: 3.4056 at epoch 93
+epoch 97 average  train loss: 0.3573
+current epoch: 97 train_acc:0.8278, train_AUC: 0.9124, val_acc: 0.7945 val_AUC: 0.8464 best val_acc: 3.4056 at epoch 93
+epoch 98 average  train loss: 0.3386
+current epoch: 98 train_acc:0.8307, train_AUC: 0.9124, val_acc: 0.7880 val_AUC: 0.8459 best val_acc: 3.4056 at epoch 93
+epoch 99 average  train loss: 0.3571
+current epoch: 99 train_acc:0.8278, train_AUC: 0.9077, val_acc: 0.7880 val_AUC: 0.8428 best val_acc: 3.4056 at epoch 93
+epoch 100 average  train loss: 0.3454
+current epoch: 100 train_acc:0.8321, train_AUC: 0.9149, val_acc: 0.8010 val_AUC: 0.8501 best val_acc: 3.4056 at epoch 93
+epoch 101 average  train loss: 0.3375
+current epoch: 101 train_acc:0.8321, train_AUC: 0.9148, val_acc: 0.7864 val_AUC: 0.8443 best val_acc: 3.4056 at epoch 93
+epoch 102 average  train loss: 0.3302
+current epoch: 102 train_acc:0.8408, train_AUC: 0.9154, val_acc: 0.8010 val_AUC: 0.8452 best val_acc: 3.4056 at epoch 93
+epoch 103 average  train loss: 0.3538
+current epoch: 103 train_acc:0.8263, train_AUC: 0.9094, val_acc: 0.7880 val_AUC: 0.8452 best val_acc: 3.4056 at epoch 93
+epoch 104 average  train loss: 0.3532
+current epoch: 104 train_acc:0.8336, train_AUC: 0.9130, val_acc: 0.8042 val_AUC: 0.8474 best val_acc: 3.4056 at epoch 93
+epoch 105 average  train loss: 0.3490
+current epoch: 105 train_acc:0.8292, train_AUC: 0.9132, val_acc: 0.8026 val_AUC: 0.8460 best val_acc: 3.4056 at epoch 93
+epoch 106 average  train loss: 0.3324
+current epoch: 106 train_acc:0.8336, train_AUC: 0.9141, val_acc: 0.7913 val_AUC: 0.8471 best val_acc: 3.4056 at epoch 93
+epoch 107 average  train loss: 0.3649
+current epoch: 107 train_acc:0.8379, train_AUC: 0.9151, val_acc: 0.7994 val_AUC: 0.8489 best val_acc: 3.4056 at epoch 93
+epoch 108 average  train loss: 0.3399
+current epoch: 108 train_acc:0.8350, train_AUC: 0.9145, val_acc: 0.7929 val_AUC: 0.8477 best val_acc: 3.4056 at epoch 93
+epoch 109 average  train loss: 0.3405
+saved new best metric model
+current epoch: 109 train_acc:0.8394, train_AUC: 0.9150, val_acc: 0.8010 val_AUC: 0.8505 best val_acc: 3.4059 at epoch 109
+epoch 110 average  train loss: 0.3464
+current epoch: 110 train_acc:0.8365, train_AUC: 0.9154, val_acc: 0.7929 val_AUC: 0.8480 best val_acc: 3.4059 at epoch 109
+epoch 111 average  train loss: 0.3588
+current epoch: 111 train_acc:0.8292, train_AUC: 0.9125, val_acc: 0.7977 val_AUC: 0.8531 best val_acc: 3.4059 at epoch 109
+epoch 112 average  train loss: 0.3381
+saved new best metric model
+current epoch: 112 train_acc:0.8423, train_AUC: 0.9141, val_acc: 0.8026 val_AUC: 0.8501 best val_acc: 3.4091 at epoch 112
+epoch 113 average  train loss: 0.3470
+current epoch: 113 train_acc:0.8365, train_AUC: 0.9134, val_acc: 0.8074 val_AUC: 0.8516 best val_acc: 3.4091 at epoch 112
+epoch 114 average  train loss: 0.3582
+current epoch: 114 train_acc:0.8423, train_AUC: 0.9116, val_acc: 0.8074 val_AUC: 0.8478 best val_acc: 3.4091 at epoch 112
+epoch 115 average  train loss: 0.3462
+current epoch: 115 train_acc:0.8350, train_AUC: 0.9142, val_acc: 0.8026 val_AUC: 0.8497 best val_acc: 3.4091 at epoch 112
+epoch 116 average  train loss: 0.3460
+current epoch: 116 train_acc:0.8336, train_AUC: 0.9137, val_acc: 0.7913 val_AUC: 0.8459 best val_acc: 3.4091 at epoch 112
+epoch 117 average  train loss: 0.3515
+current epoch: 117 train_acc:0.8350, train_AUC: 0.9129, val_acc: 0.7977 val_AUC: 0.8485 best val_acc: 3.4091 at epoch 112
+epoch 118 average  train loss: 0.3405
+current epoch: 118 train_acc:0.8307, train_AUC: 0.9142, val_acc: 0.8042 val_AUC: 0.8475 best val_acc: 3.4091 at epoch 112
+epoch 119 average  train loss: 0.3641
+current epoch: 119 train_acc:0.8350, train_AUC: 0.9132, val_acc: 0.7913 val_AUC: 0.8480 best val_acc: 3.4091 at epoch 112
+epoch 120 average  train loss: 0.3439
+current epoch: 120 train_acc:0.8379, train_AUC: 0.9154, val_acc: 0.8042 val_AUC: 0.8493 best val_acc: 3.4091 at epoch 112
+epoch 121 average  train loss: 0.3487
+current epoch: 121 train_acc:0.8350, train_AUC: 0.9133, val_acc: 0.8026 val_AUC: 0.8471 best val_acc: 3.4091 at epoch 112
+epoch 122 average  train loss: 0.3508
+current epoch: 122 train_acc:0.8336, train_AUC: 0.9163, val_acc: 0.8010 val_AUC: 0.8507 best val_acc: 3.4091 at epoch 112
+epoch 123 average  train loss: 0.3502
+current epoch: 123 train_acc:0.8336, train_AUC: 0.9151, val_acc: 0.7961 val_AUC: 0.8498 best val_acc: 3.4091 at epoch 112
+epoch 124 average  train loss: 0.3432
+current epoch: 124 train_acc:0.8365, train_AUC: 0.9143, val_acc: 0.7977 val_AUC: 0.8455 best val_acc: 3.4091 at epoch 112
+epoch 125 average  train loss: 0.3463
+current epoch: 125 train_acc:0.8321, train_AUC: 0.9119, val_acc: 0.8010 val_AUC: 0.8502 best val_acc: 3.4091 at epoch 112
+epoch 126 average  train loss: 0.3407
+current epoch: 126 train_acc:0.8379, train_AUC: 0.9145, val_acc: 0.8026 val_AUC: 0.8482 best val_acc: 3.4091 at epoch 112
+epoch 127 average  train loss: 0.3483
+current epoch: 127 train_acc:0.8350, train_AUC: 0.9146, val_acc: 0.7977 val_AUC: 0.8484 best val_acc: 3.4091 at epoch 112
+epoch 128 average  train loss: 0.3581
+current epoch: 128 train_acc:0.8307, train_AUC: 0.9107, val_acc: 0.7751 val_AUC: 0.8438 best val_acc: 3.4091 at epoch 112
+epoch 129 average  train loss: 0.3542
+current epoch: 129 train_acc:0.8394, train_AUC: 0.9148, val_acc: 0.7913 val_AUC: 0.8487 best val_acc: 3.4091 at epoch 112
+epoch 130 average  train loss: 0.3419
+current epoch: 130 train_acc:0.8321, train_AUC: 0.9164, val_acc: 0.7896 val_AUC: 0.8494 best val_acc: 3.4091 at epoch 112
+epoch 131 average  train loss: 0.3573
+current epoch: 131 train_acc:0.8365, train_AUC: 0.9117, val_acc: 0.7994 val_AUC: 0.8495 best val_acc: 3.4091 at epoch 112
+epoch 132 average  train loss: 0.3470
+current epoch: 132 train_acc:0.8394, train_AUC: 0.9152, val_acc: 0.7994 val_AUC: 0.8487 best val_acc: 3.4091 at epoch 112
+epoch 133 average  train loss: 0.3588
+current epoch: 133 train_acc:0.8292, train_AUC: 0.9146, val_acc: 0.7977 val_AUC: 0.8473 best val_acc: 3.4091 at epoch 112
+epoch 134 average  train loss: 0.3499
+current epoch: 134 train_acc:0.8234, train_AUC: 0.9133, val_acc: 0.7832 val_AUC: 0.8522 best val_acc: 3.4091 at epoch 112
+epoch 135 average  train loss: 0.3306
+current epoch: 135 train_acc:0.8350, train_AUC: 0.9133, val_acc: 0.7977 val_AUC: 0.8499 best val_acc: 3.4091 at epoch 112
+epoch 136 average  train loss: 0.3293
+current epoch: 136 train_acc:0.8321, train_AUC: 0.9162, val_acc: 0.8010 val_AUC: 0.8499 best val_acc: 3.4091 at epoch 112
+epoch 137 average  train loss: 0.3447
+current epoch: 137 train_acc:0.8263, train_AUC: 0.9140, val_acc: 0.7832 val_AUC: 0.8486 best val_acc: 3.4091 at epoch 112
+epoch 138 average  train loss: 0.3646
+current epoch: 138 train_acc:0.8365, train_AUC: 0.9143, val_acc: 0.7994 val_AUC: 0.8497 best val_acc: 3.4091 at epoch 112
+epoch 139 average  train loss: 0.3525
+current epoch: 139 train_acc:0.8336, train_AUC: 0.9118, val_acc: 0.8010 val_AUC: 0.8477 best val_acc: 3.4091 at epoch 112
+epoch 140 average  train loss: 0.3470
+current epoch: 140 train_acc:0.8379, train_AUC: 0.9145, val_acc: 0.8042 val_AUC: 0.8478 best val_acc: 3.4091 at epoch 112
+epoch 141 average  train loss: 0.3400
+current epoch: 141 train_acc:0.8350, train_AUC: 0.9163, val_acc: 0.8058 val_AUC: 0.8501 best val_acc: 3.4091 at epoch 112
+epoch 142 average  train loss: 0.3637
+current epoch: 142 train_acc:0.8292, train_AUC: 0.9152, val_acc: 0.7929 val_AUC: 0.8469 best val_acc: 3.4091 at epoch 112
+epoch 143 average  train loss: 0.3540
+current epoch: 143 train_acc:0.8307, train_AUC: 0.9129, val_acc: 0.8042 val_AUC: 0.8489 best val_acc: 3.4091 at epoch 112
+epoch 144 average  train loss: 0.3359
+current epoch: 144 train_acc:0.8379, train_AUC: 0.9168, val_acc: 0.8026 val_AUC: 0.8492 best val_acc: 3.4091 at epoch 112
+epoch 145 average  train loss: 0.3334
+current epoch: 145 train_acc:0.8365, train_AUC: 0.9156, val_acc: 0.7929 val_AUC: 0.8483 best val_acc: 3.4091 at epoch 112
+epoch 146 average  train loss: 0.3255
+current epoch: 146 train_acc:0.8336, train_AUC: 0.9159, val_acc: 0.8058 val_AUC: 0.8486 best val_acc: 3.4091 at epoch 112
+epoch 147 average  train loss: 0.3461
+current epoch: 147 train_acc:0.8292, train_AUC: 0.9141, val_acc: 0.8010 val_AUC: 0.8459 best val_acc: 3.4091 at epoch 112
+epoch 148 average  train loss: 0.3386
+current epoch: 148 train_acc:0.8336, train_AUC: 0.9163, val_acc: 0.7945 val_AUC: 0.8476 best val_acc: 3.4091 at epoch 112
+epoch 149 average  train loss: 0.3458
+current epoch: 149 train_acc:0.8350, train_AUC: 0.9154, val_acc: 0.8026 val_AUC: 0.8486 best val_acc: 3.4091 at epoch 112
+epoch 150 average  train loss: 0.3588
+current epoch: 150 train_acc:0.8365, train_AUC: 0.9155, val_acc: 0.7945 val_AUC: 0.8476 best val_acc: 3.4091 at epoch 112
+epoch 151 average  train loss: 0.3394
+current epoch: 151 train_acc:0.8379, train_AUC: 0.9167, val_acc: 0.7945 val_AUC: 0.8485 best val_acc: 3.4091 at epoch 112
+epoch 152 average  train loss: 0.3661
+current epoch: 152 train_acc:0.8394, train_AUC: 0.9149, val_acc: 0.7864 val_AUC: 0.8456 best val_acc: 3.4091 at epoch 112
+epoch 153 average  train loss: 0.3393
+current epoch: 153 train_acc:0.8379, train_AUC: 0.9135, val_acc: 0.7945 val_AUC: 0.8488 best val_acc: 3.4091 at epoch 112
+epoch 154 average  train loss: 0.3645
+current epoch: 154 train_acc:0.8350, train_AUC: 0.9137, val_acc: 0.8026 val_AUC: 0.8483 best val_acc: 3.4091 at epoch 112
+epoch 155 average  train loss: 0.3367
+current epoch: 155 train_acc:0.8350, train_AUC: 0.9175, val_acc: 0.7994 val_AUC: 0.8501 best val_acc: 3.4091 at epoch 112
+epoch 156 average  train loss: 0.3377
+current epoch: 156 train_acc:0.8350, train_AUC: 0.9158, val_acc: 0.7977 val_AUC: 0.8503 best val_acc: 3.4091 at epoch 112
+epoch 157 average  train loss: 0.3438
+current epoch: 157 train_acc:0.8452, train_AUC: 0.9139, val_acc: 0.7961 val_AUC: 0.8455 best val_acc: 3.4091 at epoch 112
+epoch 158 average  train loss: 0.3395
+current epoch: 158 train_acc:0.8321, train_AUC: 0.9169, val_acc: 0.7913 val_AUC: 0.8470 best val_acc: 3.4091 at epoch 112
+epoch 159 average  train loss: 0.3381
+current epoch: 159 train_acc:0.8350, train_AUC: 0.9147, val_acc: 0.8010 val_AUC: 0.8498 best val_acc: 3.4091 at epoch 112
+epoch 160 average  train loss: 0.3402
+current epoch: 160 train_acc:0.8408, train_AUC: 0.9139, val_acc: 0.7945 val_AUC: 0.8452 best val_acc: 3.4091 at epoch 112
+epoch 161 average  train loss: 0.3525
+current epoch: 161 train_acc:0.8379, train_AUC: 0.9130, val_acc: 0.8042 val_AUC: 0.8469 best val_acc: 3.4091 at epoch 112
+epoch 162 average  train loss: 0.3428
+current epoch: 162 train_acc:0.8394, train_AUC: 0.9161, val_acc: 0.7945 val_AUC: 0.8458 best val_acc: 3.4091 at epoch 112
+epoch 163 average  train loss: 0.3585
+current epoch: 163 train_acc:0.8307, train_AUC: 0.9113, val_acc: 0.7961 val_AUC: 0.8464 best val_acc: 3.4091 at epoch 112
+epoch 164 average  train loss: 0.3623
+current epoch: 164 train_acc:0.8321, train_AUC: 0.9129, val_acc: 0.7994 val_AUC: 0.8486 best val_acc: 3.4091 at epoch 112
+epoch 165 average  train loss: 0.3305
+current epoch: 165 train_acc:0.8336, train_AUC: 0.9157, val_acc: 0.7977 val_AUC: 0.8497 best val_acc: 3.4091 at epoch 112
+epoch 166 average  train loss: 0.3467
+current epoch: 166 train_acc:0.8292, train_AUC: 0.9129, val_acc: 0.7994 val_AUC: 0.8488 best val_acc: 3.4091 at epoch 112
+epoch 167 average  train loss: 0.3399
+current epoch: 167 train_acc:0.8423, train_AUC: 0.9136, val_acc: 0.8042 val_AUC: 0.8481 best val_acc: 3.4091 at epoch 112
+epoch 168 average  train loss: 0.3518
+current epoch: 168 train_acc:0.8307, train_AUC: 0.9172, val_acc: 0.8042 val_AUC: 0.8489 best val_acc: 3.4091 at epoch 112
+epoch 169 average  train loss: 0.3442
+current epoch: 169 train_acc:0.8336, train_AUC: 0.9150, val_acc: 0.8026 val_AUC: 0.8480 best val_acc: 3.4091 at epoch 112
+epoch 170 average  train loss: 0.3515
+current epoch: 170 train_acc:0.8336, train_AUC: 0.9134, val_acc: 0.7961 val_AUC: 0.8488 best val_acc: 3.4091 at epoch 112
+epoch 171 average  train loss: 0.3491
+saved new best metric model
+current epoch: 171 train_acc:0.8379, train_AUC: 0.9135, val_acc: 0.8074 val_AUC: 0.8508 best val_acc: 3.4097 at epoch 171
+epoch 172 average  train loss: 0.3524
+current epoch: 172 train_acc:0.8365, train_AUC: 0.9158, val_acc: 0.7994 val_AUC: 0.8512 best val_acc: 3.4097 at epoch 171
+epoch 173 average  train loss: 0.3483
+current epoch: 173 train_acc:0.8336, train_AUC: 0.9153, val_acc: 0.8010 val_AUC: 0.8507 best val_acc: 3.4097 at epoch 171
+epoch 174 average  train loss: 0.3566
+current epoch: 174 train_acc:0.8423, train_AUC: 0.9116, val_acc: 0.7994 val_AUC: 0.8505 best val_acc: 3.4097 at epoch 171
+epoch 175 average  train loss: 0.3395
+current epoch: 175 train_acc:0.8509, train_AUC: 0.9157, val_acc: 0.7880 val_AUC: 0.8495 best val_acc: 3.4097 at epoch 171
+epoch 176 average  train loss: 0.3443
+saved new best metric model
+current epoch: 176 train_acc:0.8408, train_AUC: 0.9151, val_acc: 0.8058 val_AUC: 0.8519 best val_acc: 3.4136 at epoch 176
+epoch 177 average  train loss: 0.3600
+current epoch: 177 train_acc:0.8321, train_AUC: 0.9151, val_acc: 0.8091 val_AUC: 0.8534 best val_acc: 3.4136 at epoch 176
+epoch 178 average  train loss: 0.3620
+current epoch: 178 train_acc:0.8350, train_AUC: 0.9133, val_acc: 0.7994 val_AUC: 0.8528 best val_acc: 3.4136 at epoch 176
+epoch 179 average  train loss: 0.3515
+current epoch: 179 train_acc:0.8379, train_AUC: 0.9108, val_acc: 0.7994 val_AUC: 0.8479 best val_acc: 3.4136 at epoch 176
+epoch 180 average  train loss: 0.3402
+current epoch: 180 train_acc:0.8379, train_AUC: 0.9159, val_acc: 0.7977 val_AUC: 0.8474 best val_acc: 3.4136 at epoch 176
+epoch 181 average  train loss: 0.3485
+current epoch: 181 train_acc:0.8379, train_AUC: 0.9145, val_acc: 0.8010 val_AUC: 0.8494 best val_acc: 3.4136 at epoch 176
+epoch 182 average  train loss: 0.3371
+current epoch: 182 train_acc:0.8350, train_AUC: 0.9169, val_acc: 0.7977 val_AUC: 0.8519 best val_acc: 3.4136 at epoch 176
+epoch 183 average  train loss: 0.3570
+current epoch: 183 train_acc:0.8365, train_AUC: 0.9133, val_acc: 0.7994 val_AUC: 0.8496 best val_acc: 3.4136 at epoch 176
+epoch 184 average  train loss: 0.3434
+current epoch: 184 train_acc:0.8350, train_AUC: 0.9138, val_acc: 0.7961 val_AUC: 0.8489 best val_acc: 3.4136 at epoch 176
+epoch 185 average  train loss: 0.3491
+current epoch: 185 train_acc:0.8336, train_AUC: 0.9142, val_acc: 0.8042 val_AUC: 0.8483 best val_acc: 3.4136 at epoch 176
+epoch 186 average  train loss: 0.3511
+current epoch: 186 train_acc:0.8292, train_AUC: 0.9076, val_acc: 0.8074 val_AUC: 0.8442 best val_acc: 3.4136 at epoch 176
+epoch 187 average  train loss: 0.3352
+current epoch: 187 train_acc:0.8379, train_AUC: 0.9163, val_acc: 0.7977 val_AUC: 0.8480 best val_acc: 3.4136 at epoch 176
+epoch 188 average  train loss: 0.3396
+current epoch: 188 train_acc:0.8263, train_AUC: 0.9093, val_acc: 0.7961 val_AUC: 0.8459 best val_acc: 3.4136 at epoch 176
+epoch 189 average  train loss: 0.3554
+current epoch: 189 train_acc:0.8408, train_AUC: 0.9164, val_acc: 0.7961 val_AUC: 0.8488 best val_acc: 3.4136 at epoch 176
+epoch 190 average  train loss: 0.3600
+current epoch: 190 train_acc:0.8321, train_AUC: 0.9115, val_acc: 0.8074 val_AUC: 0.8476 best val_acc: 3.4136 at epoch 176
+epoch 191 average  train loss: 0.3513
+current epoch: 191 train_acc:0.8350, train_AUC: 0.9176, val_acc: 0.7994 val_AUC: 0.8527 best val_acc: 3.4136 at epoch 176
+epoch 192 average  train loss: 0.3352
+current epoch: 192 train_acc:0.8350, train_AUC: 0.9165, val_acc: 0.8026 val_AUC: 0.8508 best val_acc: 3.4136 at epoch 176
+epoch 193 average  train loss: 0.3362
+current epoch: 193 train_acc:0.8365, train_AUC: 0.9127, val_acc: 0.7929 val_AUC: 0.8465 best val_acc: 3.4136 at epoch 176
+epoch 194 average  train loss: 0.3328
+current epoch: 194 train_acc:0.8307, train_AUC: 0.9141, val_acc: 0.7945 val_AUC: 0.8480 best val_acc: 3.4136 at epoch 176
+epoch 195 average  train loss: 0.3542
+current epoch: 195 train_acc:0.8408, train_AUC: 0.9149, val_acc: 0.8058 val_AUC: 0.8484 best val_acc: 3.4136 at epoch 176
+epoch 196 average  train loss: 0.3603
+current epoch: 196 train_acc:0.8321, train_AUC: 0.9151, val_acc: 0.7994 val_AUC: 0.8509 best val_acc: 3.4136 at epoch 176
+epoch 197 average  train loss: 0.3308
+current epoch: 197 train_acc:0.8394, train_AUC: 0.9169, val_acc: 0.8026 val_AUC: 0.8512 best val_acc: 3.4136 at epoch 176
+epoch 198 average  train loss: 0.3452
+current epoch: 198 train_acc:0.8307, train_AUC: 0.9155, val_acc: 0.8026 val_AUC: 0.8505 best val_acc: 3.4136 at epoch 176
+epoch 199 average  train loss: 0.3356
+current epoch: 199 train_acc:0.8437, train_AUC: 0.9157, val_acc: 0.7929 val_AUC: 0.8499 best val_acc: 3.4136 at epoch 176
+epoch 200 average  train loss: 0.3426
+current epoch: 200 train_acc:0.8350, train_AUC: 0.9144, val_acc: 0.8026 val_AUC: 0.8504 best val_acc: 3.4136 at epoch 176
+train completed, best_metric: 3.4136 at epoch: 176

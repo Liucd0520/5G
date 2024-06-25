@@ -1,0 +1,356 @@
+/app/data/anaconda/envs/monai-1.0.1/lib/python3.8/site-packages/monai/utils/deprecate_utils.py:107: FutureWarning: <class 'monai.transforms.utility.array.AddChannel'>: Class `AddChannel` has been deprecated since version 0.8. please use MetaTensor data type and monai.transforms.EnsureChannelFirst instead.
+  warn_deprecated(obj, msg, warning_category)
+{'image': '/app/liucd/Crop/crop_image/ATM_703_0000.nii.gz', 'label': '/app/liucd/Crop/crop_label/ATM_703_0000.nii.gz'}
+240 60
+Loading dataset:   0%|          | 0/240 [00:00<?, ?it/s]Loading dataset:   0%|          | 1/240 [00:13<52:25, 13.16s/it]Loading dataset:   1%|▏         | 3/240 [00:15<16:58,  4.30s/it]Loading dataset:   3%|▎         | 7/240 [00:26<12:48,  3.30s/it]Loading dataset:   4%|▍         | 10/240 [00:29<08:58,  2.34s/it]Loading dataset:   5%|▍         | 11/240 [00:35<10:44,  2.81s/it]Loading dataset:   5%|▌         | 13/240 [00:35<07:33,  2.00s/it]Loading dataset:   6%|▋         | 15/240 [00:41<08:46,  2.34s/it]Loading dataset:   8%|▊         | 18/240 [00:43<05:55,  1.60s/it]Loading dataset:   8%|▊         | 19/240 [00:46<06:35,  1.79s/it]Loading dataset:   9%|▉         | 21/240 [00:47<05:27,  1.49s/it]Loading dataset:   9%|▉         | 22/240 [00:49<05:19,  1.47s/it]Loading dataset:  10%|▉         | 23/240 [00:52<06:39,  1.84s/it]Loading dataset:  10%|█         | 25/240 [01:00<09:38,  2.69s/it]Loading dataset:  12%|█▏        | 28/240 [01:02<06:12,  1.76s/it]Loading dataset:  12%|█▏        | 29/240 [01:07<08:15,  2.35s/it]Loading dataset:  13%|█▎        | 31/240 [01:10<07:19,  2.10s/it]Loading dataset:  14%|█▍        | 33/240 [01:12<05:38,  1.64s/it]Loading dataset:  14%|█▍        | 34/240 [01:15<06:24,  1.87s/it]Loading dataset:  15%|█▍        | 35/240 [01:17<06:43,  1.97s/it]Loading dataset:  15%|█▌        | 36/240 [01:23<10:19,  3.04s/it]Loading dataset:  16%|█▌        | 38/240 [01:27<08:36,  2.56s/it]Loading dataset:  17%|█▋        | 41/240 [01:29<05:27,  1.64s/it]Loading dataset:  18%|█▊        | 42/240 [01:31<05:54,  1.79s/it]Loading dataset:  18%|█▊        | 43/240 [01:32<05:11,  1.58s/it]Loading dataset:  18%|█▊        | 44/240 [01:35<06:01,  1.84s/it]Loading dataset:  19%|█▉        | 45/240 [01:36<05:20,  1.64s/it]Loading dataset:  19%|█▉        | 46/240 [01:38<05:39,  1.75s/it]Loading dataset:  20%|█▉        | 47/240 [01:40<05:49,  1.81s/it]Loading dataset:  20%|██        | 48/240 [01:50<13:12,  4.13s/it]Loading dataset:  22%|██▏       | 52/240 [02:00<09:58,  3.19s/it]Loading dataset:  23%|██▎       | 55/240 [02:01<06:17,  2.04s/it]Loading dataset:  23%|██▎       | 56/240 [02:03<06:00,  1.96s/it]Loading dataset:  24%|██▍       | 57/240 [02:04<05:17,  1.74s/it]Loading dataset:  24%|██▍       | 58/240 [02:08<06:49,  2.25s/it]Loading dataset:  25%|██▌       | 60/240 [02:12<06:31,  2.17s/it]Loading dataset:  25%|██▌       | 61/240 [02:13<05:52,  1.97s/it]Loading dataset:  26%|██▌       | 62/240 [02:14<05:03,  1.70s/it]Loading dataset:  26%|██▋       | 63/240 [02:15<04:37,  1.57s/it]Loading dataset:  27%|██▋       | 64/240 [02:20<06:51,  2.34s/it]Loading dataset:  27%|██▋       | 65/240 [02:20<05:21,  1.84s/it]Loading dataset:  28%|██▊       | 66/240 [02:26<09:00,  3.10s/it]Loading dataset:  28%|██▊       | 68/240 [02:30<06:56,  2.42s/it]Loading dataset:  29%|██▉       | 69/240 [02:30<05:50,  2.05s/it]Loading dataset:  29%|██▉       | 70/240 [02:32<05:35,  1.97s/it]Loading dataset:  30%|██▉       | 71/240 [02:33<04:24,  1.57s/it]Loading dataset:  30%|███       | 72/240 [02:39<08:11,  2.92s/it]Loading dataset:  30%|███       | 73/240 [02:40<06:33,  2.36s/it]Loading dataset:  31%|███       | 74/240 [02:46<09:16,  3.35s/it]Loading dataset:  32%|███▏      | 76/240 [02:48<06:27,  2.36s/it]Loading dataset:  32%|███▎      | 78/240 [02:49<04:08,  1.54s/it]Loading dataset:  33%|███▎      | 79/240 [02:55<07:00,  2.61s/it]Loading dataset:  33%|███▎      | 80/240 [03:06<12:02,  4.51s/it]Loading dataset:  35%|███▌      | 84/240 [03:12<07:20,  2.82s/it]Loading dataset:  36%|███▌      | 86/240 [03:14<06:01,  2.35s/it]Loading dataset:  37%|███▋      | 88/240 [03:17<04:59,  1.97s/it]Loading dataset:  38%|███▊      | 90/240 [03:22<05:23,  2.16s/it]Loading dataset:  38%|███▊      | 91/240 [03:29<07:31,  3.03s/it]Loading dataset:  39%|███▉      | 94/240 [03:30<04:32,  1.87s/it]Loading dataset:  40%|███▉      | 95/240 [03:30<04:00,  1.66s/it]Loading dataset:  40%|████      | 96/240 [03:33<04:10,  1.74s/it]Loading dataset:  40%|████      | 97/240 [03:33<03:25,  1.44s/it]Loading dataset:  41%|████      | 98/240 [03:39<05:50,  2.47s/it]Loading dataset:  41%|████▏     | 99/240 [03:47<09:17,  3.96s/it]Loading dataset:  43%|████▎     | 103/240 [03:48<03:51,  1.69s/it]Loading dataset:  43%|████▎     | 104/240 [03:48<03:28,  1.53s/it]Loading dataset:  44%|████▍     | 105/240 [03:51<03:52,  1.72s/it]Loading dataset:  45%|████▌     | 108/240 [03:53<02:53,  1.31s/it]Loading dataset:  46%|████▌     | 110/240 [03:56<02:50,  1.31s/it]Loading dataset:  46%|████▋     | 111/240 [04:02<04:34,  2.13s/it]Loading dataset:  48%|████▊     | 115/240 [04:02<02:22,  1.14s/it]Loading dataset:  48%|████▊     | 116/240 [04:03<02:11,  1.06s/it]Loading dataset:  49%|████▉     | 117/240 [04:06<02:47,  1.36s/it]Loading dataset:  49%|████▉     | 118/240 [04:07<02:41,  1.32s/it]Loading dataset:  50%|████▉     | 119/240 [04:16<06:21,  3.15s/it]Loading dataset:  50%|█████     | 120/240 [04:17<04:58,  2.49s/it]Loading dataset:  52%|█████▏    | 124/240 [04:19<02:30,  1.29s/it]Loading dataset:  52%|█████▎    | 126/240 [04:22<02:37,  1.38s/it]Loading dataset:  53%|█████▎    | 127/240 [04:28<04:07,  2.19s/it]Loading dataset:  53%|█████▎    | 128/240 [04:32<04:43,  2.53s/it]Loading dataset:  55%|█████▌    | 133/240 [04:33<02:06,  1.18s/it]Loading dataset:  56%|█████▌    | 134/240 [04:36<02:27,  1.40s/it]Loading dataset:  56%|█████▋    | 135/240 [04:36<02:09,  1.23s/it]Loading dataset:  57%|█████▋    | 136/240 [04:38<02:32,  1.47s/it]Loading dataset:  57%|█████▋    | 137/240 [04:41<02:54,  1.70s/it]Loading dataset:  57%|█████▊    | 138/240 [04:42<02:42,  1.59s/it]Loading dataset:  58%|█████▊    | 140/240 [04:45<02:22,  1.42s/it]Loading dataset:  59%|█████▉    | 141/240 [04:45<02:03,  1.24s/it]Loading dataset:  59%|█████▉    | 142/240 [04:47<02:21,  1.45s/it]Loading dataset:  60%|█████▉    | 143/240 [04:48<01:59,  1.24s/it]Loading dataset:  60%|██████    | 144/240 [04:48<01:42,  1.06s/it]Loading dataset:  60%|██████    | 145/240 [04:51<02:10,  1.38s/it]Loading dataset:  61%|██████    | 146/240 [04:55<03:29,  2.23s/it]Loading dataset:  62%|██████▏   | 148/240 [04:57<02:39,  1.73s/it]Loading dataset:  62%|██████▏   | 149/240 [05:05<04:46,  3.15s/it]Loading dataset:  64%|██████▍   | 153/240 [05:09<02:47,  1.93s/it]Loading dataset:  65%|██████▍   | 155/240 [05:11<02:26,  1.72s/it]Loading dataset:  65%|██████▌   | 157/240 [05:14<02:08,  1.54s/it]Loading dataset:  66%|██████▌   | 158/240 [05:15<01:59,  1.45s/it]Loading dataset:  66%|██████▋   | 159/240 [05:21<03:12,  2.38s/it]Loading dataset:  67%|██████▋   | 160/240 [05:23<03:13,  2.42s/it]Loading dataset:  67%|██████▋   | 161/240 [05:25<02:57,  2.24s/it]Loading dataset:  68%|██████▊   | 162/240 [05:28<03:03,  2.35s/it]Loading dataset:  68%|██████▊   | 163/240 [05:33<04:04,  3.17s/it]Loading dataset:  69%|██████▉   | 166/240 [05:44<04:16,  3.46s/it]Loading dataset:  70%|███████   | 169/240 [05:45<02:21,  1.99s/it]Loading dataset:  71%|███████   | 170/240 [05:46<02:07,  1.82s/it]Loading dataset:  71%|███████▏  | 171/240 [05:51<02:50,  2.47s/it]Loading dataset:  72%|███████▏  | 173/240 [05:53<02:11,  1.97s/it]Loading dataset:  72%|███████▎  | 174/240 [05:58<02:49,  2.57s/it]Loading dataset:  73%|███████▎  | 176/240 [05:59<02:00,  1.89s/it]Loading dataset:  74%|███████▍  | 177/240 [06:07<03:13,  3.07s/it]Loading dataset:  74%|███████▍  | 178/240 [06:09<02:52,  2.78s/it]Loading dataset:  75%|███████▌  | 180/240 [06:12<02:24,  2.42s/it]Loading dataset:  76%|███████▌  | 182/240 [06:16<02:12,  2.29s/it]Loading dataset:  76%|███████▋  | 183/240 [06:19<02:11,  2.31s/it]Loading dataset:  77%|███████▋  | 185/240 [06:24<02:09,  2.36s/it]Loading dataset:  78%|███████▊  | 186/240 [06:27<02:24,  2.67s/it]Loading dataset:  78%|███████▊  | 187/240 [06:29<02:11,  2.48s/it]Loading dataset:  78%|███████▊  | 188/240 [06:33<02:24,  2.79s/it]Loading dataset:  79%|███████▉  | 190/240 [06:35<01:46,  2.13s/it]Loading dataset:  80%|████████  | 192/240 [06:38<01:23,  1.74s/it]Loading dataset:  80%|████████  | 193/240 [06:40<01:24,  1.80s/it]Loading dataset:  81%|████████  | 194/240 [06:50<02:53,  3.77s/it]Loading dataset:  82%|████████▏ | 197/240 [06:50<01:24,  1.98s/it]Loading dataset:  82%|████████▎ | 198/240 [06:52<01:17,  1.85s/it]Loading dataset:  83%|████████▎ | 199/240 [06:53<01:11,  1.75s/it]Loading dataset:  83%|████████▎ | 200/240 [07:06<02:52,  4.30s/it]Loading dataset:  84%|████████▍ | 201/240 [07:23<04:55,  7.57s/it]Loading dataset:  84%|████████▍ | 202/240 [07:27<04:10,  6.59s/it]Loading dataset:  88%|████████▊ | 211/240 [07:28<00:47,  1.62s/it]Loading dataset:  89%|████████▉ | 213/240 [07:31<00:41,  1.55s/it]Loading dataset:  89%|████████▉ | 214/240 [07:32<00:40,  1.55s/it]Loading dataset:  90%|████████▉ | 215/240 [07:35<00:42,  1.72s/it]Loading dataset:  90%|█████████ | 216/240 [07:38<00:47,  1.99s/it]Loading dataset:  90%|█████████ | 217/240 [07:43<00:58,  2.53s/it]Loading dataset:  92%|█████████▏| 221/240 [07:45<00:26,  1.41s/it]Loading dataset:  92%|█████████▎| 222/240 [07:45<00:21,  1.20s/it]Loading dataset:  93%|█████████▎| 223/240 [07:46<00:18,  1.11s/it]Loading dataset:  93%|█████████▎| 224/240 [07:48<00:22,  1.42s/it]Loading dataset:  94%|█████████▍| 225/240 [07:53<00:33,  2.23s/it]Loading dataset:  94%|█████████▍| 226/240 [07:56<00:33,  2.42s/it]Loading dataset:  95%|█████████▍| 227/240 [07:59<00:31,  2.43s/it]Loading dataset:  96%|█████████▌| 230/240 [08:00<00:13,  1.34s/it]Loading dataset:  96%|█████████▋| 231/240 [08:00<00:09,  1.10s/it]Loading dataset:  97%|█████████▋| 232/240 [08:02<00:10,  1.26s/it]Loading dataset:  97%|█████████▋| 233/240 [08:06<00:14,  2.02s/it]Loading dataset:  98%|█████████▊| 235/240 [08:07<00:06,  1.30s/it]Loading dataset:  98%|█████████▊| 236/240 [08:07<00:04,  1.19s/it]Loading dataset:  99%|█████████▉| 237/240 [08:09<00:03,  1.25s/it]Loading dataset:  99%|█████████▉| 238/240 [08:10<00:02,  1.25s/it]Loading dataset: 100%|█████████▉| 239/240 [08:12<00:01,  1.35s/it]Loading dataset: 100%|██████████| 240/240 [08:12<00:00,  2.05s/it]
+Loading dataset:   0%|          | 0/60 [00:00<?, ?it/s]Loading dataset:   2%|▏         | 1/60 [00:08<08:30,  8.65s/it]Loading dataset:   7%|▋         | 4/60 [00:09<01:50,  1.97s/it]Loading dataset:   8%|▊         | 5/60 [00:14<02:22,  2.59s/it]Loading dataset:  10%|█         | 6/60 [00:14<01:53,  2.10s/it]Loading dataset:  12%|█▏        | 7/60 [00:18<02:11,  2.49s/it]Loading dataset:  13%|█▎        | 8/60 [00:18<01:39,  1.92s/it]Loading dataset:  15%|█▌        | 9/60 [00:19<01:14,  1.47s/it]Loading dataset:  17%|█▋        | 10/60 [00:19<00:57,  1.15s/it]Loading dataset:  18%|█▊        | 11/60 [00:26<02:25,  2.96s/it]Loading dataset:  23%|██▎       | 14/60 [00:27<01:00,  1.32s/it]Loading dataset:  25%|██▌       | 15/60 [00:30<01:15,  1.69s/it]Loading dataset:  27%|██▋       | 16/60 [00:32<01:20,  1.83s/it]Loading dataset:  30%|███       | 18/60 [00:34<01:04,  1.53s/it]Loading dataset:  32%|███▏      | 19/60 [00:37<01:15,  1.84s/it]Loading dataset:  33%|███▎      | 20/60 [00:39<01:13,  1.85s/it]Loading dataset:  37%|███▋      | 22/60 [00:40<00:50,  1.34s/it]Loading dataset:  38%|███▊      | 23/60 [00:41<00:48,  1.31s/it]Loading dataset:  40%|████      | 24/60 [00:43<00:48,  1.34s/it]Loading dataset:  42%|████▏     | 25/60 [00:44<00:44,  1.27s/it]Loading dataset:  43%|████▎     | 26/60 [00:45<00:43,  1.27s/it]Loading dataset:  45%|████▌     | 27/60 [00:46<00:42,  1.29s/it]Loading dataset:  47%|████▋     | 28/60 [00:48<00:42,  1.33s/it]Loading dataset:  48%|████▊     | 29/60 [00:48<00:30,  1.00it/s]Loading dataset:  50%|█████     | 30/60 [00:48<00:23,  1.27it/s]Loading dataset:  52%|█████▏    | 31/60 [00:52<00:49,  1.70s/it]Loading dataset:  53%|█████▎    | 32/60 [00:53<00:43,  1.56s/it]Loading dataset:  57%|█████▋    | 34/60 [00:54<00:26,  1.03s/it]Loading dataset:  58%|█████▊    | 35/60 [01:01<00:58,  2.35s/it]Loading dataset:  65%|██████▌   | 39/60 [01:05<00:33,  1.59s/it]Loading dataset:  67%|██████▋   | 40/60 [01:06<00:29,  1.47s/it]Loading dataset:  70%|███████   | 42/60 [01:06<00:18,  1.02s/it]Loading dataset:  72%|███████▏  | 43/60 [01:08<00:21,  1.28s/it]Loading dataset:  73%|███████▎  | 44/60 [01:13<00:30,  1.91s/it]Loading dataset:  78%|███████▊  | 47/60 [01:13<00:14,  1.10s/it]Loading dataset:  80%|████████  | 48/60 [01:15<00:14,  1.23s/it]Loading dataset:  82%|████████▏ | 49/60 [01:19<00:20,  1.86s/it]Loading dataset:  85%|████████▌ | 51/60 [01:20<00:12,  1.34s/it]Loading dataset:  88%|████████▊ | 53/60 [01:22<00:08,  1.28s/it]Loading dataset:  90%|█████████ | 54/60 [01:26<00:10,  1.77s/it]Loading dataset:  93%|█████████▎| 56/60 [01:27<00:05,  1.26s/it]Loading dataset:  95%|█████████▌| 57/60 [01:28<00:03,  1.21s/it]Loading dataset:  97%|█████████▋| 58/60 [01:32<00:03,  1.88s/it]Loading dataset:  98%|█████████▊| 59/60 [01:32<00:01,  1.50s/it]Loading dataset: 100%|██████████| 60/60 [01:32<00:00,  1.55s/it]240 60
+epoch 1/500 
+epoch 1 average loss: 0.6528
+epoch 2/500 epoch 2 average loss: 0.4375
+saved new best metric model
+current epoch: 2 current lung dice: 0.5309 best mean dice: 0.5309  at epoch: 2
+epoch 3/500 epoch 3 average loss: 0.2342
+epoch 4/500 epoch 4 average loss: 0.1940
+saved new best metric model
+current epoch: 4 current lung dice: 0.6425 best mean dice: 0.6425  at epoch: 4
+epoch 5/500 epoch 5 average loss: 0.1760
+epoch 6/500 epoch 6 average loss: 0.1696
+saved new best metric model
+current epoch: 6 current lung dice: 0.6596 best mean dice: 0.6596  at epoch: 6
+epoch 7/500 epoch 7 average loss: 0.1556
+epoch 8/500 epoch 8 average loss: 0.1450
+saved new best metric model
+current epoch: 8 current lung dice: 0.6937 best mean dice: 0.6937  at epoch: 8
+epoch 9/500 epoch 9 average loss: 0.1369
+epoch 10/500 epoch 10 average loss: 0.1322
+saved new best metric model
+current epoch: 10 current lung dice: 0.7756 best mean dice: 0.7756  at epoch: 10
+epoch 11/500 epoch 11 average loss: 0.1371
+epoch 12/500 epoch 12 average loss: 0.1287
+saved new best metric model
+current epoch: 12 current lung dice: 0.8175 best mean dice: 0.8175  at epoch: 12
+epoch 13/500 epoch 13 average loss: 0.1243
+epoch 14/500 epoch 14 average loss: 0.1199
+saved new best metric model
+current epoch: 14 current lung dice: 0.8254 best mean dice: 0.8254  at epoch: 14
+epoch 15/500 epoch 15 average loss: 0.1104
+epoch 16/500 epoch 16 average loss: 0.1117
+saved new best metric model
+current epoch: 16 current lung dice: 0.8408 best mean dice: 0.8408  at epoch: 16
+epoch 17/500 epoch 17 average loss: 0.1003
+epoch 18/500 epoch 18 average loss: 0.1179
+current epoch: 18 current lung dice: 0.5821 best mean dice: 0.8408  at epoch: 16
+epoch 19/500 epoch 19 average loss: 0.1323
+epoch 20/500 epoch 20 average loss: 0.0978
+saved new best metric model
+current epoch: 20 current lung dice: 0.8542 best mean dice: 0.8542  at epoch: 20
+epoch 21/500 epoch 21 average loss: 0.0919
+epoch 22/500 epoch 22 average loss: 0.0852
+saved new best metric model
+current epoch: 22 current lung dice: 0.8610 best mean dice: 0.8610  at epoch: 22
+epoch 23/500 epoch 23 average loss: 0.0911
+epoch 24/500 epoch 24 average loss: 0.0821
+current epoch: 24 current lung dice: 0.8431 best mean dice: 0.8610  at epoch: 22
+epoch 25/500 epoch 25 average loss: 0.0813
+epoch 26/500 epoch 26 average loss: 0.0998
+saved new best metric model
+current epoch: 26 current lung dice: 0.8698 best mean dice: 0.8698  at epoch: 26
+epoch 27/500 epoch 27 average loss: 0.0864
+epoch 28/500 epoch 28 average loss: 0.0761
+current epoch: 28 current lung dice: 0.8679 best mean dice: 0.8698  at epoch: 26
+epoch 29/500 epoch 29 average loss: 0.0769
+epoch 30/500 epoch 30 average loss: 0.0781
+saved new best metric model
+current epoch: 30 current lung dice: 0.8754 best mean dice: 0.8754  at epoch: 30
+epoch 31/500 epoch 31 average loss: 0.0757
+epoch 32/500 epoch 32 average loss: 0.0960
+current epoch: 32 current lung dice: 0.7725 best mean dice: 0.8754  at epoch: 30
+epoch 33/500 epoch 33 average loss: 0.0775
+epoch 34/500 epoch 34 average loss: 0.0738
+saved new best metric model
+current epoch: 34 current lung dice: 0.8766 best mean dice: 0.8766  at epoch: 34
+epoch 35/500 epoch 35 average loss: 0.0726
+epoch 36/500 epoch 36 average loss: 0.0705
+saved new best metric model
+current epoch: 36 current lung dice: 0.8832 best mean dice: 0.8832  at epoch: 36
+epoch 37/500 epoch 37 average loss: 0.0746
+epoch 38/500 epoch 38 average loss: 0.0787
+saved new best metric model
+current epoch: 38 current lung dice: 0.8835 best mean dice: 0.8835  at epoch: 38
+epoch 39/500 epoch 39 average loss: 0.0719
+epoch 40/500 epoch 40 average loss: 0.0676
+current epoch: 40 current lung dice: 0.8697 best mean dice: 0.8835  at epoch: 38
+epoch 41/500 epoch 41 average loss: 0.0719
+epoch 42/500 epoch 42 average loss: 0.0678
+saved new best metric model
+current epoch: 42 current lung dice: 0.8836 best mean dice: 0.8836  at epoch: 42
+epoch 43/500 epoch 43 average loss: 0.0765
+epoch 44/500 epoch 44 average loss: 0.0730
+current epoch: 44 current lung dice: 0.8371 best mean dice: 0.8836  at epoch: 42
+epoch 45/500 epoch 45 average loss: 0.0686
+epoch 46/500 epoch 46 average loss: 0.0678
+saved new best metric model
+current epoch: 46 current lung dice: 0.8935 best mean dice: 0.8935  at epoch: 46
+epoch 47/500 epoch 47 average loss: 0.0670
+epoch 48/500 epoch 48 average loss: 0.0686
+current epoch: 48 current lung dice: 0.8850 best mean dice: 0.8935  at epoch: 46
+epoch 49/500 epoch 49 average loss: 0.0661
+epoch 50/500 epoch 50 average loss: 0.0672
+current epoch: 50 current lung dice: 0.8683 best mean dice: 0.8935  at epoch: 46
+epoch 51/500 epoch 51 average loss: 0.0663
+epoch 52/500 epoch 52 average loss: 0.0629
+current epoch: 52 current lung dice: 0.8868 best mean dice: 0.8935  at epoch: 46
+epoch 53/500 epoch 53 average loss: 0.0719
+epoch 54/500 epoch 54 average loss: 0.1005
+current epoch: 54 current lung dice: 0.8767 best mean dice: 0.8935  at epoch: 46
+epoch 55/500 epoch 55 average loss: 0.0650
+epoch 56/500 epoch 56 average loss: 0.0646
+current epoch: 56 current lung dice: 0.8853 best mean dice: 0.8935  at epoch: 46
+epoch 57/500 epoch 57 average loss: 0.0632
+epoch 58/500 epoch 58 average loss: 0.0636
+current epoch: 58 current lung dice: 0.8815 best mean dice: 0.8935  at epoch: 46
+epoch 59/500 epoch 59 average loss: 0.0662
+epoch 60/500 epoch 60 average loss: 0.0622
+saved new best metric model
+current epoch: 60 current lung dice: 0.8941 best mean dice: 0.8941  at epoch: 60
+epoch 61/500 epoch 61 average loss: 0.0609
+epoch 62/500 epoch 62 average loss: 0.0607
+current epoch: 62 current lung dice: 0.8924 best mean dice: 0.8941  at epoch: 60
+epoch 63/500 epoch 63 average loss: 0.0604
+epoch 64/500 epoch 64 average loss: 0.0715
+current epoch: 64 current lung dice: 0.8746 best mean dice: 0.8941  at epoch: 60
+epoch 65/500 epoch 65 average loss: 0.0645
+epoch 66/500 epoch 66 average loss: 0.0618
+saved new best metric model
+current epoch: 66 current lung dice: 0.8945 best mean dice: 0.8945  at epoch: 66
+epoch 67/500 epoch 67 average loss: 0.0595
+epoch 68/500 epoch 68 average loss: 0.0590
+current epoch: 68 current lung dice: 0.8929 best mean dice: 0.8945  at epoch: 66
+epoch 69/500 epoch 69 average loss: 0.0618
+epoch 70/500 epoch 70 average loss: 0.0652
+current epoch: 70 current lung dice: 0.8853 best mean dice: 0.8945  at epoch: 66
+epoch 71/500 epoch 71 average loss: 0.0647
+epoch 72/500 epoch 72 average loss: 0.0612
+saved new best metric model
+current epoch: 72 current lung dice: 0.8953 best mean dice: 0.8953  at epoch: 72
+epoch 73/500 epoch 73 average loss: 0.0635
+epoch 74/500 epoch 74 average loss: 0.0585
+current epoch: 74 current lung dice: 0.8945 best mean dice: 0.8953  at epoch: 72
+epoch 75/500 epoch 75 average loss: 0.0612
+epoch 76/500 epoch 76 average loss: 0.0592
+saved new best metric model
+current epoch: 76 current lung dice: 0.8953 best mean dice: 0.8953  at epoch: 76
+epoch 77/500 epoch 77 average loss: 0.0618
+epoch 78/500 epoch 78 average loss: 0.0611
+current epoch: 78 current lung dice: 0.8694 best mean dice: 0.8953  at epoch: 76
+epoch 79/500 epoch 79 average loss: 0.0605
+epoch 80/500 epoch 80 average loss: 0.0640
+current epoch: 80 current lung dice: 0.8934 best mean dice: 0.8953  at epoch: 76
+epoch 81/500 epoch 81 average loss: 0.0583
+epoch 82/500 epoch 82 average loss: 0.0577
+saved new best metric model
+current epoch: 82 current lung dice: 0.8986 best mean dice: 0.8986  at epoch: 82
+epoch 83/500 epoch 83 average loss: 0.0571
+epoch 84/500 epoch 84 average loss: 0.0577
+current epoch: 84 current lung dice: 0.8979 best mean dice: 0.8986  at epoch: 82
+epoch 85/500 epoch 85 average loss: 0.1059
+epoch 86/500 epoch 86 average loss: 0.0648
+current epoch: 86 current lung dice: 0.8904 best mean dice: 0.8986  at epoch: 82
+epoch 87/500 epoch 87 average loss: 0.0592
+epoch 88/500 epoch 88 average loss: 0.0600
+current epoch: 88 current lung dice: 0.8967 best mean dice: 0.8986  at epoch: 82
+epoch 89/500 epoch 89 average loss: 0.0576
+epoch 90/500 epoch 90 average loss: 0.0571
+current epoch: 90 current lung dice: 0.8963 best mean dice: 0.8986  at epoch: 82
+epoch 91/500 epoch 91 average loss: 0.0577
+epoch 92/500 epoch 92 average loss: 0.0572
+saved new best metric model
+current epoch: 92 current lung dice: 0.9003 best mean dice: 0.9003  at epoch: 92
+epoch 93/500 epoch 93 average loss: 0.0566
+epoch 94/500 epoch 94 average loss: 0.0606
+current epoch: 94 current lung dice: 0.8934 best mean dice: 0.9003  at epoch: 92
+epoch 95/500 epoch 95 average loss: 0.0576
+epoch 96/500 epoch 96 average loss: 0.0584
+current epoch: 96 current lung dice: 0.8930 best mean dice: 0.9003  at epoch: 92
+epoch 97/500 epoch 97 average loss: 0.0573
+epoch 98/500 epoch 98 average loss: 0.0730
+current epoch: 98 current lung dice: 0.8754 best mean dice: 0.9003  at epoch: 92
+epoch 99/500 epoch 99 average loss: 0.0598
+epoch 100/500 epoch 100 average loss: 0.0735
+current epoch: 100 current lung dice: 0.8946 best mean dice: 0.9003  at epoch: 92
+epoch 101/500 epoch 101 average loss: 0.0577
+epoch 102/500 epoch 102 average loss: 0.0592
+current epoch: 102 current lung dice: 0.8939 best mean dice: 0.9003  at epoch: 92
+epoch 103/500 epoch 103 average loss: 0.0589
+epoch 104/500 epoch 104 average loss: 0.0586
+current epoch: 104 current lung dice: 0.8999 best mean dice: 0.9003  at epoch: 92
+epoch 105/500 epoch 105 average loss: 0.0565
+epoch 106/500 epoch 106 average loss: 0.0576
+saved new best metric model
+current epoch: 106 current lung dice: 0.9003 best mean dice: 0.9003  at epoch: 106
+epoch 107/500 epoch 107 average loss: 0.0575
+epoch 108/500 epoch 108 average loss: 0.0565
+current epoch: 108 current lung dice: 0.8909 best mean dice: 0.9003  at epoch: 106
+epoch 109/500 epoch 109 average loss: 0.0557
+epoch 110/500 epoch 110 average loss: 0.0569
+current epoch: 110 current lung dice: 0.8832 best mean dice: 0.9003  at epoch: 106
+epoch 111/500 epoch 111 average loss: 0.0581
+epoch 112/500 epoch 112 average loss: 0.0562
+current epoch: 112 current lung dice: 0.8931 best mean dice: 0.9003  at epoch: 106
+epoch 113/500 epoch 113 average loss: 0.0570
+epoch 114/500 epoch 114 average loss: 0.0630
+current epoch: 114 current lung dice: 0.8986 best mean dice: 0.9003  at epoch: 106
+epoch 115/500 epoch 115 average loss: 0.0579
+epoch 116/500 epoch 116 average loss: 0.0566
+current epoch: 116 current lung dice: 0.8927 best mean dice: 0.9003  at epoch: 106
+epoch 117/500 epoch 117 average loss: 0.0576
+epoch 118/500 epoch 118 average loss: 0.0560
+current epoch: 118 current lung dice: 0.8964 best mean dice: 0.9003  at epoch: 106
+epoch 119/500 epoch 119 average loss: 0.0561
+epoch 120/500 epoch 120 average loss: 0.0560
+current epoch: 120 current lung dice: 0.8976 best mean dice: 0.9003  at epoch: 106
+epoch 121/500 epoch 121 average loss: 0.0562
+epoch 122/500 epoch 122 average loss: 0.0546
+current epoch: 122 current lung dice: 0.8940 best mean dice: 0.9003  at epoch: 106
+epoch 123/500 epoch 123 average loss: 0.0565
+epoch 124/500 epoch 124 average loss: 0.0625
+current epoch: 124 current lung dice: 0.8752 best mean dice: 0.9003  at epoch: 106
+epoch 125/500 epoch 125 average loss: 0.0724
+epoch 126/500 epoch 126 average loss: 0.0591
+current epoch: 126 current lung dice: 0.8919 best mean dice: 0.9003  at epoch: 106
+epoch 127/500 epoch 127 average loss: 0.0558
+epoch 128/500 epoch 128 average loss: 0.0575
+current epoch: 128 current lung dice: 0.8929 best mean dice: 0.9003  at epoch: 106
+epoch 129/500 epoch 129 average loss: 0.0558
+epoch 130/500 epoch 130 average loss: 0.0571
+saved new best metric model
+current epoch: 130 current lung dice: 0.9014 best mean dice: 0.9014  at epoch: 130
+epoch 131/500 epoch 131 average loss: 0.0557
+epoch 132/500 epoch 132 average loss: 0.0559
+current epoch: 132 current lung dice: 0.8935 best mean dice: 0.9014  at epoch: 130
+epoch 133/500 epoch 133 average loss: 0.0551
+epoch 134/500 epoch 134 average loss: 0.0557
+saved new best metric model
+current epoch: 134 current lung dice: 0.9031 best mean dice: 0.9031  at epoch: 134
+epoch 135/500 epoch 135 average loss: 0.0565
+epoch 136/500 epoch 136 average loss: 0.0557
+current epoch: 136 current lung dice: 0.8871 best mean dice: 0.9031  at epoch: 134
+epoch 137/500 epoch 137 average loss: 0.0547
+epoch 138/500 epoch 138 average loss: 0.0610
+current epoch: 138 current lung dice: 0.8745 best mean dice: 0.9031  at epoch: 134
+epoch 139/500 epoch 139 average loss: 0.0562
+epoch 140/500 epoch 140 average loss: 0.0571
+current epoch: 140 current lung dice: 0.8970 best mean dice: 0.9031  at epoch: 134
+epoch 141/500 epoch 141 average loss: 0.0583
+epoch 142/500 epoch 142 average loss: 0.0550
+current epoch: 142 current lung dice: 0.9017 best mean dice: 0.9031  at epoch: 134
+epoch 143/500 epoch 143 average loss: 0.0554
+epoch 144/500 epoch 144 average loss: 0.0568
+current epoch: 144 current lung dice: 0.7985 best mean dice: 0.9031  at epoch: 134
+epoch 145/500 epoch 145 average loss: 0.0670
+epoch 146/500 epoch 146 average loss: 0.0572
+current epoch: 146 current lung dice: 0.9029 best mean dice: 0.9031  at epoch: 134
+epoch 147/500 epoch 147 average loss: 0.0556
+epoch 148/500 epoch 148 average loss: 0.0570
+current epoch: 148 current lung dice: 0.8972 best mean dice: 0.9031  at epoch: 134
+epoch 149/500 epoch 149 average loss: 0.0558
+epoch 150/500 epoch 150 average loss: 0.0553
+current epoch: 150 current lung dice: 0.8976 best mean dice: 0.9031  at epoch: 134
+epoch 151/500 epoch 151 average loss: 0.0541
+epoch 152/500 epoch 152 average loss: 0.0589
+current epoch: 152 current lung dice: 0.8916 best mean dice: 0.9031  at epoch: 134
+epoch 153/500 epoch 153 average loss: 0.0544
+epoch 154/500 epoch 154 average loss: 0.0550
+current epoch: 154 current lung dice: 0.8904 best mean dice: 0.9031  at epoch: 134
+epoch 155/500 epoch 155 average loss: 0.0556
+epoch 156/500 epoch 156 average loss: 0.0571
+current epoch: 156 current lung dice: 0.8920 best mean dice: 0.9031  at epoch: 134
+epoch 157/500 epoch 157 average loss: 0.0558
+epoch 158/500 epoch 158 average loss: 0.0608
+current epoch: 158 current lung dice: 0.9000 best mean dice: 0.9031  at epoch: 134
+epoch 159/500 epoch 159 average loss: 0.0574
+epoch 160/500 epoch 160 average loss: 0.0540
+current epoch: 160 current lung dice: 0.9019 best mean dice: 0.9031  at epoch: 134
+epoch 161/500 epoch 161 average loss: 0.0542
+epoch 162/500 epoch 162 average loss: 0.0547
+current epoch: 162 current lung dice: 0.8981 best mean dice: 0.9031  at epoch: 134
+epoch 163/500 epoch 163 average loss: 0.0550
+epoch 164/500 epoch 164 average loss: 0.0554
+current epoch: 164 current lung dice: 0.9024 best mean dice: 0.9031  at epoch: 134
+epoch 165/500 epoch 165 average loss: 0.0552
+epoch 166/500 epoch 166 average loss: 0.0573
+current epoch: 166 current lung dice: 0.8960 best mean dice: 0.9031  at epoch: 134
+epoch 167/500 epoch 167 average loss: 0.0537
+epoch 168/500 epoch 168 average loss: 0.0551
+current epoch: 168 current lung dice: 0.9014 best mean dice: 0.9031  at epoch: 134
+epoch 169/500 epoch 169 average loss: 0.0551
+epoch 170/500 epoch 170 average loss: 0.0557
+current epoch: 170 current lung dice: 0.9017 best mean dice: 0.9031  at epoch: 134
+epoch 171/500 epoch 171 average loss: 0.0577
+epoch 172/500 epoch 172 average loss: 0.0546
+current epoch: 172 current lung dice: 0.9013 best mean dice: 0.9031  at epoch: 134
+epoch 173/500 epoch 173 average loss: 0.0542
+epoch 174/500 epoch 174 average loss: 0.0529
+current epoch: 174 current lung dice: 0.8955 best mean dice: 0.9031  at epoch: 134
+epoch 175/500 epoch 175 average loss: 0.0540
+epoch 176/500 epoch 176 average loss: 0.0555
+current epoch: 176 current lung dice: 0.8920 best mean dice: 0.9031  at epoch: 134
+epoch 177/500 epoch 177 average loss: 0.0570
+epoch 178/500 epoch 178 average loss: 0.0538
+current epoch: 178 current lung dice: 0.8988 best mean dice: 0.9031  at epoch: 134
+epoch 179/500 epoch 179 average loss: 0.0544
+epoch 180/500 epoch 180 average loss: 0.0554
+current epoch: 180 current lung dice: 0.8965 best mean dice: 0.9031  at epoch: 134
+epoch 181/500 epoch 181 average loss: 0.0534
+epoch 182/500 epoch 182 average loss: 0.0534
+current epoch: 182 current lung dice: 0.9016 best mean dice: 0.9031  at epoch: 134
+epoch 183/500 epoch 183 average loss: 0.0555
+epoch 184/500 epoch 184 average loss: 0.0552
+current epoch: 184 current lung dice: 0.8948 best mean dice: 0.9031  at epoch: 134
+epoch 185/500 epoch 185 average loss: 0.0567
+epoch 186/500 epoch 186 average loss: 0.0551
+current epoch: 186 current lung dice: 0.8997 best mean dice: 0.9031  at epoch: 134
+epoch 187/500 epoch 187 average loss: 0.0536
+epoch 188/500 epoch 188 average loss: 0.0560
+current epoch: 188 current lung dice: 0.8942 best mean dice: 0.9031  at epoch: 134
+epoch 189/500 epoch 189 average loss: 0.0551
+epoch 190/500 epoch 190 average loss: 0.0536
+current epoch: 190 current lung dice: 0.9009 best mean dice: 0.9031  at epoch: 134
+epoch 191/500 epoch 191 average loss: 0.0544
+epoch 192/500 epoch 192 average loss: 0.0560
+current epoch: 192 current lung dice: 0.8901 best mean dice: 0.9031  at epoch: 134
+epoch 193/500 epoch 193 average loss: 0.0529
+epoch 194/500 epoch 194 average loss: 0.0564
+current epoch: 194 current lung dice: 0.9014 best mean dice: 0.9031  at epoch: 134
+epoch 195/500 epoch 195 average loss: 0.0544
+epoch 196/500 epoch 196 average loss: 0.0550
+current epoch: 196 current lung dice: 0.8939 best mean dice: 0.9031  at epoch: 134
+epoch 197/500 epoch 197 average loss: 0.0544
+epoch 198/500 epoch 198 average loss: 0.0549
+current epoch: 198 current lung dice: 0.8964 best mean dice: 0.9031  at epoch: 134
+epoch 199/500 epoch 199 average loss: 0.0525
+epoch 200/500 epoch 200 average loss: 0.0615
+current epoch: 200 current lung dice: 0.8885 best mean dice: 0.9031  at epoch: 134
+epoch 201/500 epoch 201 average loss: 0.0551
+epoch 202/500 epoch 202 average loss: 0.0571
+current epoch: 202 current lung dice: 0.8966 best mean dice: 0.9031  at epoch: 134
+epoch 203/500 epoch 203 average loss: 0.0538
+epoch 204/500 epoch 204 average loss: 0.0530
+current epoch: 204 current lung dice: 0.8990 best mean dice: 0.9031  at epoch: 134
+epoch 205/500 epoch 205 average loss: 0.0529
+epoch 206/500 epoch 206 average loss: 0.0534
+current epoch: 206 current lung dice: 0.8969 best mean dice: 0.9031  at epoch: 134
+epoch 207/500 epoch 207 average loss: 0.0563
+epoch 208/500 epoch 208 average loss: 0.0523
+current epoch: 208 current lung dice: 0.8980 best mean dice: 0.9031  at epoch: 134
+epoch 209/500 epoch 209 average loss: 0.0517
+epoch 210/500 epoch 210 average loss: 0.0520
+current epoch: 210 current lung dice: 0.8933 best mean dice: 0.9031  at epoch: 134
+epoch 211/500 epoch 211 average loss: 0.0548
+epoch 212/500 epoch 212 average loss: 0.0526
+saved new best metric model
+current epoch: 212 current lung dice: 0.9052 best mean dice: 0.9052  at epoch: 212
+epoch 213/500 epoch 213 average loss: 0.0546
+epoch 214/500 epoch 214 average loss: 0.0567
+current epoch: 214 current lung dice: 0.8854 best mean dice: 0.9052  at epoch: 212
+epoch 215/500 

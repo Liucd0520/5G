@@ -1,0 +1,312 @@
+1317
+2264 2263
+{'image_adc': '/app/liucd/deeplearn_dec/DL_dec/data_adc/zunyi/Mixed/2022_10_20_1650366_ADC2_0000_0.nii.gz', 'image_dce': '/app/liucd/deeplearn_dec/DL_dec/data/zunyi/Mixed/2022_10_20_1650366_+C2_0000_0.nii.gz', 'rad': [-0.426334239, 0.315025113, 8.35283075, 0.068442358, 0.121029744, 2.725956892, 4.15475501, 7.113295602, 0.737770167], 'clinical': [3.0, 1.0, 2.0, 0.0, 0.0, 0.2], 'label': 0}
+691 618 1309
+Loading dataset:   0%|          | 0/69 [00:00<?, ?it/s]Loading dataset:   1%|▏         | 1/69 [00:00<00:18,  3.66it/s]Loading dataset:   3%|▎         | 2/69 [00:01<01:11,  1.07s/it]Loading dataset:  25%|██▍       | 17/69 [00:03<00:09,  5.51it/s]Loading dataset:  49%|████▉     | 34/69 [00:04<00:03, 11.32it/s]Loading dataset: 100%|██████████| 69/69 [00:04<00:00, 17.19it/s]
+Loading dataset:   0%|          | 0/61 [00:00<?, ?it/s]Loading dataset:   2%|▏         | 1/61 [00:00<00:55,  1.09it/s]Loading dataset:  38%|███▊      | 23/61 [00:01<00:01, 30.49it/s]Loading dataset:  59%|█████▉    | 36/61 [00:02<00:01, 13.89it/s]Loading dataset: 100%|██████████| 61/61 [00:02<00:00, 23.03it/s]
+Loading dataset:   0%|          | 0/69 [00:00<?, ?it/s]Loading dataset:   1%|▏         | 1/69 [00:00<00:11,  5.77it/s]Loading dataset:   3%|▎         | 2/69 [00:01<00:57,  1.17it/s]Loading dataset:  22%|██▏       | 15/69 [00:01<00:05,  9.84it/s]Loading dataset:  25%|██▍       | 17/69 [00:03<00:13,  3.94it/s]Loading dataset:  49%|████▉     | 34/69 [00:04<00:03, 10.01it/s]Loading dataset: 100%|██████████| 69/69 [00:04<00:00, 15.83it/s]
+epoch 1 average  train loss: 0.6046
+current epoch: 1 train_acc:0.7598, train_AUC: 0.8146, val_acc: 0.7460 val_AUC: 0.7891 best val_acc: -1.0000 at epoch -1
+epoch 2 average  train loss: 0.5550
+current epoch: 2 train_acc:0.7685, train_AUC: 0.8520, val_acc: 0.7233 val_AUC: 0.8050 best val_acc: -1.0000 at epoch -1
+epoch 3 average  train loss: 0.5209
+current epoch: 3 train_acc:0.7786, train_AUC: 0.8444, val_acc: 0.7702 val_AUC: 0.8267 best val_acc: -1.0000 at epoch -1
+epoch 4 average  train loss: 0.5128
+current epoch: 4 train_acc:0.7771, train_AUC: 0.8521, val_acc: 0.7718 val_AUC: 0.8140 best val_acc: -1.0000 at epoch -1
+epoch 5 average  train loss: 0.5082
+current epoch: 5 train_acc:0.7931, train_AUC: 0.8683, val_acc: 0.7864 val_AUC: 0.8428 best val_acc: -1.0000 at epoch -1
+epoch 6 average  train loss: 0.4917
+current epoch: 6 train_acc:0.7873, train_AUC: 0.8649, val_acc: 0.7589 val_AUC: 0.8282 best val_acc: -1.0000 at epoch -1
+epoch 7 average  train loss: 0.4800
+current epoch: 7 train_acc:0.7800, train_AUC: 0.8502, val_acc: 0.7621 val_AUC: 0.8285 best val_acc: -1.0000 at epoch -1
+epoch 8 average  train loss: 0.5037
+current epoch: 8 train_acc:0.7931, train_AUC: 0.8703, val_acc: 0.7896 val_AUC: 0.8487 best val_acc: -1.0000 at epoch -1
+epoch 9 average  train loss: 0.5069
+current epoch: 9 train_acc:0.8003, train_AUC: 0.8737, val_acc: 0.7832 val_AUC: 0.8457 best val_acc: -1.0000 at epoch -1
+epoch 10 average  train loss: 0.4663
+current epoch: 10 train_acc:0.8061, train_AUC: 0.8706, val_acc: 0.7735 val_AUC: 0.8302 best val_acc: -1.0000 at epoch -1
+epoch 11 average  train loss: 0.4812
+current epoch: 11 train_acc:0.8119, train_AUC: 0.8787, val_acc: 0.7896 val_AUC: 0.8486 best val_acc: -1.0000 at epoch -1
+epoch 12 average  train loss: 0.4714
+current epoch: 12 train_acc:0.8104, train_AUC: 0.8821, val_acc: 0.7799 val_AUC: 0.8532 best val_acc: -1.0000 at epoch -1
+epoch 13 average  train loss: 0.4595
+current epoch: 13 train_acc:0.8249, train_AUC: 0.8813, val_acc: 0.7767 val_AUC: 0.8529 best val_acc: -1.0000 at epoch -1
+epoch 14 average  train loss: 0.4733
+current epoch: 14 train_acc:0.8046, train_AUC: 0.8751, val_acc: 0.7848 val_AUC: 0.8510 best val_acc: -1.0000 at epoch -1
+epoch 15 average  train loss: 0.4550
+current epoch: 15 train_acc:0.7757, train_AUC: 0.8736, val_acc: 0.7670 val_AUC: 0.8467 best val_acc: -1.0000 at epoch -1
+epoch 16 average  train loss: 0.4783
+current epoch: 16 train_acc:0.8046, train_AUC: 0.8797, val_acc: 0.7880 val_AUC: 0.8580 best val_acc: -1.0000 at epoch -1
+epoch 17 average  train loss: 0.4506
+current epoch: 17 train_acc:0.8003, train_AUC: 0.8802, val_acc: 0.7832 val_AUC: 0.8544 best val_acc: -1.0000 at epoch -1
+epoch 18 average  train loss: 0.4511
+current epoch: 18 train_acc:0.8191, train_AUC: 0.8866, val_acc: 0.7929 val_AUC: 0.8555 best val_acc: -1.0000 at epoch -1
+epoch 19 average  train loss: 0.4476
+current epoch: 19 train_acc:0.7988, train_AUC: 0.8817, val_acc: 0.8091 val_AUC: 0.8623 best val_acc: -1.0000 at epoch -1
+epoch 20 average  train loss: 0.4567
+current epoch: 20 train_acc:0.7974, train_AUC: 0.8822, val_acc: 0.7977 val_AUC: 0.8609 best val_acc: -1.0000 at epoch -1
+epoch 21 average  train loss: 0.4518
+current epoch: 21 train_acc:0.8133, train_AUC: 0.8853, val_acc: 0.7880 val_AUC: 0.8557 best val_acc: -1.0000 at epoch -1
+epoch 22 average  train loss: 0.4462
+current epoch: 22 train_acc:0.8133, train_AUC: 0.8945, val_acc: 0.7961 val_AUC: 0.8649 best val_acc: -1.0000 at epoch -1
+epoch 23 average  train loss: 0.4320
+current epoch: 23 train_acc:0.8104, train_AUC: 0.8859, val_acc: 0.7799 val_AUC: 0.8554 best val_acc: -1.0000 at epoch -1
+epoch 24 average  train loss: 0.4519
+current epoch: 24 train_acc:0.8046, train_AUC: 0.8783, val_acc: 0.7832 val_AUC: 0.8507 best val_acc: -1.0000 at epoch -1
+epoch 25 average  train loss: 0.4401
+current epoch: 25 train_acc:0.8090, train_AUC: 0.8884, val_acc: 0.7929 val_AUC: 0.8569 best val_acc: -1.0000 at epoch -1
+epoch 26 average  train loss: 0.4396
+current epoch: 26 train_acc:0.8032, train_AUC: 0.8842, val_acc: 0.8010 val_AUC: 0.8623 best val_acc: -1.0000 at epoch -1
+epoch 27 average  train loss: 0.4463
+current epoch: 27 train_acc:0.8046, train_AUC: 0.8842, val_acc: 0.7880 val_AUC: 0.8525 best val_acc: -1.0000 at epoch -1
+epoch 28 average  train loss: 0.4501
+current epoch: 28 train_acc:0.8090, train_AUC: 0.8901, val_acc: 0.7929 val_AUC: 0.8581 best val_acc: -1.0000 at epoch -1
+epoch 29 average  train loss: 0.4449
+current epoch: 29 train_acc:0.8234, train_AUC: 0.8931, val_acc: 0.7945 val_AUC: 0.8597 best val_acc: -1.0000 at epoch -1
+epoch 30 average  train loss: 0.4385
+current epoch: 30 train_acc:0.8133, train_AUC: 0.8851, val_acc: 0.7816 val_AUC: 0.8571 best val_acc: -1.0000 at epoch -1
+epoch 31 average  train loss: 0.4484
+current epoch: 31 train_acc:0.7959, train_AUC: 0.8929, val_acc: 0.7913 val_AUC: 0.8610 best val_acc: -1.0000 at epoch -1
+epoch 32 average  train loss: 0.4261
+current epoch: 32 train_acc:0.8162, train_AUC: 0.8872, val_acc: 0.7929 val_AUC: 0.8597 best val_acc: -1.0000 at epoch -1
+epoch 33 average  train loss: 0.4309
+current epoch: 33 train_acc:0.8061, train_AUC: 0.8856, val_acc: 0.8026 val_AUC: 0.8601 best val_acc: -1.0000 at epoch -1
+epoch 34 average  train loss: 0.4401
+current epoch: 34 train_acc:0.7771, train_AUC: 0.8834, val_acc: 0.7961 val_AUC: 0.8583 best val_acc: -1.0000 at epoch -1
+epoch 35 average  train loss: 0.4424
+current epoch: 35 train_acc:0.8104, train_AUC: 0.8874, val_acc: 0.8042 val_AUC: 0.8617 best val_acc: -1.0000 at epoch -1
+epoch 36 average  train loss: 0.4312
+current epoch: 36 train_acc:0.8046, train_AUC: 0.8918, val_acc: 0.8026 val_AUC: 0.8597 best val_acc: -1.0000 at epoch -1
+epoch 37 average  train loss: 0.4353
+current epoch: 37 train_acc:0.8133, train_AUC: 0.8893, val_acc: 0.7929 val_AUC: 0.8601 best val_acc: -1.0000 at epoch -1
+epoch 38 average  train loss: 0.4396
+current epoch: 38 train_acc:0.8162, train_AUC: 0.8837, val_acc: 0.8010 val_AUC: 0.8611 best val_acc: -1.0000 at epoch -1
+epoch 39 average  train loss: 0.4314
+current epoch: 39 train_acc:0.8133, train_AUC: 0.8897, val_acc: 0.8058 val_AUC: 0.8658 best val_acc: -1.0000 at epoch -1
+epoch 40 average  train loss: 0.4314
+current epoch: 40 train_acc:0.8133, train_AUC: 0.8841, val_acc: 0.7929 val_AUC: 0.8573 best val_acc: -1.0000 at epoch -1
+epoch 41 average  train loss: 0.4301
+current epoch: 41 train_acc:0.8032, train_AUC: 0.8807, val_acc: 0.7913 val_AUC: 0.8549 best val_acc: -1.0000 at epoch -1
+epoch 42 average  train loss: 0.4419
+current epoch: 42 train_acc:0.8162, train_AUC: 0.8876, val_acc: 0.8026 val_AUC: 0.8602 best val_acc: -1.0000 at epoch -1
+epoch 43 average  train loss: 0.4218
+current epoch: 43 train_acc:0.8090, train_AUC: 0.8899, val_acc: 0.8010 val_AUC: 0.8637 best val_acc: -1.0000 at epoch -1
+epoch 44 average  train loss: 0.4284
+current epoch: 44 train_acc:0.8205, train_AUC: 0.8910, val_acc: 0.8042 val_AUC: 0.8694 best val_acc: -1.0000 at epoch -1
+epoch 45 average  train loss: 0.4197
+current epoch: 45 train_acc:0.8205, train_AUC: 0.8908, val_acc: 0.7880 val_AUC: 0.8658 best val_acc: -1.0000 at epoch -1
+epoch 46 average  train loss: 0.4274
+current epoch: 46 train_acc:0.8177, train_AUC: 0.8876, val_acc: 0.7994 val_AUC: 0.8658 best val_acc: -1.0000 at epoch -1
+epoch 47 average  train loss: 0.4357
+current epoch: 47 train_acc:0.8263, train_AUC: 0.8909, val_acc: 0.8058 val_AUC: 0.8702 best val_acc: -1.0000 at epoch -1
+epoch 48 average  train loss: 0.4251
+current epoch: 48 train_acc:0.8292, train_AUC: 0.8909, val_acc: 0.8026 val_AUC: 0.8624 best val_acc: -1.0000 at epoch -1
+epoch 49 average  train loss: 0.4306
+current epoch: 49 train_acc:0.8191, train_AUC: 0.8900, val_acc: 0.7961 val_AUC: 0.8637 best val_acc: -1.0000 at epoch -1
+epoch 50 average  train loss: 0.4348
+current epoch: 50 train_acc:0.8205, train_AUC: 0.8931, val_acc: 0.7945 val_AUC: 0.8607 best val_acc: -1.0000 at epoch -1
+epoch 51 average  train loss: 0.4211
+current epoch: 51 train_acc:0.8191, train_AUC: 0.8995, val_acc: 0.8010 val_AUC: 0.8668 best val_acc: -1.0000 at epoch -1
+epoch 52 average  train loss: 0.4310
+current epoch: 52 train_acc:0.8292, train_AUC: 0.8951, val_acc: 0.8139 val_AUC: 0.8646 best val_acc: -1.0000 at epoch -1
+epoch 53 average  train loss: 0.4083
+current epoch: 53 train_acc:0.8365, train_AUC: 0.8981, val_acc: 0.8204 val_AUC: 0.8658 best val_acc: -1.0000 at epoch -1
+epoch 54 average  train loss: 0.4355
+current epoch: 54 train_acc:0.8191, train_AUC: 0.8950, val_acc: 0.7880 val_AUC: 0.8610 best val_acc: -1.0000 at epoch -1
+epoch 55 average  train loss: 0.4282
+current epoch: 55 train_acc:0.8119, train_AUC: 0.8941, val_acc: 0.8010 val_AUC: 0.8623 best val_acc: -1.0000 at epoch -1
+epoch 56 average  train loss: 0.4239
+current epoch: 56 train_acc:0.8220, train_AUC: 0.8990, val_acc: 0.7945 val_AUC: 0.8594 best val_acc: -1.0000 at epoch -1
+epoch 57 average  train loss: 0.4178
+current epoch: 57 train_acc:0.8104, train_AUC: 0.8944, val_acc: 0.7816 val_AUC: 0.8597 best val_acc: -1.0000 at epoch -1
+epoch 58 average  train loss: 0.4201
+current epoch: 58 train_acc:0.8278, train_AUC: 0.9011, val_acc: 0.8123 val_AUC: 0.8633 best val_acc: -1.0000 at epoch -1
+epoch 59 average  train loss: 0.4104
+current epoch: 59 train_acc:0.8336, train_AUC: 0.9034, val_acc: 0.8026 val_AUC: 0.8623 best val_acc: -1.0000 at epoch -1
+epoch 60 average  train loss: 0.4182
+current epoch: 60 train_acc:0.8350, train_AUC: 0.9017, val_acc: 0.8107 val_AUC: 0.8666 best val_acc: -1.0000 at epoch -1
+epoch 61 average  train loss: 0.4190
+current epoch: 61 train_acc:0.8234, train_AUC: 0.8972, val_acc: 0.7945 val_AUC: 0.8668 best val_acc: -1.0000 at epoch -1
+epoch 62 average  train loss: 0.4129
+current epoch: 62 train_acc:0.8292, train_AUC: 0.9004, val_acc: 0.8042 val_AUC: 0.8692 best val_acc: -1.0000 at epoch -1
+epoch 63 average  train loss: 0.4002
+current epoch: 63 train_acc:0.8191, train_AUC: 0.9027, val_acc: 0.8139 val_AUC: 0.8704 best val_acc: -1.0000 at epoch -1
+epoch 64 average  train loss: 0.4178
+current epoch: 64 train_acc:0.8350, train_AUC: 0.9043, val_acc: 0.8074 val_AUC: 0.8643 best val_acc: -1.0000 at epoch -1
+epoch 65 average  train loss: 0.4278
+current epoch: 65 train_acc:0.8350, train_AUC: 0.8973, val_acc: 0.8026 val_AUC: 0.8584 best val_acc: -1.0000 at epoch -1
+epoch 66 average  train loss: 0.4299
+current epoch: 66 train_acc:0.8379, train_AUC: 0.9043, val_acc: 0.8074 val_AUC: 0.8620 best val_acc: -1.0000 at epoch -1
+epoch 67 average  train loss: 0.4262
+current epoch: 67 train_acc:0.8394, train_AUC: 0.9015, val_acc: 0.7977 val_AUC: 0.8638 best val_acc: -1.0000 at epoch -1
+epoch 68 average  train loss: 0.4167
+current epoch: 68 train_acc:0.8321, train_AUC: 0.9050, val_acc: 0.7977 val_AUC: 0.8641 best val_acc: -1.0000 at epoch -1
+epoch 69 average  train loss: 0.4076
+current epoch: 69 train_acc:0.8234, train_AUC: 0.9037, val_acc: 0.8091 val_AUC: 0.8701 best val_acc: -1.0000 at epoch -1
+epoch 70 average  train loss: 0.4139
+current epoch: 70 train_acc:0.8365, train_AUC: 0.8996, val_acc: 0.8010 val_AUC: 0.8658 best val_acc: -1.0000 at epoch -1
+epoch 71 average  train loss: 0.4136
+current epoch: 71 train_acc:0.8365, train_AUC: 0.9070, val_acc: 0.7896 val_AUC: 0.8609 best val_acc: -1.0000 at epoch -1
+epoch 72 average  train loss: 0.4000
+current epoch: 72 train_acc:0.8365, train_AUC: 0.9020, val_acc: 0.8026 val_AUC: 0.8623 best val_acc: -1.0000 at epoch -1
+epoch 73 average  train loss: 0.4016
+current epoch: 73 train_acc:0.8234, train_AUC: 0.9064, val_acc: 0.7994 val_AUC: 0.8656 best val_acc: -1.0000 at epoch -1
+epoch 74 average  train loss: 0.4115
+current epoch: 74 train_acc:0.8379, train_AUC: 0.9127, val_acc: 0.8026 val_AUC: 0.8704 best val_acc: -1.0000 at epoch -1
+epoch 75 average  train loss: 0.4029
+current epoch: 75 train_acc:0.8119, train_AUC: 0.9156, val_acc: 0.7751 val_AUC: 0.8705 best val_acc: -1.0000 at epoch -1
+epoch 76 average  train loss: 0.3979
+current epoch: 76 train_acc:0.8480, train_AUC: 0.9116, val_acc: 0.8058 val_AUC: 0.8644 best val_acc: -1.0000 at epoch -1
+epoch 77 average  train loss: 0.4086
+current epoch: 77 train_acc:0.8466, train_AUC: 0.9113, val_acc: 0.7977 val_AUC: 0.8657 best val_acc: -1.0000 at epoch -1
+epoch 78 average  train loss: 0.3944
+current epoch: 78 train_acc:0.8249, train_AUC: 0.9025, val_acc: 0.7977 val_AUC: 0.8556 best val_acc: -1.0000 at epoch -1
+epoch 79 average  train loss: 0.4077
+current epoch: 79 train_acc:0.8423, train_AUC: 0.9137, val_acc: 0.8026 val_AUC: 0.8645 best val_acc: -1.0000 at epoch -1
+epoch 80 average  train loss: 0.4059
+current epoch: 80 train_acc:0.8495, train_AUC: 0.9146, val_acc: 0.7977 val_AUC: 0.8552 best val_acc: -1.0000 at epoch -1
+epoch 81 average  train loss: 0.3998
+current epoch: 81 train_acc:0.8278, train_AUC: 0.8996, val_acc: 0.8010 val_AUC: 0.8510 best val_acc: -1.0000 at epoch -1
+epoch 82 average  train loss: 0.3963
+current epoch: 82 train_acc:0.8249, train_AUC: 0.9073, val_acc: 0.7961 val_AUC: 0.8602 best val_acc: -1.0000 at epoch -1
+epoch 83 average  train loss: 0.4052
+current epoch: 83 train_acc:0.8394, train_AUC: 0.9095, val_acc: 0.7945 val_AUC: 0.8613 best val_acc: -1.0000 at epoch -1
+epoch 84 average  train loss: 0.4025
+current epoch: 84 train_acc:0.8480, train_AUC: 0.9169, val_acc: 0.7994 val_AUC: 0.8603 best val_acc: -1.0000 at epoch -1
+epoch 85 average  train loss: 0.4087
+current epoch: 85 train_acc:0.8394, train_AUC: 0.9088, val_acc: 0.7945 val_AUC: 0.8545 best val_acc: -1.0000 at epoch -1
+epoch 86 average  train loss: 0.3855
+current epoch: 86 train_acc:0.8336, train_AUC: 0.9177, val_acc: 0.8058 val_AUC: 0.8612 best val_acc: -1.0000 at epoch -1
+epoch 87 average  train loss: 0.3949
+current epoch: 87 train_acc:0.8538, train_AUC: 0.9181, val_acc: 0.7945 val_AUC: 0.8543 best val_acc: -1.0000 at epoch -1
+epoch 88 average  train loss: 0.4063
+current epoch: 88 train_acc:0.8524, train_AUC: 0.9128, val_acc: 0.7880 val_AUC: 0.8471 best val_acc: -1.0000 at epoch -1
+epoch 89 average  train loss: 0.3961
+current epoch: 89 train_acc:0.8495, train_AUC: 0.9125, val_acc: 0.7977 val_AUC: 0.8494 best val_acc: -1.0000 at epoch -1
+epoch 90 average  train loss: 0.3945
+saved new best metric model
+current epoch: 90 train_acc:0.8553, train_AUC: 0.9292, val_acc: 0.8042 val_AUC: 0.8635 best val_acc: 3.4522 at epoch 90
+epoch 91 average  train loss: 0.3841
+saved new best metric model
+current epoch: 91 train_acc:0.8683, train_AUC: 0.9302, val_acc: 0.8155 val_AUC: 0.8685 best val_acc: 3.4825 at epoch 91
+epoch 92 average  train loss: 0.3806
+current epoch: 92 train_acc:0.8437, train_AUC: 0.9229, val_acc: 0.7880 val_AUC: 0.8545 best val_acc: 3.4825 at epoch 91
+epoch 93 average  train loss: 0.3915
+current epoch: 93 train_acc:0.8755, train_AUC: 0.9366, val_acc: 0.8010 val_AUC: 0.8603 best val_acc: 3.4825 at epoch 91
+epoch 94 average  train loss: 0.3819
+current epoch: 94 train_acc:0.8726, train_AUC: 0.9396, val_acc: 0.8058 val_AUC: 0.8615 best val_acc: 3.4825 at epoch 91
+epoch 95 average  train loss: 0.3655
+current epoch: 95 train_acc:0.8567, train_AUC: 0.9293, val_acc: 0.7929 val_AUC: 0.8535 best val_acc: 3.4825 at epoch 91
+epoch 96 average  train loss: 0.3782
+current epoch: 96 train_acc:0.8582, train_AUC: 0.9371, val_acc: 0.8010 val_AUC: 0.8583 best val_acc: 3.4825 at epoch 91
+epoch 97 average  train loss: 0.3760
+current epoch: 97 train_acc:0.8712, train_AUC: 0.9426, val_acc: 0.7945 val_AUC: 0.8624 best val_acc: 3.4825 at epoch 91
+epoch 98 average  train loss: 0.3870
+current epoch: 98 train_acc:0.8770, train_AUC: 0.9412, val_acc: 0.7994 val_AUC: 0.8525 best val_acc: 3.4825 at epoch 91
+epoch 99 average  train loss: 0.3643
+current epoch: 99 train_acc:0.8784, train_AUC: 0.9427, val_acc: 0.7896 val_AUC: 0.8510 best val_acc: 3.4825 at epoch 91
+epoch 100 average  train loss: 0.3752
+current epoch: 100 train_acc:0.8712, train_AUC: 0.9430, val_acc: 0.7961 val_AUC: 0.8573 best val_acc: 3.4825 at epoch 91
+epoch 101 average  train loss: 0.3582
+current epoch: 101 train_acc:0.8770, train_AUC: 0.9379, val_acc: 0.7961 val_AUC: 0.8498 best val_acc: 3.4825 at epoch 91
+epoch 102 average  train loss: 0.3595
+current epoch: 102 train_acc:0.8857, train_AUC: 0.9448, val_acc: 0.7961 val_AUC: 0.8516 best val_acc: 3.4825 at epoch 91
+epoch 103 average  train loss: 0.3532
+current epoch: 103 train_acc:0.8813, train_AUC: 0.9471, val_acc: 0.7864 val_AUC: 0.8495 best val_acc: 3.4825 at epoch 91
+epoch 104 average  train loss: 0.3489
+current epoch: 104 train_acc:0.8683, train_AUC: 0.9459, val_acc: 0.8074 val_AUC: 0.8595 best val_acc: 3.4825 at epoch 91
+epoch 105 average  train loss: 0.3695
+saved new best metric model
+current epoch: 105 train_acc:0.8871, train_AUC: 0.9473, val_acc: 0.7961 val_AUC: 0.8587 best val_acc: 3.4892 at epoch 105
+epoch 106 average  train loss: 0.3737
+current epoch: 106 train_acc:0.8799, train_AUC: 0.9444, val_acc: 0.8010 val_AUC: 0.8578 best val_acc: 3.4892 at epoch 105
+epoch 107 average  train loss: 0.3562
+current epoch: 107 train_acc:0.8669, train_AUC: 0.9469, val_acc: 0.7913 val_AUC: 0.8554 best val_acc: 3.4892 at epoch 105
+epoch 108 average  train loss: 0.3737
+current epoch: 108 train_acc:0.8784, train_AUC: 0.9429, val_acc: 0.7929 val_AUC: 0.8549 best val_acc: 3.4892 at epoch 105
+epoch 109 average  train loss: 0.3537
+current epoch: 109 train_acc:0.8828, train_AUC: 0.9480, val_acc: 0.7799 val_AUC: 0.8452 best val_acc: 3.4892 at epoch 105
+epoch 110 average  train loss: 0.3344
+current epoch: 110 train_acc:0.8842, train_AUC: 0.9506, val_acc: 0.7945 val_AUC: 0.8569 best val_acc: 3.4892 at epoch 105
+epoch 111 average  train loss: 0.3444
+current epoch: 111 train_acc:0.8828, train_AUC: 0.9498, val_acc: 0.7929 val_AUC: 0.8566 best val_acc: 3.4892 at epoch 105
+epoch 112 average  train loss: 0.3271
+current epoch: 112 train_acc:0.8958, train_AUC: 0.9566, val_acc: 0.7913 val_AUC: 0.8521 best val_acc: 3.4892 at epoch 105
+epoch 113 average  train loss: 0.3310
+current epoch: 113 train_acc:0.8813, train_AUC: 0.9518, val_acc: 0.7945 val_AUC: 0.8579 best val_acc: 3.4892 at epoch 105
+epoch 114 average  train loss: 0.3402
+current epoch: 114 train_acc:0.8900, train_AUC: 0.9485, val_acc: 0.7880 val_AUC: 0.8491 best val_acc: 3.4892 at epoch 105
+epoch 115 average  train loss: 0.3332
+current epoch: 115 train_acc:0.8871, train_AUC: 0.9568, val_acc: 0.7896 val_AUC: 0.8551 best val_acc: 3.4892 at epoch 105
+epoch 116 average  train loss: 0.3326
+current epoch: 116 train_acc:0.8886, train_AUC: 0.9561, val_acc: 0.7783 val_AUC: 0.8421 best val_acc: 3.4892 at epoch 105
+epoch 117 average  train loss: 0.3463
+saved new best metric model
+current epoch: 117 train_acc:0.8958, train_AUC: 0.9537, val_acc: 0.7945 val_AUC: 0.8569 best val_acc: 3.5009 at epoch 117
+epoch 118 average  train loss: 0.3309
+current epoch: 118 train_acc:0.8900, train_AUC: 0.9576, val_acc: 0.7848 val_AUC: 0.8539 best val_acc: 3.5009 at epoch 117
+epoch 119 average  train loss: 0.3480
+current epoch: 119 train_acc:0.8886, train_AUC: 0.9531, val_acc: 0.7864 val_AUC: 0.8434 best val_acc: 3.5009 at epoch 117
+epoch 120 average  train loss: 0.3278
+current epoch: 120 train_acc:0.9030, train_AUC: 0.9595, val_acc: 0.7799 val_AUC: 0.8438 best val_acc: 3.5009 at epoch 117
+epoch 121 average  train loss: 0.3140
+current epoch: 121 train_acc:0.8857, train_AUC: 0.9602, val_acc: 0.7735 val_AUC: 0.8444 best val_acc: 3.5009 at epoch 117
+epoch 122 average  train loss: 0.3250
+current epoch: 122 train_acc:0.8973, train_AUC: 0.9547, val_acc: 0.7654 val_AUC: 0.8365 best val_acc: 3.5009 at epoch 117
+epoch 123 average  train loss: 0.3283
+current epoch: 123 train_acc:0.8857, train_AUC: 0.9584, val_acc: 0.7832 val_AUC: 0.8466 best val_acc: 3.5009 at epoch 117
+epoch 124 average  train loss: 0.3175
+current epoch: 124 train_acc:0.8915, train_AUC: 0.9617, val_acc: 0.7767 val_AUC: 0.8391 best val_acc: 3.5009 at epoch 117
+epoch 125 average  train loss: 0.3168
+current epoch: 125 train_acc:0.8915, train_AUC: 0.9615, val_acc: 0.7686 val_AUC: 0.8276 best val_acc: 3.5009 at epoch 117
+epoch 126 average  train loss: 0.3120
+current epoch: 126 train_acc:0.8973, train_AUC: 0.9691, val_acc: 0.7670 val_AUC: 0.8448 best val_acc: 3.5009 at epoch 117
+epoch 127 average  train loss: 0.3121
+current epoch: 127 train_acc:0.9016, train_AUC: 0.9659, val_acc: 0.7686 val_AUC: 0.8332 best val_acc: 3.5009 at epoch 117
+epoch 128 average  train loss: 0.2942
+current epoch: 128 train_acc:0.8973, train_AUC: 0.9656, val_acc: 0.7427 val_AUC: 0.8247 best val_acc: 3.5009 at epoch 117
+epoch 129 average  train loss: 0.3080
+current epoch: 129 train_acc:0.8958, train_AUC: 0.9655, val_acc: 0.7783 val_AUC: 0.8396 best val_acc: 3.5009 at epoch 117
+epoch 130 average  train loss: 0.3199
+current epoch: 130 train_acc:0.9161, train_AUC: 0.9666, val_acc: 0.7540 val_AUC: 0.8204 best val_acc: 3.5009 at epoch 117
+epoch 131 average  train loss: 0.3359
+current epoch: 131 train_acc:0.9059, train_AUC: 0.9643, val_acc: 0.7524 val_AUC: 0.8213 best val_acc: 3.5009 at epoch 117
+epoch 132 average  train loss: 0.3149
+current epoch: 132 train_acc:0.9219, train_AUC: 0.9718, val_acc: 0.7848 val_AUC: 0.8386 best val_acc: 3.5009 at epoch 117
+epoch 133 average  train loss: 0.2957
+current epoch: 133 train_acc:0.9074, train_AUC: 0.9684, val_acc: 0.7816 val_AUC: 0.8409 best val_acc: 3.5009 at epoch 117
+epoch 134 average  train loss: 0.3261
+current epoch: 134 train_acc:0.9045, train_AUC: 0.9703, val_acc: 0.7751 val_AUC: 0.8514 best val_acc: 3.5009 at epoch 117
+epoch 135 average  train loss: 0.3017
+current epoch: 135 train_acc:0.9247, train_AUC: 0.9777, val_acc: 0.7605 val_AUC: 0.8273 best val_acc: 3.5009 at epoch 117
+epoch 136 average  train loss: 0.2805
+current epoch: 136 train_acc:0.9103, train_AUC: 0.9722, val_acc: 0.7589 val_AUC: 0.8344 best val_acc: 3.5009 at epoch 117
+epoch 137 average  train loss: 0.2916
+current epoch: 137 train_acc:0.9320, train_AUC: 0.9789, val_acc: 0.7589 val_AUC: 0.8315 best val_acc: 3.5009 at epoch 117
+epoch 138 average  train loss: 0.2558
+current epoch: 138 train_acc:0.9045, train_AUC: 0.9752, val_acc: 0.7427 val_AUC: 0.8202 best val_acc: 3.5009 at epoch 117
+epoch 139 average  train loss: 0.2945
+current epoch: 139 train_acc:0.9074, train_AUC: 0.9732, val_acc: 0.7929 val_AUC: 0.8437 best val_acc: 3.5009 at epoch 117
+epoch 140 average  train loss: 0.2718
+current epoch: 140 train_acc:0.9276, train_AUC: 0.9818, val_acc: 0.7654 val_AUC: 0.8247 best val_acc: 3.5009 at epoch 117
+epoch 141 average  train loss: 0.2780
+current epoch: 141 train_acc:0.9320, train_AUC: 0.9783, val_acc: 0.7735 val_AUC: 0.8356 best val_acc: 3.5009 at epoch 117
+epoch 142 average  train loss: 0.2893
+current epoch: 142 train_acc:0.9233, train_AUC: 0.9803, val_acc: 0.7670 val_AUC: 0.8393 best val_acc: 3.5009 at epoch 117
+epoch 143 average  train loss: 0.2772
+current epoch: 143 train_acc:0.9146, train_AUC: 0.9732, val_acc: 0.7443 val_AUC: 0.8262 best val_acc: 3.5009 at epoch 117
+epoch 144 average  train loss: 0.3025
+current epoch: 144 train_acc:0.9262, train_AUC: 0.9791, val_acc: 0.7735 val_AUC: 0.8516 best val_acc: 3.5009 at epoch 117
+epoch 145 average  train loss: 0.2765
+current epoch: 145 train_acc:0.9132, train_AUC: 0.9800, val_acc: 0.7686 val_AUC: 0.8367 best val_acc: 3.5009 at epoch 117
+epoch 146 average  train loss: 0.2860
+current epoch: 146 train_acc:0.9363, train_AUC: 0.9808, val_acc: 0.7767 val_AUC: 0.8424 best val_acc: 3.5009 at epoch 117
+epoch 147 average  train loss: 0.2662
+current epoch: 147 train_acc:0.9233, train_AUC: 0.9795, val_acc: 0.7670 val_AUC: 0.8458 best val_acc: 3.5009 at epoch 117
+epoch 148 average  train loss: 0.2770
+current epoch: 148 train_acc:0.9305, train_AUC: 0.9827, val_acc: 0.7945 val_AUC: 0.8375 best val_acc: 3.5009 at epoch 117
+epoch 149 average  train loss: 0.2844
+current epoch: 149 train_acc:0.9059, train_AUC: 0.9747, val_acc: 0.7621 val_AUC: 0.8359 best val_acc: 3.5009 at epoch 117
+epoch 150 average  train loss: 0.2820
+current epoch: 150 train_acc:0.9262, train_AUC: 0.9816, val_acc: 0.7718 val_AUC: 0.8409 best val_acc: 3.5009 at epoch 117
+train completed, best_metric: 3.5009 at epoch: 117
